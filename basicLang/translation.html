@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VALENCIA | 瓦来西雅大辞典</title>
+    <link rel="icon" href="https://satorna.github.io/image/webIcon.png">
+    <script src="../js/tools.js"></script>
+    <script src="../js/wordData.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <img src="../image/bg.png" id="bg" />
+
+    <header id="nav">
+        <div id="navLogo">
+    <span id="navLogo-en">th valencia bangswp</span>
+    <span id="navLogo-zh">瓦来西雅大辞典</span>
+</div>
+        <input type="checkbox" id="navMenuToggle" />
+        <nav id="navMar">
+            <button id="navbut1" onclick="window.open('../index.html','_self')">主站</button>
+            <button id="navbut2" onclick="window.open('alphabet.html','_self')">字母表</button>
+            <button id="navbut3" onclick="window.open('bwbæzencl.html','_self')">词缀表</button>
+            <button id="navbut4" onclick="window.open('tondhæ.html','_self')">时态表</button>
+            <button id="navbut5" onclick="window.open('edusrc.html','_self')">学习资源</button>
+        </nav>
+        <button id="navbut_user" onclick="window.open('','_self')">翻 译</button>
+        <label id="navToggle" for="navMenuToggle"><span></span></label>
+    </header>
+
+    <p class="text-center"><img src="https://satorna.github.io/image/LoginPic_bg.jpg" id="errorImg" /></p>
+
+    <main class="container" id="ctn">
+        <textarea id="leftTA" placeholder="请输入要翻译的𣿅语文本..."></textarea>
+        <button id="translateBtn" onclick="tslt(document.getElementById('leftTA').value)">翻 译</button>
+        <div id="translateResult"></div>
+
+        <footer id="bottom_div">
+            <div id="copyright">
+                <div id="br"></div>
+                <p>所有内容纯属虚构，与现实无关，敬请理性看待</p>
+                <p>版权所有 © 2025 DornGames | Ver 0.4.0</p>
+                <p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a>
+                    | Github : <a href="https://github.com/dornhub">@dornhub</a>
+                    | Author(Box3Pro) : <a href="https://dao3.fun/profile/448769">@云游de鸽者</a>
+                </p>
+                <div id="br"></div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+<script>
+    new setMultiWord().setAllWord();
+    var openOpt = false;
+    function tslt(stc = '') {
+        var ans = '';
+        stc = stc.split(' ');
+        for(var i=0;i<stc.length;i++){
+            if(wordData.filter(x => x.dh == stc[i]).length){
+                var a = wordData.filter(x => x.dh == stc[i])[0].cn;
+                if(Array.isArray(a)){
+                    a = a[0]
+                }else{
+                    a = a.split(',')[0];
+                }
+                ans += a;
+            }else{
+                ans += stc[i];
+            }
+        }
+        var resultDiv = document.getElementById('translateResult');
+        resultDiv.style.display = 'block';
+        resultDiv.textContent = ans;
+    }
+    function showOpt() {//打开选项菜单
+        var form = document.getElementById("selectLan");
+        var ul = document.getElementById("selectUL");
+        var li1 = document.createElement("li");
+        var li2 = document.createElement("li");
+        li2.textContent = `中𣿅词典`;
+        li1.textContent = `𣿅中词典`;
+        if (!openOpt) {
+            openOpt = true;
+            ul.style.display = `block`;
+            li1.style.width = "100%";
+            ul.appendChild(li1);
+            li2.style.width = "100%";
+            ul.appendChild(li2);
+            [li1, li2].forEach((li) => {
+                li.onclick = function () {
+                    document.getElementById("selectP").innerHTML = li.textContent;
+                    ul.style.display = "none";
+                }
+            })
+        } else {
+            ul.innerHTML = ``;
+            openOpt = false;
+        }
+    }
+    function submitword() {//提交信息并跳转搜索页面
+        var word = document.getElementById("search_ipt").value;
+        var tp = 'dh';
+        if (document.getElementById("selectP").textContent == '中𣿅词典') {
+            tp = 'cn';
+        }
+        window.open(`search.html?s="${word}"&type="${tp}"`, `_self`);
+    }
+    function findWord() {
+        if (document.getElementById("selectP").textContent == '𣿅中词典') {
+            findWord_dh();
+        } else {
+            findWord_cn();
+        }
+    }
+    function findWord_dh() {//查找近似词汇
+        var list = document.getElementById("search-list");//找到下拉列表
+        if (!document.getElementById("search_ipt").value) {
+            iptChangeColor(`toWhite`);
+            list.style.display = "none";
+        } else {
+            iptChangeColor(`toBlue`);//更改input的颜色
+        }
+        var v = document.getElementById("search_ipt").value, type = 'normal';
+        if (v.endsWith("s") && v != 'faks' && v != 'caos' && v != 'mads' && v != 'tons') {//不是人称代词，以s结尾，就是复数
+            type = 'pl';
+            v = v.slice(0, -1);
+        }
+        let similarChars = levenshtein.findSimilarChars_dh(v, wordData);
+        if (similarChars.length) {
+            showResult_dh(similarChars, v, type);
+        } else {
+            list.style.display = "none";
+        }
+    }
+    function showResult_dh(result) {//下拉列表的显示
+        if (!document.getElementById("search_ipt").value) {
+            iptChangeColor(`toWhite`);
+        } else {
+            iptChangeColor(`toBlue`);//更改input的颜色
+            var list = document.getElementById("search-list");//找到下拉列表
+            list.innerHTML = '';
+            list.style.width = document.getElementById("lgwp").style.width;
+            if (result.length > 0) {
+                result.forEach(item => {
+                    var li = document.createElement("li");
+                    li.textContent = `${item.dh} (${item.cn})`;
+                    li.style.width = "100%";
+                    li.onclick = function () {
+                        document.getElementById("search_ipt").value = item.dh;
+                        document.getElementById("search-list").style.display = "none";
+                    };
+                    list.appendChild(li);
+                });
+                list.style.display = "block";
+            }
+        }
+    }
+    function findWord_cn() {//查找近似词汇
+        var list = document.getElementById("search-list");//找到下拉列表
+        if (!document.getElementById("search_ipt").value) {
+            iptChangeColor(`toWhite`);
+            list.style.display = "none";
+        } else {
+            iptChangeColor(`toBlue`);//更改input的颜色
+        }
+        var v = document.getElementById("search_ipt").value;
+        let similarChars = levenshtein.findSimilarChars_dh(v, wordData, 'cn');
+        if (similarChars.length) {
+            showResult_dh(similarChars);
+        } else {
+            list.style.display = "none";
+        }
+    }
+    function showResult_cn(result) {//下拉列表的显示
+        if (!document.getElementById("search_ipt").value) {
+            iptChangeColor(`toWhite`);
+        } else {
+            iptChangeColor(`toBlue`);//更改input的颜色
+            var list = document.getElementById("search-list");//找到下拉列表
+            list.innerHTML = '';
+            list.style.width = document.getElementById("lgwp").style.width;
+            if (result.length > 0) {
+                result.forEach(item => {
+                    var li = document.createElement("li");
+                    li.textContent = `${item.cn} (${item.dh})`;
+                    li.style.width = "100%";
+                    li.onclick = function () {
+                        document.getElementById("search_ipt").value = item.cn;
+                        document.getElementById("search-list").style.display = "none";
+                    };
+                    list.appendChild(li);
+                });
+                list.style.display = "block";
+            }
+        }
+    }
+    function iptChangeColor(type) {//输入框换色
+        if (type == `toBlue`) {
+            var ipt = document.getElementById("fmwp");//找到搜索框
+            var r = 238; g = 237; b = 221, a = 0, tick = 0;//初始颜色#EEEDDD
+            var origin = { r: r, g: g, b: b, a: a };//初始颜色
+            var target = { r: 153, g: 204, b: 255, a: 1 };//目标颜色
+            ipt.style.border = `2px solid rgba(${r},${g},${b},${a})`;
+            setInterval(() => {
+                if (tick > 100) {
+                    return;
+                }//防止过头
+                r -= (origin.r - target.r) / 50;
+                g -= (origin.g - target.g) / 50;
+                b -= (origin.b - target.b) / 50;
+                a -= (origin.a - target.a) / 50;
+                ipt.style.border = `2px solid rgba(${r},${g},${b},${a})`;
+                tick++;
+            }, 7);
+        } else if (type == `toWhite`) {
+            var ipt = document.getElementById("fmwp");//找到搜索框
+            var r = 238; g = 237; b = 221;//初始颜色#EEEDDD
+            ipt.style.border = `2px solid rgba(${r},${g},${b},1)`;
+        }
+    }
+</script>
+
+</html>
