@@ -563,3 +563,14 @@
 - **修复** `basicLang/search.html` — 将 `copyright()` 改为 `copyright(true)`，并调整调用顺序为先 `setMultiWord.setAllWord()` 再 `copyright(true)`，确保词汇量统计包含所有派生词
 - **修复** `js/tools.js` — 恢复 `copyright` 函数中 `if(a)` 条件判断为注释状态，确保页脚词汇量链接始终显示
 - **修复** `basicLang/search.html` — 恢复页脚 Email 信息，与 index.html 保持一致
+
+### 2026-07-29 — 第二十二阶段：重写 README.md
+- **重写** `README.md` — 全面更新项目说明文档：
+  - 更新版本号从 2.0.0 到 3.0.0
+  - 优化项目简介，突出"综合性在线词典项目"定位
+  - 更新功能特性描述，使用更清晰的格式
+  - 完善项目结构说明，新增 `css/`、`js/main.js`、`z/` 目录说明
+  - 将"使用方法"改为"快速开始"，更简洁明了
+  - 更新开发信息，添加邮箱地址，统一链接格式
+  - 优化版权说明和注意事项的排版
+  - 整体风格更加简洁专业

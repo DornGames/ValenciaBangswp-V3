@@ -2,23 +2,25 @@
 
 ![VALENCIA Logo](image/logo_img.png)
 
+𣿅语（Irelav）在线词典与学习平台
+
 ## 项目简介
 
-VALENCIA（瓦来西雅）是一个虚构语言——**𣿅语**（Irelav）的在线词典项目。本项目提供了完整的词典查询、字母表、词缀表、时态表等功能，为𣿅语学习者提供全面的语言工具。
+VALENCIA（瓦来西雅）是一个为虚构语言 **𣿅语**（Irelav）打造的综合性在线词典项目。提供词典查询、字母表、词缀表、时态表、学习资源等完整功能，是𣿅语学习者的必备工具。
 
-**版本：** 3.0.0\
-**作者：** DornGames\
+**版本：** 3.0.0  
+**作者：** DornGames  
 **语言：** 𣿅语 / 中文
 
 ## 功能特性
 
-- 📚 **词典查询**：支持𣿅语-中文双向查询
-- 🔤 **字母表**：完整的𣿅语字母表
-- 📝 **词缀表**：词缀变化规则表
-- ⏰ **时态表**：时态变化规则表
-- 🎓 **学习资源**：提供考试听力材料和国歌等学习资源
-- 🔍 **搜索功能**：强大的单词搜索功能
-- 🌐 **多语言支持**：支持中𣿅互译
+- 📚 **词典查询** - 支持𣿅语 - 中文双向查询
+- 🔤 **字母表** - 完整的𣿅语字母系统
+- 📝 **词缀表** - 词缀变化规则详解
+- ⏰ **时态表** - 时态变化规则说明
+- 🎓 **学习资源** - 考试听力材料、国歌等学习资料
+- 🔍 **智能搜索** - 强大的单词搜索功能
+- 🌐 **双语支持** - 中𣿅互译，无缝切换
 
 ## 项目结构
 
@@ -37,21 +39,26 @@ Valencia Bangswp - V2/
 │   ├── edusrc.html         # 学习资源
 │   ├── search.html         # 搜索页面
 │   └── translation.html    # 翻译工具
+├── css/                    # 样式文件
+│   └── main.css
+├── js/                     # JavaScript 文件
+│   ├── main.js            # 主逻辑
+│   ├── tools.js           # 工具函数
+│   └── wordData.js        # 单词数据
 ├── image/                  # 图片资源
 │   ├── bg.png
 │   ├── logo_img.png
 │   ├── search_bg.jpg
 │   ├── search_ui.png
-│   └── 文字云3D_wenziyun.cn_.png
-├── js/                     # JavaScript文件
-│   ├── tools.js
-│   └── wordData.js         # 单词数据
+│   └── 文字云 3D_wenziyun.cn_.png
 ├── video/                  # 视频资源
 │   └── antiqueIrelav-D1.mp4
-└── README.md               # 项目说明
+├── z/                      # 项目文档与数据
+│   └── projectdetail.md   # 项目详情
+└── README.md              # 项目说明
 ```
 
-## 使用方法
+## 快速开始
 
 1. 直接打开 `index.html` 文件即可使用
 2. 在搜索框中输入拉丁字母进行查询
@@ -60,28 +67,23 @@ Valencia Bangswp - V2/
 
 ## 技术栈
 
-- **HTML5**：页面结构
-- **CSS3**：样式设计
-- **JavaScript**：交互逻辑
-- **Excel**：数据存储（xlsx格式）
+- **HTML5** - 页面结构
+- **CSS3** - 样式设计
+- **JavaScript** - 交互逻辑
+- **Excel** - 数据存储（xlsx 格式）
 
 ## 开发信息
 
-- **作者：** DornGames (@dornhub)
-- **Box3Pro：** @DornGames
-- **作者(Box3Pro)：** @云游de鸽者
-- **版本：** 2.0.0
+- **作者：** DornGames
+- **GitHub：** [@dornhub](https://github.com/dornhub)
+- **Box3Pro：** [@DornGames](https://dao3.fun/profile/50450184)
+- **邮箱：** dorngames@163.com
+- **版本：** 3.0.0
 - **发布日期：** 2025
-
-## 版权说明
-
-所有内容纯属虚构，与现实无关，敬请理性看待。
-
-**版权所有 © 2025 DornGames**
 
 ## 部署
 
-本项目支持通过GitHub Actions自动部署到InfinityFree：
+本项目支持通过 GitHub Actions 自动部署到 InfinityFree：
 
 ```yaml
 name: Deploy to InfinityFree via FTP
@@ -112,8 +114,11 @@ jobs:
 
 - [主站](https://dornhub.github.io)
 - [GitHub](https://github.com/dornhub)
-- [Box3Pro主页](https://dao3.fun/profile/50450184)
+- [Box3Pro 主页](https://dao3.fun/profile/50450184)
 
-***
+---
+
+**版权说明：** 所有内容纯属虚构，与现实无关，敬请理性看待。  
+**版权所有 © 2025 DornGames**
 
 **注意：** 本项目所有内容均为虚构创作，不涉及任何现实政治、历史或文化实体。
