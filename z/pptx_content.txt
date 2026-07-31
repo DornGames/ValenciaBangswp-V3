@@ -1,0 +1,51 @@
+python : Traceback (most recent call last):
+所在位置 行:1 字符: 5
++ & { python -c "from pptx import Presentation; prs = Presentation('c:\ ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 1, in <module>
+    from pptx import Presentation; prs = Presentation('c:\\Users\\70495\\Deskto
+p\\Git Repositories\\Valencia Bangswp\\Valencia Bangswp - V2\\湩语语法.pptx'); [pri
+nt(f'=== Slide {i+1} ===\n' + '\n'.join([shape.text for shape in slide.shapes i
+f hasattr(shape, 'text')])) for i, slide in enumerate(prs.slides)]
+                                                                               
+                                                                               
+ ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\xe6' in position 80: i
+llegal multibyte sequence
+=== Slide 1 ===
+
+湩语语法
+Irelav 完整语法体系 · 版本 V3.1
+=== Slide 2 ===
+
+
+Contents
+目录
+湩语语法体系的结构化梳理，从音系基础到句法规则的完
+整导览。
+
+
+01
+音系与文字
+
+02
+词类总览
+
+03
+构词法与词缀系统
+
+04
+句法规则
+
+05
+综合例句与结语
+=== Slide 3 ===
+
+CHAPTER 01
+音系与文字
+29个拉丁字母发音体系与特殊组合音规则

@@ -1,0 +1,138 @@
+/* ============================================
+   base.css — 基础层
+   包含：CSS 变量（:root）、Google Fonts 引入、
+   全局重置样式、body/html、a/button/img/ul 基础样式、
+   滚动条隐藏、工具类（.text-center 等）
+   ============================================ */
+
+/* ---------- Google Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* ---------- CSS 变量 ---------- */
+:root {
+  /* 色彩 — 浅色典雅 · 暖褐系 */
+  --color-primary: #7A5048;
+  --color-primary-hover: #6B433C;
+  --color-primary-light: #EDE0DB;
+  --color-accent: #9B7B6E;
+  --color-accent-hover: #8B6B5E;
+  --color-accent-light: #F0ECE6;
+  --color-dark: #2D2D2D;
+  --color-dark-hover: #404040;
+  --color-bg: #F8F6F3;
+  --color-white: #FFFFFF;
+  --color-text: #2D2D2D;
+  --color-text-secondary: #8B8B8B;
+  --color-text-muted: #B0B0B0;
+  --color-border: #E5E0D8;
+  --color-border-light: #EFEBE5;
+  --color-success: #7A9E7E;
+  --color-warning: #C9A96E;
+
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+
+  /* 圆角 */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 50px;
+
+  /* 阴影 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --shadow-focus: 0 0 0 3px rgba(122, 80, 72, 0.12);
+
+  /* 字体 */
+  --font-family-zh: 'Noto Serif SC', 'SimSun', 'Songti SC', serif;
+  --font-family-en: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+  --font-family: var(--font-family-zh), var(--font-family-en), sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 26px;
+  --font-size-2xl: 34px;
+
+  /* 导航栏 */
+  --nav-height: 60px;
+
+  /* 最大宽度 */
+  --max-width: 1200px;
+}
+
+/* ---------- 全局重置 ---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  min-height: 100%;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+button, input, textarea, select {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------- 工具类 ---------- */
+.text-center { text-align: center; }
+.text-muted { color: var(--color-text-muted); }
+.mt-lg { margin-top: var(--spacing-lg); }
+.mb-lg { margin-bottom: var(--spacing-lg); }
+.hidden { display: none !important; }

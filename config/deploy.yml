@@ -1,0 +1,31 @@
+# deploy.yml — 部署配置（与 .github/workflows/deploy.yml 同步）
+
+name: Deploy to InfinityFree via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build deployment directory
+        run: |
+          mkdir -p dist
+          cp -r src/* dist/
+          cp -r public/* dist/ 2>/dev/null || true
+          cp -r z dist/ 2>/dev/null || true
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_TARGET_FOLDER }}
+          local-dir: ./dist/

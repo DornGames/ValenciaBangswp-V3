@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<!--
+    更新日志：2026-07-31 第二十九阶段
+    - 新增 showExamples 函数，使用 highlightSentence 高亮例句中相关词汇
+    - 新增 .example-highlight CSS 样式（主色粗体+浅色背景）
+    - 引用 exampleUtils.js 获取高亮函数
+    -->
+
+<head>
+    <title>VALENCIA | 瓦来西雅大辞典</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="https://satorna.github.io/image/webIcon.png">
+    <script src="../js/tools.js"></script>
+    <script src="../js/wordData.js"></script>
+    <script src="../js/exampleData.js"></script>
+    <script src="../js/exampleUtils.js"></script>
+    <script src="../js/components.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            padding-top: calc(var(--nav-height) + var(--spacing-lg));
+        }
+        .login-wrapper {
+            animation: fadeIn 0.6s ease forwards;
+        }
+
+        /* 例句展示区 */
+        .example-section {
+            display: none;
+            background: var(--color-white);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            box-shadow: var(--shadow-md);
+            width: calc(100% - 60px);
+            max-width: var(--max-width);
+            margin: var(--spacing-md) 0;
+            transition: all 0.2s ease;
+            border: 1px solid var(--color-border-light);
+        }
+        .example-section:hover {
+            box-shadow: var(--shadow-lg);
+        }
+        .example-title {
+            font-size: var(--font-size-sm);
+            color: var(--color-text-muted);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 1px solid var(--color-border-light);
+        }
+        .example-item {
+            padding: var(--spacing-sm) 0;
+        }
+        .example-item:not(:last-child) {
+            border-bottom: 1px dashed var(--color-border-light);
+            margin-bottom: var(--spacing-sm);
+        }
+        .example-dh {
+            font-size: var(--font-size-sm);
+            color: var(--color-text);
+            font-family: var(--font-family-en);
+            line-height: 1.6;
+        }
+        .example-cn {
+            font-size: var(--font-size-xs);
+            color: var(--color-text-muted);
+            margin-top: 2px;
+            line-height: 1.5;
+        }
+        .example-empty {
+            font-size: var(--font-size-sm);
+            color: var(--color-text-muted);
+            text-align: center;
+            padding: var(--spacing-md) 0;
+        }
+
+        /* 例句高亮 */
+        .example-highlight {
+            color: var(--color-primary);
+            font-weight: 700;
+            background: var(--color-primary-light);
+            padding: 0 2px;
+            border-radius: 3px;
+        }
+
+        @media (max-width: 1024px) {
+            .example-section { width: calc(100% - 32px); }
+        }
+        @media (max-width: 768px) {
+            .example-section { padding: var(--spacing-md); width: calc(100% - 24px); }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="nav">
+        <div id="navLogo">
+    <span id="navLogo-en">th valencia bangswp</span>
+    <span id="navLogo-zh">瓦来西雅大辞典</span>
+</div>
+        <input type="checkbox" id="navMenuToggle" />
+        <nav id="navMar">
+            <button id="navbut1" onclick="window.open('../index.html','_self')">主站</button>
+            <button id="navbut2" onclick="window.open('alphabet.html','_self')">字母表</button>
+            <button id="navbut3" onclick="window.open('bwbæzencl.html','_self')">词缀表</button>
+            <button id="navbut4" onclick="window.open('tondhæ.html','_self')">时态表</button>
+            <button id="navbut5" onclick="window.open('edusrc.html','_self')">学习资源</button>
+        </nav>
+        <button id="navbut_user" onclick="window.alert('正在开发,敬请期待')">翻 译</button>
+        <label id="navToggle" for="navMenuToggle"><span></span></label>
+    </header>
+
+    <main class="container" id="ctn">
+        <!-- 搜索区 -->
+        <section class="login-wrapper" id="lgwp">
+            <div class="form-wrapper" id="fmwp">
+                <div id="selectLan">
+                    <span id="selectP">𣿅中词典</span>
+                    <ul id="selectUL"></ul>
+                </div>
+                <input type="text" name="username"
+                    placeholder="- 支持𣿅中/中𣿅词典查询，请键入拉丁字母 -" class="input-item" id="search_ipt" autocomplete="off">
+                <button id="search_ui_containerButton">
+                    <img src="../../public/images/search_ui.png" id="search_ui" alt="搜索" />
+                </button>
+            </div>
+            <ul id="search-list"></ul>
+        </section>
+
+        <!-- 单词展示区：原文在左，词性+中文在右，水平中线对齐 -->
+        <div class="word-card" id="wnwp">
+            <div class="word-card-left">
+                <span id="mainWord_dh"></span>
+                <span id="mainWord_lt"></span>
+            </div>
+            <div class="word-card-right">
+                <span id="mainWord_type"></span>
+                <span id="mainWord_cn"></span>
+            </div>
+        </div>
+        <div class="example-section" id="exampleSection">
+            <div class="example-title">例句</div>
+            <div id="exampleList"></div>
+        </div>
+        <div class="intro-wrapper" id="itwp">
+            <p id="note"></p>
+        </div>
+    </main>
+
+    <footer id="bottom_div">
+        <div id="copyright">
+            <div id="br"></div>
+            <p>所有内容纯属虚构，与现实无关，敬请理性看待</p>
+            <p id="cprt">版权所有 © 2025 DornGames | Ver V3.1</p>
+            <p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a>
+             | Github : <a href="https://github.com/dornhub">@dornhub</a>
+             | Email : dorngames@163.com
+            </p>
+            <div id="br"></div>
+        </div>
+    </footer>
+</body>
+
+<script>
+    try {
+        setMultiWord.setAllWord();
+    } catch (e) {
+        console.error("[search.html] setMultiWord 初始化错误:", e);
+    }
+    try {
+        copyright(true);
+    } catch (e) {
+        console.error("[search.html] copyright 初始化错误:", e);
+    }
+
+    // === 词典切换逻辑 ===
+    var openOpt = false;
+    var selectLan = document.getElementById("selectLan");
+    var selectP = document.getElementById("selectP");
+    var selectUL = document.getElementById("selectUL");
+
+    // 从 URL 读取词典类型参数
+    var urlTypeRaw = getQueryParams(window.location.href).type;
+    var urlType = urlTypeRaw ? JSON.parse(urlTypeRaw) : null;
+    if (urlType === "cn") {
+        selectP.textContent = "中𣿅词典";
+    }
+
+    selectLan.addEventListener("click", function() {
+        var ul = selectUL;
+        if (!openOpt) {
+            openOpt = true;
+            ul.style.display = "block";
+            // 仅在 ul 为空时创建选项
+            if (ul.children.length === 0) {
+                var li1 = document.createElement("li");
+                var li2 = document.createElement("li");
+                li1.textContent = "𣿅中词典";
+                li2.textContent = "中𣿅词典";
+                li1.style.width = "100%";
+                li2.style.width = "100%";
+                ul.appendChild(li1);
+                ul.appendChild(li2);
+                [li1, li2].forEach(function(li) {
+                    li.addEventListener("click", function(e) {
+                        e.stopPropagation();
+                        selectP.innerHTML = li.textContent;
+                        ul.style.display = "none";
+                        openOpt = false;
+                        // 切换后重新触发搜索
+                        var ipt = document.getElementById("search_ipt");
+                        if (ipt.value) {
+                            var evt = document.createEvent("HTMLEvents");
+                            evt.initEvent("input", false, false);
+                            ipt.dispatchEvent(evt);
+                        }
+                    });
+                });
+            }
+        } else {
+            ul.style.display = "none";
+            openOpt = false;
+        }
+    });
+
+    // 设置单词展示区的文字
+    try {
+        var mainWordRaw = getQueryParams(window.location.href).s;
+        if (mainWordRaw) {
+            var mainWord = String(JSON.parse(mainWordRaw));
+            var type = "dh";
+            if (mainWord.endsWith("s") && mainWord != 'faks' && mainWord != 'caos' && mainWord != 'mads' && mainWord != 'tons') {
+                type = 'pl';
+                mainWord = mainWord.slice(0, -1);
+            }
+            var detail = wordData.filter(function(x) { return x.dh == mainWord; })[0];
+            var isParticipleMatch = false;
+            var searchedWord = mainWord;
+            if (!detail) {
+                // 未找到单词，尝试通过分词反向查找原动词
+                var participleResult = findOriginalVerbByParticiple(mainWord, wordData);
+                if (participleResult) {
+                    detail = participleResult.entry;
+                    isParticipleMatch = true;
+                }
+            }
+            if (detail) {
+                document.getElementById("mainWord_dh").textContent = detail.dh.wordConvert("irelav");
+                document.getElementById("mainWord_lt").textContent = "|" + detail.dh + "|";
+                document.getElementById("mainWord_type").textContent = detail.type;
+                document.getElementById("mainWord_cn").textContent = detail.cn;
+                if (isParticipleMatch) {
+                    note.innerHTML = "<br>&nbsp;&nbsp;&nbsp;<span>您查找的是 <strong>" + searchedWord + "</strong>，属于动词 <strong>" + detail.dh + "</strong> 的分词形式</span><br>&nbsp;&nbsp;&nbsp;<span>" + detail.type + " " + detail.cn + "</span>";
+                } else {
+                    note.innerHTML = "<br>&nbsp;&nbsp;&nbsp;<span>" + detail.type + " " + detail.cn + "</span>";
+                }
+            } else {
+                document.getElementById("mainWord_dh").textContent = "未找到该单词";
+                document.getElementById("mainWord_lt").textContent = "";
+                document.getElementById("mainWord_type").textContent = "";
+                document.getElementById("mainWord_cn").textContent = "";
+                note.innerHTML = "<br>&nbsp;&nbsp;&nbsp;暂无释义";
+            }
+            // 展示例句
+            if (detail && typeof exampleData !== 'undefined') {
+                showExamples(detail.dh, detail.type);
+            } else {
+                document.getElementById('exampleSection').style.display = 'none';
+            }
+        } else {
+            // 无搜索参数时清空展示区
+            document.getElementById("mainWord_dh").textContent = "";
+            document.getElementById("mainWord_lt").textContent = "";
+            document.getElementById("mainWord_type").textContent = "";
+            document.getElementById("mainWord_cn").textContent = "";
+            note.innerHTML = "";
+            document.getElementById('exampleSection').style.display = 'none';
+        }
+    } catch (e) {
+        console.error("[search.html] 单词展示初始化错误:", e);
+        document.getElementById("mainWord_dh").textContent = "参数错误";
+        document.getElementById("mainWord_lt").textContent = "";
+        document.getElementById("mainWord_type").textContent = "";
+        document.getElementById("mainWord_cn").textContent = "";
+        note.innerHTML = "<br>&nbsp;&nbsp;&nbsp;查询参数无效";
+        document.getElementById('exampleSection').style.display = 'none';
+    }
+
+    // 搜索框回车跳转
+    document.getElementById("search_ipt").addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            submitword();
+        }
+    });
+
+    // 搜索框输入事件
+    document.getElementById("search_ipt").addEventListener("input", findWord);
+
+    // 搜索按钮点击事件
+    document.getElementById("search_ui_containerButton").addEventListener("click", submitword);
+
+    function submitword() {
+        var word = document.getElementById("search_ipt").value;
+        if (!word) return;
+        var tp = "dh";
+        if (document.getElementById("selectP").textContent === "中𣿅词典") {
+            tp = "cn";
+        }
+        window.open('search.html?s="' + word + '"&type="' + tp + '"', "_self");
+    }
+
+    function findWord() {
+        var list = document.getElementById("search-list");
+        if (!document.getElementById("search_ipt").value) {
+            iptChangeColor("toWhite");
+            list.style.display = "none";
+        } else {
+            iptChangeColor("toBlue");
+        }
+        var v = document.getElementById("search_ipt").value;
+        var tp = "dh";
+        if (document.getElementById("selectP").textContent === "中𣿅词典") {
+            tp = "cn";
+        }
+
+        var similarChars = [];
+        if (tp === "dh") {
+            var results_dh = levenshtein.findSimilarChars_dh(v, wordData);
+            var seen = {};
+            for (var idx = 0; idx < results_dh.length; idx++) {
+                var item = results_dh[idx];
+                if (!seen[item.dh]) {
+                    seen[item.dh] = true;
+                    similarChars.push(item);
+                }
+            }
+        } else {
+            similarChars = levenshtein.findSimilarChars_cn(v, wordData);
+        }
+
+        if (similarChars.length) {
+            showResult(similarChars, tp);
+        } else {
+            list.style.display = "none";
+        }
+    }
+
+    function showResult(result, tp) {
+        if (!document.getElementById("search_ipt").value) {
+            iptChangeColor("toWhite");
+            return;
+        }
+        iptChangeColor("toBlue");
+        var list = document.getElementById("search-list");
+        list.innerHTML = "";
+        if (result.length > 0) {
+            for (var idx = 0; idx < result.length; idx++) {
+                var item = result[idx];
+                var li = document.createElement("li");
+                li.style.width = "100%";
+                // 结构化显示：𣿅语在左，中文在右
+                var dhSpan = document.createElement("span");
+                dhSpan.className = "search-dh";
+                dhSpan.textContent = item.dh;
+                var cnSpan = document.createElement("span");
+                cnSpan.className = "search-cn";
+                cnSpan.textContent = item.cn;
+                li.appendChild(dhSpan);
+                li.appendChild(cnSpan);
+                // 点击跳转到该单词的搜索页面
+                li.onclick = (function(word) {
+                    return function() {
+                        window.open('search.html?s="' + word + '"&type="' + tp + '"', "_self");
+                    };
+                })(item.dh);
+                list.appendChild(li);
+            }
+            list.style.display = "block";
+        }
+    }
+
+    function iptChangeColor(type) {
+        if (type == "toBlue") {
+            var ipt = document.getElementById("fmwp");
+            var r = 238, g = 237, b = 221, a = 0, tick = 0;
+            var origin = { r: r, g: g, b: b, a: a };
+            var target = { r: 153, g: 204, b: 255, a: 1 };
+            ipt.style.border = "2px solid rgba(" + r + "," + g + "," + b + "," + a + ")";
+            setInterval(function() {
+                if (tick > 100) return;
+                r -= (origin.r - target.r) / 50;
+                g -= (origin.g - target.g) / 50;
+                b -= (origin.b - target.b) / 50;
+                a -= (origin.a - target.a) / 50;
+                ipt.style.border = "2px solid rgba(" + r + "," + g + "," + b + "," + a + ")";
+                tick++;
+            }, 7);
+        } else if (type == "toWhite") {
+            var ipt = document.getElementById("fmwp");
+            ipt.style.border = "2px solid rgba(238,237,221,1)";
+        }
+    }
+
+    // 查找并展示例句（使用 exampleUtils.js 的算法）
+    function showExamples(dh, type) {
+        var exampleSection = document.getElementById('exampleSection');
+        var exampleList = document.getElementById('exampleList');
+
+        if (!dh || typeof exampleData === 'undefined' || typeof findExamplesForWord === 'undefined') {
+            exampleSection.style.display = 'none';
+            return;
+        }
+
+        // 使用算法自动匹配例句
+        var matchedExamples = findExamplesForWord(dh, type, exampleData, wordData);
+
+        // 渲染例句列表（高亮相关词汇）
+        exampleList.innerHTML = '';
+        if (matchedExamples.length === 0) {
+            exampleList.innerHTML = '<div class="example-empty">暂无例句</div>';
+        } else {
+            for (var i = 0; i < matchedExamples.length; i++) {
+                var ex = matchedExamples[i];
+                var highlightedDh = highlightSentence(ex.dh, dh, type, wordData);
+                var item = document.createElement('div');
+                item.className = 'example-item';
+                var dhSpan = document.createElement('div');
+                dhSpan.className = 'example-dh';
+                dhSpan.innerHTML = highlightedDh;
+                var cnSpan = document.createElement('div');
+                cnSpan.className = 'example-cn';
+                cnSpan.textContent = ex.cn;
+                item.appendChild(dhSpan);
+                item.appendChild(cnSpan);
+                exampleList.appendChild(item);
+            }
+        }
+
+        exampleSection.style.display = 'block';
+    }
+</script>
+
+</html>

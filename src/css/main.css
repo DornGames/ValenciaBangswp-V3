@@ -1,0 +1,9 @@
+/* ============================================
+   th valencia bangswp | 瓦来西雅大辞典 — 全局样式表 v4.0
+   模块化拆分：由以下文件按顺序引入
+   ============================================ */
+
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('pages.css');

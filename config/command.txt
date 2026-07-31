@@ -1,0 +1,4 @@
+`c:\Users\70495\Desktop\Git Repositories\Valencia Bangswp\Valencia Bangswp - V2\js\wordData.js` `c:\Users\70495\Desktop\Git Repositories\Valencia Bangswp\Valencia Bangswp - V2\intro.md` 
+阅读以上内容，造20个动词，40个名词。
+"不得根据中英法等主流语言造词"！！（之前造过的就不用删了）
+同时你需要注意：1.如worddata所示，并不是每个名词都有词缀，没有词缀的名词一般会有有词缀的动词。也并不是没有动词都有词缀，没有词缀的动词一般会有有词缀的名词。如果要用词缀，需要注意词根词缀的多样性（例如动词不能一直用-od）2.注意造词的时候必须要有严格审查，不可以和worddata中的单词的意思和拼写重复。3.如果一个动词有名词，或者一个名词有动词，或者有其他联想的意思（例如由快速可以想到速度，不过这两个词已经有了），你可以同步给出（这个时候就要注意词缀了）。4.你没有必要全部用特殊元音字母。5.以及单词一般是闭音节。6.每个单词之间的差距（相似度）不能太接近。7.单词的长度在4-13个单词以内，都可以接受. 8.词汇来源可以参考 `c:\Users\70495\Desktop\Git Repositories\Valencia Bangswp\Valencia Bangswp - V2\base.dict.yaml` ，但注意要是简单词（例如窗户可以，开窗不行，开窗已经是短语）你每个单词都必须遵循以上8个要求造词，要有严格的审查！！。

@@ -1,0 +1,276 @@
+/* ============================================
+   layout.css — 布局层
+   包含：导航栏（#nav, #navLogo, #navMar, 汉堡菜单）、
+   页脚（#bottom_div, #copyright）、容器布局（.container）、
+   分割线（.divider）、响应式中导航/页脚相关部分
+   ============================================ */
+
+/* ---------- 导航栏 ---------- */
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--nav-height);
+  background: var(--color-white);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-lg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+#navLogo {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-right: var(--spacing-lg);
+  flex-shrink: 0;
+  text-decoration: none;
+  cursor: default;
+}
+
+#navLogo-en {
+  font-family: var(--font-family-en);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+#navLogo-zh {
+  font-family: var(--font-family-zh);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  letter-spacing: 1px;
+}
+
+#navLogo:hover #navLogo-en {
+  color: var(--color-primary-hover);
+}
+
+#navMar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+}
+
+#navbut1, #navbut2, #navbut3, #navbut4, #navbut5,
+#navbut6, #navbut7, #navbut8, #navbut9 {
+  height: 36px;
+  padding: 0 14px;
+  color: var(--color-text-secondary);
+  background: transparent;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  letter-spacing: 0.3px;
+}
+
+#navbut1:hover, #navbut2:hover, #navbut3:hover,
+#navbut4:hover, #navbut5:hover, #navbut6:hover,
+#navbut7:hover, #navbut8:hover, #navbut9:hover {
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+#navbut_user {
+  height: 32px;
+  padding: 0 18px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  border-radius: var(--radius-full);
+  margin-left: auto;
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+#navbut_user:hover {
+  background: var(--color-primary-hover);
+  box-shadow: 0 2px 6px rgba(122, 80, 72, 0.2);
+}
+
+/* 汉堡菜单 */
+#navToggle {
+  display: none;
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  margin-left: auto;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 10001;
+}
+
+#navToggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--color-text-secondary);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+#navToggle span::before,
+#navToggle span::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--color-text-secondary);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+#navToggle span::before { top: -7px; }
+#navToggle span::after { top: 7px; }
+
+#navMenuToggle:checked ~ #navToggle span {
+  background: transparent;
+}
+
+#navMenuToggle:checked ~ #navToggle span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+#navMenuToggle:checked ~ #navToggle span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+#navMenuToggle { display: none; }
+
+/* ---------- 主内容区 ---------- */
+.container {
+  padding-top: calc(var(--nav-height) + var(--spacing-2xl));
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------- 页脚（全新设计-简约） ---------- */
+#bottom_div {
+  width: 100%;
+  margin-top: auto;
+  padding: var(--spacing-lg) 0;
+  flex-shrink: 0;
+  border-top: 1px solid var(--color-border-light);
+  background: var(--color-white);
+}
+
+#copyright {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  line-height: 1.8;
+}
+
+#copyright a {
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+}
+
+#copyright a:hover {
+  color: var(--color-primary);
+}
+
+#br {
+  height: 2px;
+}
+
+/* ---------- 分割线 ---------- */
+.divider {
+  height: 0;
+  border: none;
+  border-top: 1px solid var(--color-border);
+  width: 100%;
+  margin: var(--spacing-sm) 0;
+}
+
+/* ---------- 响应式 — 布局相关 ---------- */
+@media (max-width: 768px) {
+  :root { --nav-height: 54px; }
+
+  #nav { padding: 0 var(--spacing-md); }
+
+  #navLogo-en { font-size: 13px; letter-spacing: 1px; }
+  #navLogo-zh { font-size: 12px; }
+  #navLogo { margin-right: var(--spacing-sm); }
+
+  /* 导航栏在移动端折叠 */
+  #navMar {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    width: 100%;
+    background: var(--color-white);
+    flex-direction: column;
+    padding: 4px 0;
+    gap: 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  #navMenuToggle:checked ~ #navMar {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #navMar > button {
+    width: 100%;
+    height: 40px;
+    padding: 0 var(--spacing-lg);
+    text-align: left;
+    font-size: var(--font-size-sm);
+    border-radius: 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  #navMar > button:hover {
+    background: var(--color-primary-light);
+    transform: none;
+  }
+
+  #navToggle { display: flex; flex-direction: column; justify-content: center; }
+
+  #navbut_user {
+    padding: 0 14px;
+    font-size: var(--font-size-xs);
+    height: 30px;
+    margin-left: 0;
+  }
+
+  .container { padding-top: calc(var(--nav-height) + var(--spacing-lg)); }
+
+  #bottom_div { padding: var(--spacing-md) 0; }
+  #copyright { font-size: 11px; }
+}
+
+@media (max-width: 480px) {
+  #nav { padding: 0 var(--spacing-sm); }
+  #navLogo-en { font-size: 12px; letter-spacing: 0.5px; }
+  #navLogo-zh { font-size: 11px; }
+}

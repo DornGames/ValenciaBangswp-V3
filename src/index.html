@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VALENCIA | 瓦来西雅大辞典</title>
+    <link rel="icon" href="https://satorna.github.io/image/webIcon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/tools.js"></script>
+    <script src="js/wordData.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <header id="nav">
+        <div id="navLogo">
+    <span id="navLogo-zh">瓦来西雅大辞典</span>
+</div>
+        <input type="checkbox" id="navMenuToggle" />
+        <nav id="navMar">
+            <button id="navbut1">主站</button>
+            <button id="navbut2">字母表</button>
+            <button id="navbut3">词缀表</button>
+            <button id="navbut4">时态表</button>
+            <button id="navbut5">学习资源</button>
+        </nav>
+        <button id="navbut_user">翻 译</button>
+        <label id="navToggle" for="navMenuToggle"><span></span></label>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="container" id="ctn">
+        <!-- Logo -->
+        <div id="logoContainer">
+            <div class="site-logo">
+                <span class="site-logo-en">瓦来西雅大辞典</span>
+                <div class="site-logo-divider"></div>
+                <span class="site-logo-zh">Th Valencia Bangswp</span>
+            </div>
+        </div>
+
+        <!-- 搜索区 -->
+        <section class="login-wrapper" id="lgwp">
+            <div class="form-wrapper" id="fmwp">
+                <div id="selectLan">
+                    <span id="selectP">𣿅中词典</span>
+                    <ul id="selectUL"></ul>
+                </div>
+                <input type="text" name="username"
+                    placeholder="- 支持𣿅中/中𣿅词典查询，请键入拉丁字母 -" class="input-item" id="search_ipt" autocomplete="off">
+                <button id="search_ui_containerButton">
+                    <img src="../public/images/search_ui.png" id="search_ui" alt="搜索" />
+                </button>
+            </div>
+            <ul id="search-list"></ul>
+        </section>
+
+        <p class="text-center"><img src="https://satorna.github.io/image/LoginPic_bg.jpg" id="errorImg" /></p>
+    </main>
+
+    <!-- 页脚 -->
+    <footer id="bottom_div">
+        <div id="copyright">
+            <div id="br"></div>
+            <p>所有内容纯属虚构，与现实无关，敬请理性看待</p>
+            <p id="cprt">版权所有 © 2025 DornGames | Ver V3.1</p>
+            <p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a>
+             | Github : <a href="https://github.com/dornhub">@dornhub</a>
+             | Email : dorngames@163.com
+            </p>
+            <div id="br"></div>
+        </div>
+    </footer>
+
+    </body>
+
+</html>
