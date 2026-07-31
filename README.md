@@ -25,7 +25,7 @@ VALENCIA（瓦来西雅）是一个为虚构语言 **𣿅语**（Irelav）打造
 ## 项目结构
 
 ```
-Valencia Bangswp - V2/
+Valencia Bangswp - V3.1/
 ├── index.html                  # 根入口 — 跳转到 src/index.html
 ├── src/                        # 源代码
 │   ├── index.html              # 主页（词典查询入口）
