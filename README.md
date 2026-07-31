@@ -1,3 +1,5 @@
+# 🚧 施工中 Under Construction
+
 # VALENCIA 瓦莱西雅大辞典
 
 ![VALENCIA Logo](image/logo_img.png)
