@@ -10805,5 +10805,3155 @@ globalThis.wordData = [
 		cn: '瞬间,刹那,顷刻',
 		type: 'm.',
 
+	}, {
+		dh: `blam`,
+		cn: `游泳,游水`,
+		type: `d.`,
+
+	}, {
+		dh: `crœl`,
+		cn: `飞行,飞翔,翱翔`,
+		type: `d.`,
+
+	}, {
+		dh: `dring`,
+		cn: `降落,着陆,落下`,
+		type: `d.`,
+
+	}, {
+		dh: `drang`,
+		cn: `矗立,伫立,直立`,
+		type: `d.`,
+
+	}, {
+		dh: `snigod`,
+		cn: `绑,缚,系住`,
+		type: `d.`,
+
+	}, {
+		dh: `strobod`,
+		cn: `解开,松开,解脱`,
+		type: `d.`,
+
+	}, {
+		dh: `fripod`,
+		cn: `浏览,翻阅,浏览`,
+		type: `d.`,
+
+	}, {
+		dh: `blakiêt`,
+		cn: `嘲笑,讥讽,奚落`,
+		type: `d.`,
+
+	}, {
+		dh: `grœbiêt`,
+		cn: `辩论,争辩,辩驳`,
+		type: `d.`,
+
+	}, {
+		dh: `plœkhiêt`,
+		cn: `拥抱,搂抱,环抱`,
+		type: `d.`,
+
+	}, {
+		dh: `trœdod`,
+		cn: `穿透,贯穿,钻穿`,
+		type: `d.`,
+
+	}, {
+		dh: `zrœkiêt`,
+		cn: `骑,乘,乘坐`,
+		type: `d.`,
+
+	}, {
+		dh: `splœniêt`,
+		cn: `雕刻,镂空,镌刻`,
+		type: `d.`,
+
+	}, {
+		dh: `snœfiêt`,
+		cn: `遮蔽,遮护,庇护`,
+		type: `d.`,
+
+	}, {
+		dh: `drœnod`,
+		cn: `洗澡,洗浴,沐浴`,
+		type: `d.`,
+
+	}, {
+		dh: `grœfiêt`,
+		cn: `赞美,称颂,颂扬`,
+		type: `d.`,
+
+	}, {
+		dh: `dwœmiêt`,
+		cn: `庆祝,欢庆,庆贺`,
+		type: `d.`,
+
+	}, {
+		dh: `frœdod`,
+		cn: `狩猎,捕猎,追捕`,
+		type: `d.`,
+
+	}, {
+		dh: `blœkiêt`,
+		cn: `记忆,记住,铭记`,
+		type: `d.`,
+
+	}, {
+		dh: `krœgihêt`,
+		cn: `召唤,呼唤,号召`,
+		type: `d.`,
+
+	}, {
+		dh: `blamion`,
+		cn: `游泳,游水`,
+		type: `m.`,
+
+	}, {
+		dh: `crœlion`,
+		cn: `飞行,航程,飞行`,
+		type: `m.`,
+
+	}, {
+		dh: `drinion`,
+		cn: `降落,下落,下降`,
+		type: `m.`,
+
+	}, {
+		dh: `drangion`,
+		cn: `矗立,伫立,直立`,
+		type: `m.`,
+
+	}, {
+		dh: `snigodiac`,
+		cn: `绑缚,捆绑,束缚`,
+		type: `m.`,
+
+	}, {
+		dh: `strobodiac`,
+		cn: `解开,松开,解脱`,
+		type: `m.`,
+
+	}, {
+		dh: `fripodiêr`,
+		cn: `浏览,翻阅,阅读活动`,
+		type: `m.`,
+
+	}, {
+		dh: `blakiêtia`,
+		cn: `嘲笑,讥讽,奚落`,
+		type: `m.`,
+
+	}, {
+		dh: `grœbiêtia`,
+		cn: `辩论,争辩,辩驳`,
+		type: `m.`,
+
+	}, {
+		dh: `plœkhiêtia`,
+		cn: `拥抱,搂抱,亲昵`,
+		type: `m.`,
+
+	}, {
+		dh: `trœdodiac`,
+		cn: `穿透,贯穿,穿透力`,
+		type: `m.`,
+
+	}, {
+		dh: `zrœkiêtia`,
+		cn: `骑术,骑行,乘坐`,
+		type: `m.`,
+
+	}, {
+		dh: `splœniêtiêr`,
+		cn: `雕刻师,雕刻家`,
+		type: `m.`,
+
+	}, {
+		dh: `snœfiêtiêr`,
+		cn: `遮蔽处,庇护所`,
+		type: `m.`,
+
+	}, {
+		dh: `drœnodiac`,
+		cn: `洗澡,洗浴,沐浴`,
+		type: `m.`,
+
+	}, {
+		dh: `grœfiêtiêr`,
+		cn: `赞美者,称颂者`,
+		type: `m.`,
+
+	}, {
+		dh: `dwœmiêtiêr`,
+		cn: `庆典,庆祝活动`,
+		type: `m.`,
+
+	}, {
+		dh: `frœdodiêr`,
+		cn: `猎人,猎手`,
+		type: `m.`,
+
+	}, {
+		dh: `blœkiêtiêr`,
+		cn: `记忆,记忆能力`,
+		type: `m.`,
+
+	}, {
+		dh: `krœgihêtiêr`,
+		cn: `召唤,号召`,
+		type: `m.`,
+
+	}, {
+		dh: `rwan`,
+		cn: `颜色,色彩,色泽`,
+		type: `m.`,
+
+	}, {
+		dh: `zraf`,
+		cn: `气味,气息,味道`,
+		type: `m.`,
+
+	}, {
+		dh: `kwêk`,
+		cn: `声响,声音,响声`,
+		type: `m.`,
+
+	}, {
+		dh: `mœs`,
+		cn: `触感,手感,质感`,
+		type: `m.`,
+
+	}, {
+		dh: `drin`,
+		cn: `形态,形状,外形`,
+		type: `m.`,
+
+	}, {
+		dh: `klir`,
+		cn: `光线,光亮,光晕`,
+		type: `m.`,
+
+	}, {
+		dh: `blœb`,
+		cn: `阴影,影子,暗影`,
+		type: `m.`,
+
+	}, {
+		dh: `kwar`,
+		cn: `温度,热度,热`,
+		type: `m.`,
+
+	}, {
+		dh: `glœd`,
+		cn: `寒冷,凉意,冷`,
+		type: `m.`,
+
+	}, {
+		dh: `stœm`,
+		cn: `力量,强度,力`,
+		type: `m.`,
+
+	}, {
+		dh: `krih`,
+		cn: `勇气,胆量,气魄`,
+		type: `m.`,
+
+	}, {
+		dh: `zræm`,
+		cn: `温柔,柔和,温婉`,
+		type: `m.`,
+
+	}, {
+		dh: `plœs`,
+		cn: `姿态,仪态,神态`,
+		type: `m.`,
+
+	}, {
+		dh: `drah`,
+		cn: `景象,景色,景致`,
+		type: `m.`,
+
+	}, {
+		dh: `vrœl`,
+		cn: `情感,感情,情绪`,
+		type: `m.`,
+
+	}, {
+		dh: `krœh`,
+		cn: `意愿,意志,意图`,
+		type: `m.`,
+
+	}, {
+		dh: `stœd`,
+		cn: `道路,路径,途径`,
+		type: `m.`,
+
+	}, {
+		dh: `blœf`,
+		cn: `作品,产物,制品`,
+		type: `m.`,
+
+	}, {
+		dh: `drœm`,
+		cn: `梦境,梦想,幻想`,
+		type: `m.`,
+
+	}, {
+		dh: `kwœr`,
+		cn: `和谐,融洽,和睦`,
+		type: `m.`,
+
+	}, {
+		dh: `brusk`,
+		cn: `混合,调和,掺和`,
+		type: `d.`,
+
+	}, {
+		dh: `bruskiad`,
+		cn: `混合,调和,掺和`,
+		type: `m.`,
+
+	}, {
+		dh: `crænd`,
+		cn: `榨,榨取,压榨`,
+		type: `d.`,
+
+	}, {
+		dh: `crændiat`,
+		cn: `榨取,榨汁`,
+		type: `m.`,
+
+	}, {
+		dh: `dromp`,
+		cn: `腌,腌制,腌渍`,
+		type: `d.`,
+
+	}, {
+		dh: `drompiac`,
+		cn: `腌制,腌渍`,
+		type: `m.`,
+
+	}, {
+		dh: `flask`,
+		cn: `绣,刺绣,绣花`,
+		type: `d.`,
+
+	}, {
+		dh: `flaskiêr`,
+		cn: `刺绣,绣品`,
+		type: `m.`,
+
+	}, {
+		dh: `grent`,
+		cn: `打磨,抛光,磨光`,
+		type: `d.`,
+
+	}, {
+		dh: `grentiad`,
+		cn: `打磨,抛光`,
+		type: `m.`,
+
+	}, {
+		dh: `klosp`,
+		cn: `焊接,熔焊`,
+		type: `d.`,
+
+	}, {
+		dh: `klospiac`,
+		cn: `焊接,焊点`,
+		type: `m.`,
+
+	}, {
+		dh: `prunt`,
+		cn: `铸造,浇铸,熔铸`,
+		type: `d.`,
+
+	}, {
+		dh: `pruntiad`,
+		cn: `铸造,铸件`,
+		type: `m.`,
+
+	}, {
+		dh: `strug`,
+		cn: `锻造,锤炼,锻打`,
+		type: `d.`,
+
+	}, {
+		dh: `strugiat`,
+		cn: `锻造,锻件`,
+		type: `m.`,
+
+	}, {
+		dh: `blint`,
+		cn: `拾,拾取,捡起`,
+		type: `d.`,
+
+	}, {
+		dh: `blintiad`,
+		cn: `拾取,捡拾`,
+		type: `m.`,
+
+	}, {
+		dh: `cruft`,
+		cn: `递,递送,递交`,
+		type: `d.`,
+
+	}, {
+		dh: `cruftiat`,
+		cn: `递送,递交`,
+		type: `m.`,
+
+	}, {
+		dh: `slemt`,
+		cn: `接,接住,接取`,
+		type: `d.`,
+
+	}, {
+		dh: `slemtiad`,
+		cn: `接住,接取`,
+		type: `m.`,
+
+	}, {
+		dh: `krabl`,
+		cn: `扛,肩扛,背负`,
+		type: `d.`,
+
+	}, {
+		dh: `krabliac`,
+		cn: `肩扛,背负`,
+		type: `m.`,
+
+	}, {
+		dh: `trosp`,
+		cn: `抬,抬举,抬运`,
+		type: `d.`,
+
+	}, {
+		dh: `trospiad`,
+		cn: `抬运,抬举`,
+		type: `m.`,
+
+	}, {
+		dh: `swelt`,
+		cn: `携带,随身带`,
+		type: `d.`,
+
+	}, {
+		dh: `sweltiad`,
+		cn: `携带,随身`,
+		type: `m.`,
+
+	}, {
+		dh: `zræmb`,
+		cn: `佩戴,佩带`,
+		type: `d.`,
+
+	}, {
+		dh: `zræmbiad`,
+		cn: `佩戴,佩饰`,
+		type: `m.`,
+
+	}, {
+		dh: `flisp`,
+		cn: `脱,脱下,摘除`,
+		type: `d.`,
+
+	}, {
+		dh: `flispiad`,
+		cn: `脱下,脱卸`,
+		type: `m.`,
+
+	}, {
+		dh: `blumb`,
+		cn: `拍,拍打,轻拍`,
+		type: `d.`,
+
+	}, {
+		dh: `blumbiac`,
+		cn: `拍打,轻拍`,
+		type: `m.`,
+
+	}, {
+		dh: `græv`,
+		cn: `抚摸,轻抚,摩挲`,
+		type: `d.`,
+
+	}, {
+		dh: `græviad`,
+		cn: `抚摸,轻抚`,
+		type: `m.`,
+
+	}, {
+		dh: `klink`,
+		cn: `夹,夹住,钳住`,
+		type: `d.`,
+
+	}, {
+		dh: `klinkiad`,
+		cn: `夹住,夹取`,
+		type: `m.`,
+
+	}, {
+		dh: `trond`,
+		cn: `剪,剪断,裁剪`,
+		type: `d.`,
+
+	}, {
+		dh: `trondiat`,
+		cn: `剪断,裁剪`,
+		type: `m.`,
+
+	}, {
+		dh: `brund`,
+		cn: `镶,镶嵌,嵌入`,
+		type: `d.`,
+
+	}, {
+		dh: `brundiac`,
+		cn: `镶嵌,镶饰`,
+		type: `m.`,
+
+	}, {
+		dh: `splurt`,
+		cn: `摊,摊开,摊铺`,
+		type: `d.`,
+
+	}, {
+		dh: `splurtiad`,
+		cn: `摊铺,摊开`,
+		type: `m.`,
+
+	}, {
+		dh: `plost`,
+		cn: `铺,铺设,铺展`,
+		type: `d.`,
+
+	}, {
+		dh: `plostiat`,
+		cn: `铺设,铺展`,
+		type: `m.`,
+
+	}, {
+		dh: `dræv`,
+		cn: `收,收起,收拢`,
+		type: `d.`,
+
+	}, {
+		dh: `dræviad`,
+		cn: `收拢,收纳`,
+		type: `m.`,
+
+	}, {
+		dh: `slamb`,
+		cn: `领悟,顿悟,领会`,
+		type: `d.`,
+
+	}, {
+		dh: `slambiad`,
+		cn: `领悟,顿悟`,
+		type: `m.`,
+
+	}, {
+		dh: `gronk`,
+		cn: `反思,反省,自省`,
+		type: `d.`,
+
+	}, {
+		dh: `gronkiad`,
+		cn: `反思,反省`,
+		type: `m.`,
+
+	}, {
+		dh: `zlunt`,
+		cn: `冥想,沉思,静思`,
+		type: `d.`,
+
+	}, {
+		dh: `zluntiac`,
+		cn: `冥想,沉思`,
+		type: `m.`,
+
+	}, {
+		dh: `præmb`,
+		cn: `憧憬,向往,神往`,
+		type: `d.`,
+
+	}, {
+		dh: `præmbiad`,
+		cn: `憧憬,向往`,
+		type: `m.`,
+
+	}, {
+		dh: `brant`,
+		cn: `忍耐,忍受,容忍`,
+		type: `d.`,
+
+	}, {
+		dh: `brantiad`,
+		cn: `忍耐,忍受`,
+		type: `m.`,
+
+	}, {
+		dh: `kluf`,
+		cn: `面对,正视,直面`,
+		type: `d.`,
+
+	}, {
+		dh: `klufiat`,
+		cn: `面对,正视`,
+		type: `m.`,
+
+	}, {
+		dh: `snorp`,
+		cn: `权衡,斟酌,思量`,
+		type: `d.`,
+
+	}, {
+		dh: `snorpiad`,
+		cn: `权衡,思量`,
+		type: `m.`,
+
+	}, {
+		dh: `græt`,
+		cn: `断定,断言,判定`,
+		type: `d.`,
+
+	}, {
+		dh: `grætiad`,
+		cn: `断定,断言`,
+		type: `m.`,
+
+	}, {
+		dh: `flink`,
+		cn: `醒悟,觉悟,觉醒`,
+		type: `d.`,
+
+	}, {
+		dh: `flinkiac`,
+		cn: `醒悟,觉悟`,
+		type: `m.`,
+
+	}, {
+		dh: `krimp`,
+		cn: `批评,指责,责备`,
+		type: `d.`,
+
+	}, {
+		dh: `krimpiad`,
+		cn: `批评,指责`,
+		type: `m.`,
+
+	}, {
+		dh: `swint`,
+		cn: `抱怨,埋怨,发牢骚`,
+		type: `d.`,
+
+	}, {
+		dh: `swintiad`,
+		cn: `抱怨,埋怨`,
+		type: `m.`,
+
+	}, {
+		dh: `plah`,
+		cn: `承诺,许诺,保证`,
+		type: `m.`,
+
+	}, {
+		dh: `plahiêt`,
+		cn: `承诺,许诺`,
+		type: `d.`,
+
+	}, {
+		dh: `klom`,
+		cn: `通知,告知,通告`,
+		type: `m.`,
+
+	}, {
+		dh: `klomhiêt`,
+		cn: `通知,告知`,
+		type: `d.`,
+
+	}, {
+		dh: `zrap`,
+		cn: `恳求,哀求,央求`,
+		type: `m.`,
+
+	}, {
+		dh: `zrapod`,
+		cn: `恳求,哀求`,
+		type: `d.`,
+
+	}, {
+		dh: `flum`,
+		cn: `责骂,呵斥,叱责`,
+		type: `m.`,
+
+	}, {
+		dh: `flumiêt`,
+		cn: `责骂,呵斥`,
+		type: `d.`,
+
+	}, {
+		dh: `tris`,
+		cn: `闲聊,聊天,谈天`,
+		type: `m.`,
+
+	}, {
+		dh: `trishiêt`,
+		cn: `闲聊,聊天`,
+		type: `d.`,
+
+	}, {
+		dh: `druw`,
+		cn: `倾诉,吐露,倾吐`,
+		type: `m.`,
+
+	}, {
+		dh: `druwod`,
+		cn: `倾诉,吐露`,
+		type: `d.`,
+
+	}, {
+		dh: `blur`,
+		cn: `欺骗,蒙骗,哄骗`,
+		type: `m.`,
+
+	}, {
+		dh: `bluriêt`,
+		cn: `欺骗,蒙骗`,
+		type: `d.`,
+
+	}, {
+		dh: `kram`,
+		cn: `威胁,恐吓,恫吓`,
+		type: `m.`,
+
+	}, {
+		dh: `kramhiêt`,
+		cn: `威胁,恐吓`,
+		type: `d.`,
+
+	}, {
+		dh: `snar`,
+		cn: `劝告,劝说,规劝`,
+		type: `m.`,
+
+	}, {
+		dh: `snarod`,
+		cn: `劝告,劝说`,
+		type: `d.`,
+
+	}, {
+		dh: `græz`,
+		cn: `羡慕,艳羡,眼红`,
+		type: `m.`,
+
+	}, {
+		dh: `græziêt`,
+		cn: `羡慕,艳羡`,
+		type: `d.`,
+
+	}, {
+		dh: `plub`,
+		cn: `怜悯,怜惜,恻隐`,
+		type: `m.`,
+
+	}, {
+		dh: `plubod`,
+		cn: `怜悯,怜惜`,
+		type: `d.`,
+
+	}, {
+		dh: `bræk`,
+		cn: `愤怒,怒气,恼火`,
+		type: `m.`,
+
+	}, {
+		dh: `brækhiêt`,
+		cn: `愤怒,发怒`,
+		type: `d.`,
+
+	}, {
+		dh: `zrum`,
+		cn: `焦躁,焦急,着急`,
+		type: `m.`,
+
+	}, {
+		dh: `zrumod`,
+		cn: `焦躁,焦急`,
+		type: `d.`,
+
+	}, {
+		dh: `dwarp`,
+		cn: `潜水,下潜`,
+		type: `m.`,
+
+	}, {
+		dh: `dwarpod`,
+		cn: `潜,潜水,下潜`,
+		type: `d.`,
+
+	}, {
+		dh: `kwint`,
+		cn: `飘浮,飘荡`,
+		type: `m.`,
+
+	}, {
+		dh: `kwintiêt`,
+		cn: `飘,飘荡,飘浮`,
+		type: `d.`,
+
+	}, {
+		dh: `zwik`,
+		cn: `倒影,映像,水中影`,
+		type: `m.`,
+
+	}, {
+		dh: `krong`,
+		cn: `回声,回响,余音`,
+		type: `m.`,
+
+	}, {
+		dh: `glam`,
+		cn: `微光,幽光,闪烁`,
+		type: `m.`,
+
+	}, {
+		dh: `blun`,
+		cn: `夜幕,夜色,黑夜`,
+		type: `m.`,
+
+	}, {
+		dh: `slad`,
+		cn: `晨曦,朝霞,晨光`,
+		type: `m.`,
+
+	}, {
+		dh: `drov`,
+		cn: `晚霞,余晖,残阳`,
+		type: `m.`,
+
+	}, {
+		dh: `fren`,
+		cn: `溪流,山涧,溪`,
+		type: `m.`,
+
+	}, {
+		dh: `swag`,
+		cn: `漩涡,涡流,旋涡`,
+		type: `m.`,
+
+	}, {
+		dh: `zulp`,
+		cn: `沙滩,海滩,沙洲`,
+		type: `m.`,
+
+	}, {
+		dh: `dwan`,
+		cn: `高原,高地,台地`,
+		type: `m.`,
+
+	}, {
+		dh: `grim`,
+		cn: `盆地,低地,洼地`,
+		type: `m.`,
+
+	}, {
+		dh: `prus`,
+		cn: `果园,果林`,
+		type: `m.`,
+
+	}, {
+		dh: `volp`,
+		cn: `葡萄园`,
+		type: `m.`,
+
+	}, {
+		dh: `thrik`,
+		cn: `羊群,畜群,群`,
+		type: `m.`,
+
+	}, {
+		dh: `lern`,
+		cn: `兽穴,巢穴,窝`,
+		type: `m.`,
+
+	}, {
+		dh: `strok`,
+		cn: `鸟巢,巢,窝`,
+		type: `m.`,
+
+	}, {
+		dh: `vlan`,
+		cn: `蜂巢,蜂窝,蜂房`,
+		type: `m.`,
+
+	}, {
+		dh: `sujk`,
+		cn: `丝绸,绸缎,锦缎`,
+		type: `m.`,
+
+	}, {
+		dh: `fles`,
+		cn: `亚麻,麻布,麻`,
+		type: `m.`,
+
+	}, {
+		dh: `zurb`,
+		cn: `玉,玉石,美玉`,
+		type: `m.`,
+
+	}, {
+		dh: `zarl`,
+		cn: `珍珠,明珠,宝珠`,
+		type: `m.`,
+
+	}, {
+		dh: `zand`,
+		cn: `珊瑚,珊瑚礁`,
+		type: `m.`,
+
+	}, {
+		dh: `klirb`,
+		cn: `琥珀,蜜蜡`,
+		type: `m.`,
+
+	}, {
+		dh: `zlust`,
+		cn: `水晶,晶石,结晶`,
+		type: `m.`,
+
+	}, {
+		dh: `grest`,
+		cn: `铁锈,锈迹,锈`,
+		type: `m.`,
+
+	}, {
+		dh: `splut`,
+		cn: `卵石,石砾,鹅卵石`,
+		type: `m.`,
+
+	}, {
+		dh: `frund`,
+		cn: `石板,岩板`,
+		type: `m.`,
+
+	}, {
+		dh: `trunk`,
+		cn: `木材,木料,原木`,
+		type: `m.`,
+
+	}, {
+		dh: `swand`,
+		cn: `竹子,竹竿,竹`,
+		type: `m.`,
+
+	}, {
+		dh: `skrip`,
+		cn: `荆棘,蒺藜,荆棘丛`,
+		type: `m.`,
+
+	}, {
+		dh: `plush`,
+		cn: `芦苇,苇丛,苇`,
+		type: `m.`,
+
+	}, {
+		dh: `flaz`,
+		cn: `花蕾,花苞,花骨朵`,
+		type: `m.`,
+
+	}, {
+		dh: `skrid`,
+		cn: `树皮,树表`,
+		type: `m.`,
+
+	}, {
+		dh: `grinz`,
+		cn: `树枝,枝条,枝`,
+		type: `m.`,
+
+	}, {
+		dh: `zlip`,
+		cn: `树叶,叶片,叶`,
+		type: `m.`,
+
+	}, {
+		dh: `spirk`,
+		cn: `花瓣,花瓣,瓣`,
+		type: `m.`,
+
+	}, {
+		dh: `kril`,
+		cn: `花粉,花蕊,花粉`,
+		type: `m.`,
+
+	}, {
+		dh: `zruz`,
+		cn: `铜,黄铜,红铜`,
+		type: `m.`,
+
+	}, {
+		dh: `tlam`,
+		cn: `铅,铅块`,
+		type: `m.`,
+
+	}, {
+		dh: `zrint`,
+		cn: `锡,白锡`,
+		type: `m.`,
+
+	}, {
+		dh: `prish`,
+		cn: `沥青,柏油`,
+		type: `m.`,
+
+	}, {
+		dh: `klis`,
+		cn: `玻璃,琉璃`,
+		type: `m.`,
+
+	}, {
+		dh: `vrunt`,
+		cn: `陶瓷,瓷器,陶`,
+		type: `m.`,
+
+	}, {
+		dh: `krild`,
+		cn: `砖,砖块`,
+		type: `m.`,
+
+	}, {
+		dh: `slink`,
+		cn: `瓦,瓦片`,
+		type: `m.`,
+
+	}, {
+		dh: `drob`,
+		cn: `矛,长矛`,
+		type: `m.`,
+
+	}, {
+		dh: `grubl`,
+		cn: `盾,盾牌`,
+		type: `m.`,
+
+	}, {
+		dh: `gwolt`,
+		cn: `弓,弓箭`,
+		type: `m.`,
+
+	}, {
+		dh: `stirn`,
+		cn: `箭,箭矢`,
+		type: `m.`,
+
+	}, {
+		dh: `flird`,
+		cn: `秤,天平,磅秤`,
+		type: `m.`,
+
+	}, {
+		dh: `kweld`,
+		cn: `挥舞,挥动,挥臂`,
+		type: `d.`,
+	}, {
+		dh: `plenj`,
+		cn: `掐,掐住,掐捏`,
+		type: `d.`,
+	}, {
+		dh: `nwask`,
+		cn: `搓,搓揉,搓洗`,
+		type: `d.`,
+	}, {
+		dh: `zrawn`,
+		cn: `驮,背负,驮运`,
+		type: `d.`,
+	}, {
+		dh: `drwel`,
+		cn: `挑,肩挑,挑担`,
+		type: `d.`,
+	}, {
+		dh: `plorb`,
+		cn: `仰,仰卧,仰面`,
+		type: `d.`,
+	}, {
+		dh: `vrabt`,
+		cn: `踱,踱步,徘徊`,
+		type: `d.`,
+	}, {
+		dh: `zrolk`,
+		cn: `绕,环绕,绕行`,
+		type: `d.`,
+	}, {
+		dh: `swlamp`,
+		cn: `涉,涉水,趟水`,
+		type: `d.`,
+	}, {
+		dh: `slint`,
+		cn: `眯,眯眼,眯缝`,
+		type: `d.`,
+	}, {
+		dh: `krænk`,
+		cn: `睁,睁眼,睁开`,
+		type: `d.`,
+	}, {
+		dh: `frawk`,
+		cn: `瞥,瞥见,瞟`,
+		type: `d.`,
+	}, {
+		dh: `strowk`,
+		cn: `瞪,瞪眼,怒视`,
+		type: `d.`,
+	}, {
+		dh: `gropn`,
+		cn: `点头,颔首`,
+		type: `d.`,
+	}, {
+		dh: `træzn`,
+		cn: `摇头,晃头`,
+		type: `d.`,
+	}, {
+		dh: `zriwnk`,
+		cn: `耸肩,耸动`,
+		type: `d.`,
+	}, {
+		dh: `wlamk`,
+		cn: `挥手,挥臂`,
+		type: `d.`,
+	}, {
+		dh: `spront`,
+		cn: `招手,招手示意`,
+		type: `d.`,
+	}, {
+		dh: `plark`,
+		cn: `鼓掌,拍手`,
+		type: `d.`,
+	}, {
+		dh: `zwonch`,
+		cn: `鞠躬,躬身`,
+		type: `d.`,
+	}, {
+		dh: `grœnk`,
+		cn: `敬礼,行礼`,
+		type: `d.`,
+	}, {
+		dh: `nwank`,
+		cn: `叩首,磕头,叩拜`,
+		type: `d.`,
+	}, {
+		dh: `drœmk`,
+		cn: `憋气,屏息,屏住呼吸`,
+		type: `d.`,
+	}, {
+		dh: `kwêrn`,
+		cn: `请教,咨询,求教`,
+		type: `d.`,
+	}, {
+		dh: `zrold`,
+		cn: `解决,解答,处理`,
+		type: `d.`,
+	}, {
+		dh: `slwent`,
+		cn: `安排,筹划,部署`,
+		type: `d.`,
+	}, {
+		dh: `kwolt`,
+		cn: `炒,翻炒,煸炒`,
+		type: `d.`,
+	}, {
+		dh: `vramp`,
+		cn: `焖,焖煮,煨`,
+		type: `d.`,
+	}, {
+		dh: `zralt`,
+		cn: `卤,卤制,酱卤`,
+		type: `d.`,
+	}, {
+		dh: `klint`,
+		cn: `冷藏,保鲜`,
+		type: `d.`,
+	}, {
+		dh: `grœnt`,
+		cn: `解冻,化冻`,
+		type: `d.`,
+	}, {
+		dh: `zrœpt`,
+		cn: `播种,下种,播撒`,
+		type: `d.`,
+	}, {
+		dh: `vlênt`,
+		cn: `除草,薅草,铲草`,
+		type: `d.`,
+	}, {
+		dh: `krœf`,
+		cn: `施肥,追肥,上肥`,
+		type: `d.`,
+	}, {
+		dh: `trwamp`,
+		cn: `割,割取,切割`,
+		type: `d.`,
+	}, {
+		dh: `zwank`,
+		cn: `锄,锄地,翻锄`,
+		type: `d.`,
+	}, {
+		dh: `grawp`,
+		cn: `耙,耙地,耙平`,
+		type: `d.`,
+	}, {
+		dh: `plworn`,
+		cn: `翻土,翻耕,犁地`,
+		type: `d.`,
+	}, {
+		dh: `swrênk`,
+		cn: `打谷,脱粒,扬场`,
+		type: `d.`,
+	}, {
+		dh: `nworf`,
+		cn: `捕捞,打捞,渔获`,
+		type: `d.`,
+	}, {
+		dh: `glêmk`,
+		cn: `垂钓,钓鱼,钓取`,
+		type: `d.`,
+	}, {
+		dh: `slwont`,
+		cn: `埋伏,设伏,潜伏`,
+		type: `d.`,
+	}, {
+		dh: `zrœfl`,
+		cn: `突袭,奇袭,偷袭`,
+		type: `d.`,
+	}, {
+		dh: `kwarn`,
+		cn: `投降,归降,屈从`,
+		type: `d.`,
+	}, {
+		dh: `drwelf`,
+		cn: `俘虏,俘获,擒获`,
+		type: `d.`,
+	}, {
+		dh: `slwark`,
+		cn: `释放,放归,赦免`,
+		type: `d.`,
+	}, {
+		dh: `vrawnk`,
+		cn: `囚禁,关押,监禁`,
+		type: `d.`,
+	}, {
+		dh: `glêmp`,
+		cn: `审判,审理,审案`,
+		type: `d.`,
+	}, {
+		dh: `zrœrn`,
+		cn: `处决,处死,行刑`,
+		type: `d.`,
+	}, {
+		dh: `swemp`,
+		cn: `拍卖,竞拍`,
+		type: `d.`,
+	}, {
+		dh: `kweldiat`,
+		cn: `挥舞,挥动`,
+		type: `m.`,
+	}, {
+		dh: `plenjiad`,
+		cn: `掐,掐痕`,
+		type: `m.`,
+	}, {
+		dh: `zrawniac`,
+		cn: `驮运,背负物`,
+		type: `m.`,
+	}, {
+		dh: `vrabtiat`,
+		cn: `踱步,徘徊`,
+		type: `m.`,
+	}, {
+		dh: `zrolkiad`,
+		cn: `环绕,环绕物`,
+		type: `m.`,
+	}, {
+		dh: `gropniad`,
+		cn: `点头,颔首`,
+		type: `m.`,
+	}, {
+		dh: `træzniad`,
+		cn: `摇头`,
+		type: `m.`,
+	}, {
+		dh: `zriwnkiad`,
+		cn: `耸肩`,
+		type: `m.`,
+	}, {
+		dh: `plarkiad`,
+		cn: `鼓掌,掌声`,
+		type: `m.`,
+	}, {
+		dh: `zwonchiat`,
+		cn: `鞠躬,躬身`,
+		type: `m.`,
+	}, {
+		dh: `grœnkiat`,
+		cn: `敬礼,行礼`,
+		type: `m.`,
+	}, {
+		dh: `drœmkiad`,
+		cn: `憋气,屏息`,
+		type: `m.`,
+	}, {
+		dh: `kwêrniad`,
+		cn: `咨询,请教`,
+		type: `m.`,
+	}, {
+		dh: `zroldiac`,
+		cn: `解决,解答`,
+		type: `m.`,
+	}, {
+		dh: `slwentiat`,
+		cn: `安排,部署`,
+		type: `m.`,
+	}, {
+		dh: `kwoltiac`,
+		cn: `炒,炒制`,
+		type: `m.`,
+	}, {
+		dh: `vrampiad`,
+		cn: `焖,焖煮`,
+		type: `m.`,
+	}, {
+		dh: `zraltiac`,
+		cn: `卤制,卤味`,
+		type: `m.`,
+	}, {
+		dh: `klintiat`,
+		cn: `冷藏,保鲜`,
+		type: `m.`,
+	}, {
+		dh: `grœntiad`,
+		cn: `解冻,化冻`,
+		type: `m.`,
+	}, {
+		dh: `zrœptiat`,
+		cn: `播种`,
+		type: `m.`,
+	}, {
+		dh: `vlêntiat`,
+		cn: `除草`,
+		type: `m.`,
+	}, {
+		dh: `krœfiat`,
+		cn: `施肥`,
+		type: `m.`,
+	}, {
+		dh: `nworfiad`,
+		cn: `捕捞,渔获`,
+		type: `m.`,
+	}, {
+		dh: `glêmkiat`,
+		cn: `垂钓,钓鱼`,
+		type: `m.`,
+	}, {
+		dh: `slwontiac`,
+		cn: `埋伏,设伏`,
+		type: `m.`,
+	}, {
+		dh: `zrœfliat`,
+		cn: `突袭,偷袭`,
+		type: `m.`,
+	}, {
+		dh: `kwarniat`,
+		cn: `投降,归降`,
+		type: `m.`,
+	}, {
+		dh: `drwelfiat`,
+		cn: `俘虏,俘获`,
+		type: `m.`,
+	}, {
+		dh: `slwarkiat`,
+		cn: `释放,赦免`,
+		type: `m.`,
+	}, {
+		dh: `vrawnkiad`,
+		cn: `囚禁,监禁`,
+		type: `m.`,
+	}, {
+		dh: `glêmpiat`,
+		cn: `审判,审理`,
+		type: `m.`,
+	}, {
+		dh: `zrœrniad`,
+		cn: `处决,行刑`,
+		type: `m.`,
+	}, {
+		dh: `swempiad`,
+		cn: `拍卖,竞拍`,
+		type: `m.`,
+	}, {
+		dh: `stramp`,
+		cn: `阳台`,
+		type: `m.`,
+	}, {
+		dh: `vranst`,
+		cn: `走廊,回廊`,
+		type: `m.`,
+	}, {
+		dh: `plœrk`,
+		cn: `壁炉`,
+		type: `m.`,
+	}, {
+		dh: `dwark`,
+		cn: `烟囱`,
+		type: `m.`,
+	}, {
+		dh: `grwalt`,
+		cn: `篱笆,栅栏`,
+		type: `m.`,
+	}, {
+		dh: `slworn`,
+		cn: `泉眼,涌泉`,
+		type: `m.`,
+	}, {
+		dh: `zwamp`,
+		cn: `水车`,
+		type: `m.`,
+	}, {
+		dh: `frawl`,
+		cn: `谷仓`,
+		type: `m.`,
+	}, {
+		dh: `trwast`,
+		cn: `仓库,货仓`,
+		type: `m.`,
+	}, {
+		dh: `gwarn`,
+		cn: `驿站`,
+		type: `m.`,
+	}, {
+		dh: `slwern`,
+		cn: `客栈,旅店`,
+		type: `m.`,
+	}, {
+		dh: `zwelm`,
+		cn: `栈桥`,
+		type: `m.`,
+	}, {
+		dh: `vwarn`,
+		cn: `浮标`,
+		type: `m.`,
+	}, {
+		dh: `plwolt`,
+		cn: `船桨`,
+		type: `m.`,
+	}, {
+		dh: `krwênk`,
+		cn: `罗盘,指南针`,
+		type: `m.`,
+	}, {
+		dh: `stwark`,
+		cn: `锚,船锚`,
+		type: `m.`,
+	}, {
+		dh: `gwêlf`,
+		cn: `马鞍`,
+		type: `m.`,
+	}, {
+		dh: `frwalt`,
+		cn: `车轮`,
+		type: `m.`,
+	}, {
+		dh: `gworn`,
+		cn: `刹车,制动器`,
+		type: `m.`,
+	}, {
+		dh: `zwern`,
+		cn: `喇叭,号角`,
+		type: `m.`,
+	}, {
+		dh: `blwarn`,
+		cn: `锄头`,
+		type: `m.`,
+	}, {
+		dh: `gwêrn`,
+		cn: `犁,犁铧`,
+		type: `m.`,
+	}, {
+		dh: `slwêrk`,
+		cn: `水缸`,
+		type: `m.`,
+	}, {
+		dh: `zwêrk`,
+		cn: `陶罐,瓦罐`,
+		type: `m.`,
+	}, {
+		dh: `frwênk`,
+		cn: `石臼`,
+		type: `m.`,
+	}, {
+		dh: `gwêlk`,
+		cn: `簸箕`,
+		type: `m.`,
+	}, {
+		dh: `slwêrt`,
+		cn: `筛子,箩筛`,
+		type: `m.`,
+	}, {
+		dh: `zwêlt`,
+		cn: `碾子`,
+		type: `m.`,
+	}, {
+		dh: `frwêlt`,
+		cn: `纺车`,
+		type: `m.`,
+	}, {
+		dh: `blwêst`,
+		cn: `织机,织布机`,
+		type: `m.`,
+	}, {
+		dh: `slwêmp`,
+		cn: `顶针`,
+		type: `m.`,
+	}, {
+		dh: `zwêrp`,
+		cn: `线轴,线团`,
+		type: `m.`,
+	}, {
+		dh: `frwêrp`,
+		cn: `棉布`,
+		type: `m.`,
+	}, {
+		dh: `blwêrp`,
+		cn: `毛线`,
+		type: `m.`,
+	}, {
+		dh: `gwêrp`,
+		cn: `藤条`,
+		type: `m.`,
+	}, {
+		dh: `slwêsn`,
+		cn: `齿轮`,
+		type: `m.`,
+	}, {
+		dh: `frwêsn`,
+		cn: `弹簧`,
+		type: `m.`,
+	}, {
+		dh: `blwêsn`,
+		cn: `发条`,
+		type: `m.`,
+	}, {
+		dh: `zwêsd`,
+		cn: `活塞`,
+		type: `m.`,
+	}, {
+		dh: `slwêsd`,
+		cn: `曲柄`,
+		type: `m.`,
+	}, {
+		dh: `zwarn`,
+		cn: `磨盘`,
+		type: `m.`,
+	}, {
+		dh: `frwêk`,
+		cn: `井绳`,
+		type: `m.`,
+	}, {
+		dh: `blwêk`,
+		cn: `火石`,
+		type: `m.`,
+	}, {
+		dh: `gwênd`,
+		cn: `铁锹`,
+		type: `m.`,
+	}, {
+		dh: `slwênd`,
+		cn: `铲子`,
+		type: `m.`,
+	}, {
+		dh: `frwênd`,
+		cn: `镐,鹤嘴锄`,
+		type: `m.`,
+	}, {
+		dh: `blwênd`,
+		cn: `锉刀`,
+		type: `m.`,
+	}, {
+		dh: `gwêc`,
+		cn: `镊子`,
+		type: `m.`,
+	}, {
+		dh: `slwêc`,
+		cn: `钳子`,
+		type: `m.`,
+	}, {
+		dh: `zwêc`,
+		cn: `扳手`,
+		type: `m.`,
+	}, {
+		dh: `frwêc`,
+		cn: `螺丝刀`,
+		type: `m.`,
+	}, {
+		dh: `blwêf`,
+		cn: `刨子`,
+		type: `m.`,
+	}, {
+		dh: `gwêf`,
+		cn: `木槌`,
+		type: `m.`,
+	}, {
+		dh: `slwôst`,
+		cn: `磨刀石`,
+		type: `m.`,
+	}, {
+		dh: `zwôrk`,
+		cn: `凿子`,
+		type: `m.`,
+	}, {
+		dh: `frwôst`,
+		cn: `斧头`,
+		type: `m.`,
+	}, {
+		dh: `trwôst`,
+		cn: `绶带`,
+		type: `m.`,
+	}, {
+		dh: `gwôsk`,
+		cn: `勋章`,
+		type: `m.`,
+	}, {
+		dh: `blwôlk`,
+		cn: `奖杯`,
+		type: `m.`,
+	}, {
+		dh: `blwônd`,
+		cn: `彩旗`,
+		type: `m.`,
+	}, {
+		dh: `gwônd`,
+		cn: `花环`,
+		type: `m.`,
+	}, {
+		dh: `slwônd`,
+		cn: `桂冠`,
+		type: `m.`,
+	}, {
+		dh: `zwônd`,
+		cn: `印章`,
+		type: `m.`,
+	}, {
+		dh: `frwônd`,
+		cn: `徽章`,
+		type: `m.`,
+	}, {
+		dh: `vlwôst`,
+		cn: `斗篷,披风`,
+		type: `m.`,
+	}, {
+		dh: `gwôst`,
+		cn: `锦旗`,
+		type: `m.`,
+	}, {
+		dh: `hovniz`,
+		cn: `孵化`,
+		type: `d.`,
+
+	}, {
+		dh: `hovniziat`,
+		cn: `雏鸟`,
+		type: `m.`,
+
+	}, {
+		dh: `kraqz`,
+		cn: `结茧`,
+		type: `d.`,
+
+	}, {
+		dh: `kraqziac`,
+		cn: `蚕茧`,
+		type: `m.`,
+
+	}, {
+		dh: `zmacp`,
+		cn: `蜕皮`,
+		type: `d.`,
+
+	}, {
+		dh: `zmacpiad`,
+		cn: `蜕壳`,
+		type: `m.`,
+
+	}, {
+		dh: `swaxt`,
+		cn: `冬眠`,
+		type: `d.`,
+
+	}, {
+		dh: `swaxtiêr`,
+		cn: `冬眠期`,
+		type: `m.`,
+
+	}, {
+		dh: `qovr`,
+		cn: `迁徙`,
+		type: `d.`,
+
+	}, {
+		dh: `qovrinh`,
+		cn: `候鸟`,
+		type: `m.`,
+
+	}, {
+		dh: `mertz`,
+		cn: `产卵`,
+		type: `d.`,
+
+	}, {
+		dh: `mertziat`,
+		cn: `鱼卵`,
+		type: `m.`,
+
+	}, {
+		dh: `plakj`,
+		cn: `筑巢`,
+		type: `d.`,
+
+	}, {
+		dh: `plakjiad`,
+		cn: `巢窝`,
+		type: `m.`,
+
+	}, {
+		dh: `donwz`,
+		cn: `反刍`,
+		type: `d.`,
+
+	}, {
+		dh: `donwziac`,
+		cn: `草料`,
+		type: `m.`,
+
+	}, {
+		dh: `veptj`,
+		cn: `授粉`,
+		type: `d.`,
+
+	}, {
+		dh: `veptjiêr`,
+		cn: `花蜜`,
+		type: `m.`,
+
+	}, {
+		dh: `xwomk`,
+		cn: `落叶`,
+		type: `d.`,
+
+	}, {
+		dh: `xwomkiad`,
+		cn: `枯叶`,
+		type: `m.`,
+
+	}, {
+		dh: `fekht`,
+		cn: `拓印`,
+		type: `d.`,
+
+	}, {
+		dh: `fekhtiad`,
+		cn: `拓片`,
+		type: `m.`,
+
+	}, {
+		dh: `gaxst`,
+		cn: `夯筑`,
+		type: `d.`,
+
+	}, {
+		dh: `gaxstiac`,
+		cn: `地基`,
+		type: `m.`,
+
+	}, {
+		dh: `wostz`,
+		cn: `囤积`,
+		type: `d.`,
+
+	}, {
+		dh: `wostziac`,
+		cn: `仓廪`,
+		type: `m.`,
+
+	}, {
+		dh: `hwidz`,
+		cn: `淘金`,
+		type: `d.`,
+
+	}, {
+		dh: `hwidziad`,
+		cn: `金砂`,
+		type: `m.`,
+
+	}, {
+		dh: `jovkt`,
+		cn: `陨落`,
+		type: `d.`,
+
+	}, {
+		dh: `jovktiat`,
+		cn: `流星`,
+		type: `m.`,
+
+	}, {
+		dh: `venst`,
+		cn: `掠过`,
+		type: `d.`,
+
+	}, {
+		dh: `venstiêr`,
+		cn: `彗星`,
+		type: `m.`,
+
+	}, {
+		dh: `xotlv`,
+		cn: `喷发`,
+		type: `d.`,
+
+	}, {
+		dh: `xotlviat`,
+		cn: `岩浆`,
+		type: `m.`,
+
+	}, {
+		dh: `dimfz`,
+		cn: `坍塌`,
+		type: `d.`,
+
+	}, {
+		dh: `dimfziat`,
+		cn: `瓦砾`,
+		type: `m.`,
+
+	}, {
+		dh: `cwemz`,
+		cn: `冲刷`,
+		type: `d.`,
+
+	}, {
+		dh: `cwemziad`,
+		cn: `冲积扇`,
+		type: `m.`,
+
+	}, {
+		dh: `glorf`,
+		cn: `隆起`,
+		type: `d.`,
+
+	}, {
+		dh: `glorfiac`,
+		cn: `地壳`,
+		type: `m.`,
+
+	}, {
+		dh: `senzt`,
+		cn: `接骨`,
+		type: `d.`,
+
+	}, {
+		dh: `senztiat`,
+		cn: `骨折`,
+		type: `m.`,
+
+	}, {
+		dh: `bolczk`,
+		cn: `止血`,
+		type: `d.`,
+
+	}, {
+		dh: `bolczkiad`,
+		cn: `血痂`,
+		type: `m.`,
+
+	}, {
+		dh: `nirgz`,
+		cn: `流汗`,
+		type: `d.`,
+
+	}, {
+		dh: `nirgziac`,
+		cn: `汗珠`,
+		type: `m.`,
+
+	}, {
+		dh: `festr`,
+		cn: `流泪`,
+		type: `d.`,
+
+	}, {
+		dh: `festriad`,
+		cn: `泪痕`,
+		type: `m.`,
+
+	}, {
+		dh: `yambk`,
+		cn: `犹豫`,
+		type: `d.`,
+
+	}, {
+		dh: `yambkiat`,
+		cn: `踌躇`,
+		type: `m.`,
+
+	}, {
+		dh: `zogvl`,
+		cn: `接穗`,
+		type: `m.`,
+
+	}, {
+		dh: `zogvlod`,
+		cn: `嫁接`,
+		type: `d.`,
+
+	}, {
+		dh: `wazqt`,
+		cn: `插条`,
+		type: `m.`,
+
+	}, {
+		dh: `wazqthiêt`,
+		cn: `扦插`,
+		type: `d.`,
+
+	}, {
+		dh: `vimst`,
+		cn: `秧苗`,
+		type: `m.`,
+
+	}, {
+		dh: `vimstod`,
+		cn: `分蘖`,
+		type: `d.`,
+
+	}, {
+		dh: `tokhr`,
+		cn: `沤肥`,
+		type: `m.`,
+
+	}, {
+		dh: `tokhrhiêt`,
+		cn: `堆肥`,
+		type: `d.`,
+
+	}, {
+		dh: `peqwt`,
+		cn: `淤泥`,
+		type: `m.`,
+
+	}, {
+		dh: `peqwtiêt`,
+		cn: `疏浚`,
+		type: `d.`,
+
+	}, {
+		dh: `geqst`,
+		cn: `堤坝`,
+		type: `m.`,
+
+	}, {
+		dh: `geqstod`,
+		cn: `筑堤`,
+		type: `d.`,
+
+	}, {
+		dh: `wexld`,
+		cn: `沟渠`,
+		type: `m.`,
+
+	}, {
+		dh: `wexldod`,
+		cn: `挖渠`,
+		type: `d.`,
+
+	}, {
+		dh: `harst`,
+		cn: `渡槽`,
+		type: `m.`,
+
+	}, {
+		dh: `harsthiêt`,
+		cn: `引水`,
+		type: `d.`,
+
+	}, {
+		dh: `ziwpt`,
+		cn: `灰浆`,
+		type: `m.`,
+
+	}, {
+		dh: `ziwptiêt`,
+		cn: `砌筑`,
+		type: `d.`,
+
+	}, {
+		dh: `geswm`,
+		cn: `房梁`,
+		type: `m.`,
+
+	}, {
+		dh: `geswmhiêt`,
+		cn: `上梁`,
+		type: `d.`,
+
+	}, {
+		dh: `mawkv`,
+		cn: `屋瓦`,
+		type: `m.`,
+
+	}, {
+		dh: `mawkvod`,
+		cn: `铺瓦`,
+		type: `d.`,
+
+	}, {
+		dh: `plaxn`,
+		cn: `抄本`,
+		type: `m.`,
+
+	}, {
+		dh: `plaxnod`,
+		cn: `抄录`,
+		type: `d.`,
+
+	}, {
+		dh: `rexpt`,
+		cn: `草稿`,
+		type: `m.`,
+
+	}, {
+		dh: `rexptod`,
+		cn: `誊写`,
+		type: `d.`,
+
+	}, {
+		dh: `qeztv`,
+		cn: `勘误表`,
+		type: `m.`,
+
+	}, {
+		dh: `qeztvhiêt`,
+		cn: `校对`,
+		type: `d.`,
+
+	}, {
+		dh: `trawq`,
+		cn: `线装本`,
+		type: `m.`,
+
+	}, {
+		dh: `trawqod`,
+		cn: `装订`,
+		type: `d.`,
+
+	}, {
+		dh: `shotp`,
+		cn: `浆糊`,
+		type: `m.`,
+
+	}, {
+		dh: `shotpod`,
+		cn: `裱糊`,
+		type: `d.`,
+
+	}, {
+		dh: `festm`,
+		cn: `祷词`,
+		type: `m.`,
+
+	}, {
+		dh: `festmhiêt`,
+		cn: `祈祷`,
+		type: `d.`,
+
+	}, {
+		dh: `leftr`,
+		cn: `赎罪`,
+		type: `m.`,
+
+	}, {
+		dh: `leftriêt`,
+		cn: `忏悔`,
+		type: `d.`,
+
+	}, {
+		dh: `praxwd`,
+		cn: `誓言`,
+		type: `m.`,
+
+	}, {
+		dh: `praxwdod`,
+		cn: `发誓`,
+		type: `d.`,
+
+	}, {
+		dh: `jeltb`,
+		cn: `乞丐`,
+		type: `m.`,
+
+	}, {
+		dh: `jeltbhiêt`,
+		cn: `乞讨`,
+		type: `d.`,
+
+	}, {
+		dh: `vesht`,
+		cn: `鼓点`,
+		type: `m.`,
+
+	}, {
+		dh: `veshtod`,
+		cn: `击鼓`,
+		type: `d.`,
+
+	}, {
+		dh: `kimzh`,
+		cn: `踮步`,
+		type: `m.`,
+
+	}, {
+		dh: `kimzhod`,
+		cn: `踮脚`,
+		type: `d.`,
+
+	}, {
+		dh: `doprz`,
+		cn: `跛足`,
+		type: `m.`,
+
+	}, {
+		dh: `doprzod`,
+		cn: `蹒跚`,
+		type: `d.`,
+
+	}, {
+		dh: `negwt`,
+		cn: `愧疚`,
+		type: `m.`,
+
+	}, {
+		dh: `negwtod`,
+		cn: `内疚`,
+		type: `d.`,
+
+	}, {
+		dh: `fadrz`,
+		cn: `呻吟声`,
+		type: `m.`,
+
+	}, {
+		dh: `fadrzhiêt`,
+		cn: `呻吟`,
+		type: `d.`,
+
+	}, {
+		dh: `kazt`,
+		cn: `肺`,
+		type: `m.`,
+
+	}, {
+		dh: `jirf`,
+		cn: `肝`,
+		type: `m.`,
+
+	}, {
+		dh: `qext`,
+		cn: `肾`,
+		type: `m.`,
+
+	}, {
+		dh: `vaxp`,
+		cn: `肠`,
+		type: `m.`,
+
+	}, {
+		dh: `zilpt`,
+		cn: `大脑,脑组织`,
+		type: `m.`,
+
+	}, {
+		dh: `feptj`,
+		cn: `神经`,
+		type: `m.`,
+
+	}, {
+		dh: `hwotx`,
+		cn: `瞳孔`,
+		type: `m.`,
+
+	}, {
+		dh: `gawnt`,
+		cn: `睫毛`,
+		type: `m.`,
+
+	}, {
+		dh: `molqf`,
+		cn: `眼睑`,
+		type: `m.`,
+
+	}, {
+		dh: `swodt`,
+		cn: `脊椎`,
+		type: `m.`,
+
+	}, {
+		dh: `veltz`,
+		cn: `极光`,
+		type: `m.`,
+
+	}, {
+		dh: `qyodr`,
+		cn: `星云`,
+		type: `m.`,
+
+	}, {
+		dh: `lonqx`,
+		cn: `青蛙`,
+		type: `m.`,
+
+	}, {
+		dh: `tehmx`,
+		cn: `乌龟`,
+		type: `m.`,
+
+	}, {
+		dh: `byofz`,
+		cn: `刺猬`,
+		type: `m.`,
+
+	}, {
+		dh: `kalxg`,
+		cn: `蝙蝠`,
+		type: `m.`,
+
+	}, {
+		dh: `zintev`,
+		cn: `松鼠`,
+		type: `m.`,
+
+	}, {
+		dh: `flexz`,
+		cn: `猫头鹰`,
+		type: `m.`,
+
+	}, {
+		dh: `pexwl`,
+		cn: `鸽子`,
+		type: `m.`,
+
+	}, {
+		dh: `xigtb`,
+		cn: `喜鹊`,
+		type: `m.`,
+
+	}, {
+		dh: `rwaltz`,
+		cn: `乌鸦`,
+		type: `m.`,
+
+	}, {
+		dh: `snefk`,
+		cn: `麻雀`,
+		type: `m.`,
+
+	}, {
+		dh: `khopz`,
+		cn: `鲸`,
+		type: `m.`,
+
+	}, {
+		dh: `vawst`,
+		cn: `鲨鱼`,
+		type: `m.`,
+
+	}, {
+		dh: `cewnz`,
+		cn: `海豚`,
+		type: `m.`,
+
+	}, {
+		dh: `johvz`,
+		cn: `螃蟹`,
+		type: `m.`,
+
+	}, {
+		dh: `taynz`,
+		cn: `龙虾`,
+		type: `m.`,
+
+	}, {
+		dh: `gowpt`,
+		cn: `蜗牛`,
+		type: `m.`,
+
+	}, {
+		dh: `liztq`,
+		cn: `蜻蜓`,
+		type: `m.`,
+
+	}, {
+		dh: `hovqk`,
+		cn: `螳螂`,
+		type: `m.`,
+
+	}, {
+		dh: `sewkt`,
+		cn: `蝌蚪`,
+		type: `m.`,
+
+	}, {
+		dh: `mabwt`,
+		cn: `蜥蜴`,
+		type: `m.`,
+
+	}, {
+		dh: `nespk`,
+		cn: `壁虎`,
+		type: `m.`,
+
+	}, {
+		dh: `worxt`,
+		cn: `鳄鱼`,
+		type: `m.`,
+
+	}, {
+		dh: `paxwl`,
+		cn: `桃`,
+		type: `m.`,
+
+	}, {
+		dh: `qijwt`,
+		cn: `杏`,
+		type: `m.`,
+
+	}, {
+		dh: `bofgz`,
+		cn: `樱桃`,
+		type: `m.`,
+
+	}, {
+		dh: `sitwk`,
+		cn: `石榴`,
+		type: `m.`,
+
+	}, {
+		dh: `dozin`,
+		cn: `柿子`,
+		type: `m.`,
+
+	}, {
+		dh: `kwipt`,
+		cn: `橄榄`,
+		type: `m.`,
+
+	}, {
+		dh: `zormx`,
+		cn: `椰子`,
+		type: `m.`,
+
+	}, {
+		dh: `veqnx`,
+		cn: `芒果`,
+		type: `m.`,
+
+	}, {
+		dh: `fopwz`,
+		cn: `西瓜`,
+		type: `m.`,
+
+	}, {
+		dh: `nyomx`,
+		cn: `南瓜`,
+		type: `m.`,
+
+	}, {
+		dh: `twomz`,
+		cn: `黄瓜`,
+		type: `m.`,
+
+	}, {
+		dh: `helvz`,
+		cn: `茄子`,
+		type: `m.`,
+
+	}, {
+		dh: `mivqz`,
+		cn: `洋葱`,
+		type: `m.`,
+
+	}, {
+		dh: `kexpt`,
+		cn: `大蒜`,
+		type: `m.`,
+
+	}, {
+		dh: `zaxwl`,
+		cn: `姜`,
+		type: `m.`,
+
+	}, {
+		dh: `getxn`,
+		cn: `萝卜`,
+		type: `m.`,
+	},
+	{
+		dh: `klonbrt`,
+		cn: `巡逻`,
+		type: `d.`,
+
+	}, {
+		dh: `drenb`,
+		cn: `潜水`,
+		type: `d.`,
+
+	}, {
+		dh: `fronz`,
+		cn: `撒种`,
+		type: `d.`,
+
+	}, {
+		dh: `grolm`,
+		cn: `收割`,
+		type: `d.`,
+
+	}, {
+		dh: `hlorm`,
+		cn: `挖掘`,
+		type: `d.`,
+
+	}, {
+		dh: `mizwk`,
+		cn: `搅拌`,
+		type: `d.`,
+
+	}, {
+		dh: `snebx`,
+		cn: `缝补`,
+		type: `d.`,
+
+	}, {
+		dh: `krivs`,
+		cn: `烤制`,
+		type: `d.`,
+
+	}, {
+		dh: `vembr`,
+		cn: `编织`,
+		type: `d.`,
+
+	}, {
+		dh: `grirt`,
+		cn: `磨砺`,
+		type: `d.`,
+
+	}, {
+		dh: `blard`,
+		cn: `呼唤`,
+		type: `d.`,
+
+	}, {
+		dh: `fzats`,
+		cn: `驮运`,
+		type: `d.`,
+
+	}, {
+		dh: `kwoz`,
+		cn: `敲打`,
+		type: `d.`,
+
+	}, {
+		dh: `znad`,
+		cn: `抓握`,
+		type: `d.`,
+
+	}, {
+		dh: `shrold`,
+		cn: `翱翔`,
+		type: `d.`,
+
+	}, {
+		dh: `swarnod`,
+		cn: `停泊`,
+		type: `d.`,
+
+	}, {
+		dh: `girnvod`,
+		cn: `种菜`,
+		type: `d.`,
+
+	}, {
+		dh: `kweftod`,
+		cn: `拱起`,
+		type: `d.`,
+
+	}, {
+		dh: `twerthiêt`,
+		cn: `赶集`,
+		type: `d.`,
+
+	}, {
+		dh: `nemblod`,
+		cn: `起云`,
+		type: `d.`,
+
+	}, {
+		dh: `plawrod`,
+		cn: `覆泥`,
+		type: `d.`,
+
+	}, {
+		dh: `prenskod`,
+		cn: `滴落`,
+		type: `d.`,
+
+	}, {
+		dh: `skrofiêt`,
+		cn: `刻画`,
+		type: `d.`,
+
+	}, {
+		dh: `kvornhiêt`,
+		cn: `环绕`,
+		type: `d.`,
+
+	}, {
+		dh: `bladgod`,
+		cn: `上锁`,
+		type: `d.`,
+
+	}, {
+		dh: `treptod`,
+		cn: `登阶`,
+		type: `d.`,
+
+	}, {
+		dh: `warshod`,
+		cn: `翻涌`,
+		type: `d.`,
+
+	}, {
+		dh: `drefonod`,
+		cn: `犁沟`,
+		type: `d.`,
+
+	}, {
+		dh: `zlonbod`,
+		cn: `摇铃`,
+		type: `d.`,
+
+	}, {
+		dh: `gropizod`,
+		cn: `耕种`,
+		type: `d.`,
+
+	}, {
+		dh: `cridk`,
+		cn: `攀登`,
+		type: `d.`,
+
+	}, {
+		dh: `blekst`,
+		cn: `咆哮`,
+		type: `d.`,
+
+	}, {
+		dh: `clolax`,
+		cn: `疾驰`,
+		type: `d.`,
+
+	}, {
+		dh: `sprewg`,
+		cn: `洒落`,
+		type: `d.`,
+
+	}, {
+		dh: `hwenk`,
+		cn: `闷燃`,
+		type: `d.`,
+
+	}, {
+		dh: `fwopis`,
+		cn: `牵引`,
+		type: `d.`,
+
+	}, {
+		dh: `klynsk`,
+		cn: `折叠`,
+		type: `d.`,
+
+	}, {
+		dh: `vlarz`,
+		cn: `飘荡`,
+		type: `d.`,
+
+	}, {
+		dh: `swertk`,
+		cn: `醒转`,
+		type: `d.`,
+
+	}, {
+		dh: `krelt`,
+		cn: `颤抖`,
+		type: `d.`,
+
+	}, {
+		dh: `dwingd`,
+		cn: `缠绕`,
+		type: `d.`,
+
+	}, {
+		dh: `flarnk`,
+		cn: `尖叫`,
+		type: `d.`,
+
+	}, {
+		dh: `pelet`,
+		cn: `拖延`,
+		type: `d.`,
+
+	}, {
+		dh: `stavz`,
+		cn: `斥喝`,
+		type: `d.`,
+
+	}, {
+		dh: `chwarnk`,
+		cn: `撕扯`,
+		type: `d.`,
+
+	}, {
+		dh: `tromb`,
+		cn: `压制`,
+		type: `d.`,
+
+	}, {
+		dh: `blivn`,
+		cn: `闪烁`,
+		type: `d.`,
+
+	}, {
+		dh: `snaft`,
+		cn: `屏息`,
+		type: `d.`,
+
+	}, {
+		dh: `klandr`,
+		cn: `诵读`,
+		type: `d.`,
+
+	}, {
+		dh: `wrenth`,
+		cn: `徘徊`,
+		type: `d.`,
+
+	}, {
+		dh: `tlornb`,
+		cn: `港口`,
+		type: `m.`,
+
+	}, {
+		dh: `girnv`,
+		cn: `蔬菜`,
+		type: `m.`,
+
+	}, {
+		dh: `kweft`,
+		cn: `山丘`,
+		type: `m.`,
+
+	}, {
+		dh: `twerth`,
+		cn: `集市`,
+		type: `m.`,
+
+	}, {
+		dh: `nembl`,
+		cn: `云`,
+		type: `m.`,
+
+	}, {
+		dh: `plawr`,
+		cn: `泥土`,
+		type: `m.`,
+
+	}, {
+		dh: `prensk`,
+		cn: `水滴`,
+		type: `m.`,
+
+	}, {
+		dh: `skrof`,
+		cn: `划痕`,
+		type: `m.`,
+
+	}, {
+		dh: `kvorn`,
+		cn: `圆周`,
+		type: `m.`,
+
+	}, {
+		dh: `bladg`,
+		cn: `锁扣`,
+		type: `m.`,
+
+	}, {
+		dh: `trept`,
+		cn: `台阶`,
+		type: `m.`,
+
+	}, {
+		dh: `warsh`,
+		cn: `浪涛`,
+		type: `m.`,
+
+	}, {
+		dh: `drefon`,
+		cn: `垄沟`,
+		type: `m.`,
+
+	}, {
+		dh: `zlonb`,
+		cn: `铃铛`,
+		type: `m.`,
+
+	}, {
+		dh: `gropiz`,
+		cn: `田地`,
+		type: `m.`,
+
+	}, {
+		dh: `klonbrtiad`,
+		cn: `巡逻队`,
+		type: `m.`,
+
+	}, {
+		dh: `drenbiac`,
+		cn: `潜水活动`,
+		type: `m.`,
+
+	}, {
+		dh: `fronziad`,
+		cn: `撒种时节`,
+		type: `m.`,
+
+	}, {
+		dh: `grolmiac`,
+		cn: `收割时节`,
+		type: `m.`,
+
+	}, {
+		dh: `hloriad`,
+		cn: `挖掘作业`,
+		type: `m.`,
+
+	}, {
+		dh: `mizwkiad`,
+		cn: `搅拌之物`,
+		type: `m.`,
+
+	}, {
+		dh: `snebxiac`,
+		cn: `缝补针脚`,
+		type: `m.`,
+
+	}, {
+		dh: `krivsiad`,
+		cn: `烤制炉火`,
+		type: `m.`,
+
+	}, {
+		dh: `vembriad`,
+		cn: `编织纹样`,
+		type: `m.`,
+
+	}, {
+		dh: `grirtiat`,
+		cn: `磨砺之功`,
+		type: `m.`,
+
+	}, {
+		dh: `blardiad`,
+		cn: `呼唤之声`,
+		type: `m.`,
+
+	}, {
+		dh: `fzatsiac`,
+		cn: `驮运载具`,
+		type: `m.`,
+
+	}, {
+		dh: `kwaziac`,
+		cn: `敲打节奏`,
+		type: `m.`,
+
+	}, {
+		dh: `znadiad`,
+		cn: `抓握之势`,
+		type: `m.`,
+
+	}, {
+		dh: `cridkiêr`,
+		cn: `攀登者`,
+		type: `m.`,
+
+	}, {
+		dh: `trowliêr`,
+		cn: `牵引者`,
+		type: `m.`,
+
+	}, {
+		dh: `flarnkiêr`,
+		cn: `尖叫者`,
+		type: `m.`,
+
+	}, {
+		dh: `chwarnkinh`,
+		cn: `撕扯碎片`,
+		type: `m.`,
+
+	}, {
+		dh: `dwingdinh`,
+		cn: `缠绕物`,
+		type: `m.`,
+
+	}, {
+		dh: `trombinh`,
+		cn: `压镇石`,
+		type: `m.`,
+
+	}, {
+		dh: `krindinh`,
+		cn: `折痕`,
+		type: `m.`,
+
+	}, {
+		dh: `peletiad`,
+		cn: `拖延之举`,
+		type: `m.`,
+
+	}, {
+		dh: `klandriac`,
+		cn: `诵读之声`,
+		type: `m.`,
+
+	}, {
+		dh: `wrenthiad`,
+		cn: `徘徊之路`,
+		type: `m.`,
+
+	}, {
+		dh: `blivniac`,
+		cn: `闪烁之光`,
+		type: `m.`,
+
+	}, {
+		dh: `snaftiad`,
+		cn: `屏息之刻`,
+		type: `m.`,
+
+	}, {
+		dh: `kreltiac`,
+		cn: `颤抖之势`,
+		type: `m.`,
+
+	}, {
+		dh: `swertkiad`,
+		cn: `苏醒之时`,
+		type: `m.`,
+
+	}, {
+		dh: `clolaxiac`,
+		cn: `疾驰之势`,
+		type: `m.`,
+
+	}, {
+		dh: `sprewgiad`,
+		cn: `洒落之迹`,
+		type: `m.`,
+
+	}, {
+		dh: `vlarziat`,
+		cn: `飘荡之姿`,
+		type: `m.`,
+
+	}, {
+		dh: `zrengiad`,
+		cn: `斥喝之语`,
+		type: `m.`,
+
+	}, {
+		dh: `shroldiad`,
+		cn: `翱翔之态`,
+		type: `m.`,
+
+	}, {
+		dh: `blekstiac`,
+		cn: `咆哮之声`,
+		type: `m.`,
+
+	}, {
+		dh: `hwenkiad`,
+		cn: `闷燃之火`,
+		type: `m.`,
+
+	}, {
+		dh: `vrelag`,
+		cn: `狐狸`,
+		type: `m.`,
+
+	}, {
+		dh: `snokb`,
+		cn: `野猪`,
+		type: `m.`,
+
+	}, {
+		dh: `klornt`,
+		cn: `秃鹫`,
+		type: `m.`,
+
+	}, {
+		dh: `plewn`,
+		cn: `竹鼠`,
+		type: `m.`,
+
+	}, {
+		dh: `zlarp`,
+		cn: `守宫`,
+		type: `m.`,
+
+	}, {
+		dh: `glorsh`,
+		cn: `果蝠`,
+		type: `m.`,
+
+	}, {
+		dh: `wempl`,
+		cn: `鳐鱼`,
+		type: `m.`,
+
+	}, {
+		dh: `frinwk`,
+		cn: `蟾蜍`,
+		type: `m.`,
+
+	}, {
+		dh: `zinkr`,
+		cn: `山羊`,
+		type: `m.`,
+
+	}, {
+		dh: `spilov`,
+		cn: `龟`,
+		type: `m.`,
+
+	}, {
+		dh: `shtarnb`,
+		cn: `橡树`,
+		type: `m.`,
+
+	}, {
+		dh: `trigr`,
+		cn: `藤蔓`,
+		type: `m.`,
+
+	}, {
+		dh: `trewl`,
+		cn: `麦穗`,
+		type: `m.`,
+
+	}, {
+		dh: `whornk`,
+		cn: `苔藓`,
+		type: `m.`,
+
+	}, {
+		dh: `zlwornx`,
+		cn: `菌菇`,
+		type: `m.`,
+
+	}, {
+		dh: `snarpt`,
+		cn: `灌木`,
+		type: `m.`,
+
+	}, {
+		dh: `knavog`,
+		cn: `芦苇`,
+		type: `m.`,
+
+	}, {
+		dh: `thranp`,
+		cn: `峡谷`,
+		type: `m.`,
+
+	}, {
+		dh: `glawn`,
+		cn: `雾气`,
+		type: `m.`,
+
+	}, {
+		dh: `grwolnt`,
+		cn: `冰川`,
+		type: `m.`,
+
+	}, {
+		dh: `drenst`,
+		cn: `暴雨`,
+		type: `m.`,
+
+	}, {
+		dh: `plowen`,
+		cn: `潮汐`,
+		type: `m.`,
+
+	}, {
+		dh: `shrenk`,
+		cn: `尘土`,
+		type: `m.`,
+
+	}, {
+		dh: `wromd`,
+		cn: `彩虹`,
+		type: `m.`,
+
+	}, {
+		dh: `tlenk`,
+		cn: `闪电`,
+		type: `m.`,
+
+	}, {
+		dh: `brynz`,
+		cn: `陨石`,
+		type: `m.`,
+
+	}, {
+		dh: `qlwornk`,
+		cn: `关节`,
+		type: `m.`,
+
+	}, {
+		dh: `skrwnz`,
+		cn: `拳头`,
+		type: `m.`,
+
+	}, {
+		dh: `twarnzh`,
+		cn: `肋骨`,
+		type: `m.`,
+
+	}, {
+		dh: `frwolnk`,
+		cn: `肌腱`,
+		type: `m.`,
+
+	}, {
+		dh: `vrown`,
+		cn: `脉搏`,
+		type: `m.`,
+
+	}, {
+		dh: `gwelnz`,
+		cn: `瞳仁`,
+		type: `m.`,
+
+	}, {
+		dh: `klwernx`,
+		cn: `虹膜`,
+		type: `m.`,
+
+	}, {
+		dh: `krepn`,
+		cn: `锤子`,
+		type: `m.`,
+
+	}, {
+		dh: `blavk`,
+		cn: `镰刀`,
+		type: `m.`,
+
+	}, {
+		dh: `swernzh`,
+		cn: `镐头`,
+		type: `m.`,
+
+	}, {
+		dh: `vlerd`,
+		cn: `锯子`,
+		type: `m.`,
+
+	}, {
+		dh: `klodn`,
+		cn: `绳索`,
+		type: `m.`,
+
+	}, {
+		dh: `pwerk`,
+		cn: `木筏`,
+		type: `m.`,
+
+	}, {
+		dh: `shronl`,
+		cn: `扁担`,
+		type: `m.`,
+
+	}, {
+		dh: `zlapm`,
+		cn: `笸箩`,
+		type: `m.`,
+
+	}, {
+		dh: `trevn`,
+		cn: `陶罐`,
+		type: `m.`,
+
+	}, {
+		dh: `shtrwnk`,
+		cn: `蜂蜜`,
+		type: `m.`,
+
+	}, {
+		dh: `fvezm`,
+		cn: `粥`,
+		type: `m.`,
+
+	}, {
+		dh: `grwelnx`,
+		cn: `豆浆`,
+		type: `m.`,
+
+	}, {
+		dh: `gwipx`,
+		cn: `酱油`,
+		type: `m.`,
+
+	}, {
+		dh: `snend`,
+		cn: `腌菜`,
+		type: `m.`,
+
+	}, {
+		dh: `mranx`,
+		cn: `辣椒`,
+		type: `m.`,
+
+	}, {
+		dh: `pelyd`,
+		cn: `糕点`,
+		type: `m.`,
+
+	}, {
+		dh: `dwokt`,
+		cn: `碉堡`,
+		type: `m.`,
 	}
+
 ];
