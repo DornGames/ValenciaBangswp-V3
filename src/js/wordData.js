@@ -15756,5 +15756,809 @@ globalThis.wordData = [
 		cn: `相机,照相机`,
 		type: `m.`,
 
+	}, // 2026.11.26 — 日常名词扩充：30组裸名词派生动词
+	{
+		dh: `shamp`,
+		cn: `洗发水,洗发液`,
+		type: `m.`,
+
+	}, {
+		dh: `shampiêt`,
+		cn: `用洗发水洗头`,
+		type: `d.`,
+
+	}, {
+		dh: `sponk`,
+		cn: `海绵`,
+		type: `m.`,
+
+	}, {
+		dh: `sponkiêt`,
+		cn: `用海绵擦洗`,
+		type: `d.`,
+
+	}, {
+		dh: `labet`,
+		cn: `标签,标记牌`,
+		type: `m.`,
+
+	}, {
+		dh: `labetiêt`,
+		cn: `贴标签,标记`,
+		type: `d.`,
+
+	}, {
+		dh: `glup`,
+		cn: `胶水,黏合剂`,
+		type: `m.`,
+
+	}, {
+		dh: `glupiêt`,
+		cn: `用胶粘合`,
+		type: `d.`,
+
+	}, {
+		dh: `teip`,
+		cn: `胶带,封箱胶带`,
+		type: `m.`,
+
+	}, {
+		dh: `teipiêt`,
+		cn: `用胶带粘贴,用胶带封装`,
+		type: `d.`,
+
+	}, {
+		dh: `butn`,
+		cn: `纽扣`,
+		type: `m.`,
+
+	}, {
+		dh: `butniêt`,
+		cn: `扣上纽扣`,
+		type: `d.`,
+
+	}, {
+		dh: `zhipr`,
+		cn: `拉链`,
+		type: `m.`,
+
+	}, {
+		dh: `zhipriêt`,
+		cn: `拉上拉链`,
+		type: `d.`,
+
+	}, {
+		dh: `brum`,
+		cn: `扫帚`,
+		type: `m.`,
+
+	}, {
+		dh: `brumiêt`,
+		cn: `用扫帚扫`,
+		type: `d.`,
+
+	}, {
+		dh: `alærm`,
+		cn: `警报,警铃`,
+		type: `m.`,
+
+	}, {
+		dh: `alærmiêt`,
+		cn: `发出警报,发出警示`,
+		type: `d.`,
+
+	}, {
+		dh: `kash`,
+		cn: `现金,现钞`,
+		type: `m.`,
+
+	}, {
+		dh: `kashiêt`,
+		cn: `兑现支票,将支票兑成现金`,
+		type: `d.`,
+
+	}, {
+		dh: `kashr`,
+		cn: `收银机,收款机`,
+		type: `m.`,
+
+	}, {
+		dh: `kashriêt`,
+		cn: `操作收银机,为商品结账`,
+		type: `d.`,
+
+	}, {
+		dh: `signet`,
+		cn: `签名`,
+		type: `m.`,
+
+	}, {
+		dh: `signetiêt`,
+		cn: `签署文件,签名`,
+		type: `d.`,
+
+	}, {
+		dh: `interv`,
+		cn: `面试,采访`,
+		type: `m.`,
+
+	}, {
+		dh: `interviêt`,
+		cn: `面试,采访`,
+		type: `d.`,
+
+	}, {
+		dh: `refond`,
+		cn: `退款,退还款项`,
+		type: `m.`,
+
+	}, {
+		dh: `refondiêt`,
+		cn: `退款,退还款项`,
+		type: `d.`,
+
+	}, {
+		dh: `veika`,
+		cn: `假期,休假`,
+		type: `m.`,
+
+	}, {
+		dh: `veikahiêt`,
+		cn: `度假,休假`,
+		type: `d.`,
+
+	}, {
+		dh: `næp`,
+		cn: `午睡,小睡`,
+		type: `m.`,
+
+	}, {
+		dh: `næpiêt`,
+		cn: `午睡,小睡`,
+		type: `d.`,
+
+	}, {
+		dh: `skrêt`,
+		cn: `屏幕截图,截图`,
+		type: `m.`,
+
+	}, {
+		dh: `skrêtiêt`,
+		cn: `截屏,截取屏幕图像`,
+		type: `d.`,
+
+	}, {
+		dh: `bukm`,
+		cn: `书签,网页书签`,
+		type: `m.`,
+
+	}, {
+		dh: `bukmiêt`,
+		cn: `给页面添加书签`,
+		type: `d.`,
+
+	}, {
+		dh: `stomp`,
+		cn: `邮票`,
+		type: `m.`,
+
+	}, {
+		dh: `stompiêt`,
+		cn: `给信件贴邮票,加盖邮戳`,
+		type: `d.`,
+
+	}, {
+		dh: `plag`,
+		cn: `插头`,
+		type: `m.`,
+
+	}, {
+		dh: `plagiêt`,
+		cn: `插上插头,接通插头`,
+		type: `d.`,
+
+	}, {
+		dh: `dren`,
+		cn: `排水口,排水管`,
+		type: `m.`,
+
+	}, {
+		dh: `dreniêt`,
+		cn: `排出液体,排干`,
+		type: `d.`,
+
+	}, {
+		dh: `papklip`,
+		cn: `回形针`,
+		type: `m.`,
+
+	}, {
+		dh: `papklipiêt`,
+		cn: `用回形针夹住纸张`,
+		type: `d.`,
+
+	}, {
+		dh: `stapl`,
+		cn: `订书机`,
+		type: `m.`,
+
+	}, {
+		dh: `stapliêt`,
+		cn: `用订书机装订`,
+		type: `d.`,
+
+	}, {
+		dh: `fæn`,
+		cn: `电风扇,风扇`,
+		type: `m.`,
+
+	}, {
+		dh: `fæniêt`,
+		cn: `用风扇扇风`,
+		type: `d.`,
+
+	}, {
+		dh: `wisk`,
+		cn: `打蛋器,搅拌器`,
+		type: `m.`,
+
+	}, {
+		dh: `wiskiêt`,
+		cn: `搅打,打发蛋液`,
+		type: `d.`,
+
+	}, {
+		dh: `lædl`,
+		cn: `长柄汤勺,汤勺`,
+		type: `m.`,
+
+	}, {
+		dh: `lædliêt`,
+		cn: `用长柄勺舀取`,
+		type: `d.`,
+
+	}, {
+		dh: `ræk`,
+		cn: `耙子`,
+		type: `m.`,
+
+	}, {
+		dh: `rækiêt`,
+		cn: `用耙子耙地,耙落叶`,
+		type: `d.`,
+
+	}, {
+		dh: `shov`,
+		cn: `雪铲,除雪铲`,
+		type: `m.`,
+
+	}, {
+		dh: `shoviêt`,
+		cn: `用雪铲铲雪`,
+		type: `d.`,
+
+	}, {
+		dh: `hoze`,
+		cn: `软管,浇水管`,
+		type: `m.`,
+
+	}, {
+		dh: `hozehiêt`,
+		cn: `用水管浇灌,用水管冲洗`,
+		type: `d.`,
+
+	}, {
+		dh: `pota`,
+		cn: `花盆`,
+		type: `m.`,
+
+	}, {
+		dh: `potahiêt`,
+		cn: `把植物栽入花盆`,
+		type: `d.`,
+
+	}, // 2026.11.26 — 日常名词扩充：30组裸动词派生动作名词
+	{
+		dh: `closh`,
+		cn: `洗碗`,
+		type: `d.`,
+
+	}, {
+		dh: `closhiat`,
+		cn: `洗碗,洗碗活动`,
+		type: `m.`,
+
+	}, {
+		dh: `drêv`,
+		cn: `烘干衣物,烘衣服`,
+		type: `d.`,
+
+	}, {
+		dh: `drêviat`,
+		cn: `烘干衣物,烘衣活动`,
+		type: `m.`,
+
+	}, {
+		dh: `plosh`,
+		cn: `晾晒衣物,晾衣服`,
+		type: `d.`,
+
+	}, {
+		dh: `ploshiad`,
+		cn: `晾衣,晾晒衣物的活动`,
+		type: `m.`,
+
+	}, {
+		dh: `frust`,
+		cn: `掸灰,给家具除尘`,
+		type: `d.`,
+
+	}, {
+		dh: `frustiad`,
+		cn: `掸灰,除尘活动`,
+		type: `m.`,
+
+	}, {
+		dh: `prêf`,
+		cn: `预热烤箱`,
+		type: `d.`,
+
+	}, {
+		dh: `prêfiat`,
+		cn: `预热烤箱,预热过程`,
+		type: `m.`,
+
+	}, {
+		dh: `blæd`,
+		cn: `铺床,整理床铺`,
+		type: `d.`,
+
+	}, {
+		dh: `blædiat`,
+		cn: `铺床,整理床铺的活动`,
+		type: `m.`,
+
+	}, {
+		dh: `zænk`,
+		cn: `设置闹钟`,
+		type: `d.`,
+
+	}, {
+		dh: `zænkiad`,
+		cn: `设置闹钟,闹钟设置`,
+		type: `m.`,
+
+	}, {
+		dh: `fliw`,
+		cn: `用牙线清洁牙缝`,
+		type: `d.`,
+
+	}, {
+		dh: `fliwiat`,
+		cn: `用牙线清洁,牙线护理`,
+		type: `m.`,
+
+	}, {
+		dh: `sœl`,
+		cn: `涂防晒霜`,
+		type: `d.`,
+
+	}, {
+		dh: `sœliac`,
+		cn: `涂防晒霜,防晒护理`,
+		type: `m.`,
+
+	}, {
+		dh: `mœrd`,
+		cn: `涂润肤霜,保湿`,
+		type: `d.`,
+
+	}, {
+		dh: `mœrdiat`,
+		cn: `涂润肤霜,保湿护理`,
+		type: `m.`,
+
+	}, {
+		dh: `zwêl`,
+		cn: `吹干头发,用吹风机吹发`,
+		type: `d.`,
+
+	}, {
+		dh: `zwêliat`,
+		cn: `吹干头发,吹发过程`,
+		type: `m.`,
+
+	}, {
+		dh: `nœv`,
+		cn: `把闹钟设为稍后响,按贪睡键`,
+		type: `d.`,
+
+	}, {
+		dh: `nœviat`,
+		cn: `贪睡,延后闹钟响铃`,
+		type: `m.`,
+
+	}, {
+		dh: `trêk`,
+		cn: `给文件添加附件`,
+		type: `d.`,
+
+	}, {
+		dh: `trêkiad`,
+		cn: `附件,添加附件的行为`,
+		type: `m.`,
+
+	}, {
+		dh: `zœl`,
+		cn: `保存文件`,
+		type: `d.`,
+
+	}, {
+		dh: `zœliat`,
+		cn: `文件保存,保存行为`,
+		type: `m.`,
+
+	}, {
+		dh: `træp`,
+		cn: `登录账户`,
+		type: `d.`,
+
+	}, {
+		dh: `træpiad`,
+		cn: `登录,账户登录行为`,
+		type: `m.`,
+
+	}, {
+		dh: `dænt`,
+		cn: `退出账户,登出`,
+		type: `d.`,
+
+	}, {
+		dh: `dæntiad`,
+		cn: `登出,退出账户行为`,
+		type: `m.`,
+
+	}, {
+		dh: `kælt`,
+		cn: `注册账户`,
+		type: `d.`,
+
+	}, {
+		dh: `kæltiad`,
+		cn: `注册,账户注册`,
+		type: `m.`,
+
+	}, {
+		dh: `frêp`,
+		cn: `更新软件`,
+		type: `d.`,
+
+	}, {
+		dh: `frêpiat`,
+		cn: `软件更新,更新行为`,
+		type: `m.`,
+
+	}, {
+		dh: `dræz`,
+		cn: `删除文件`,
+		type: `d.`,
+
+	}, {
+		dh: `dræziat`,
+		cn: `文件删除,删除行为`,
+		type: `m.`,
+
+	}, {
+		dh: `plisk`,
+		cn: `扫描文档`,
+		type: `d.`,
+
+	}, {
+		dh: `pliskiat`,
+		cn: `扫描文档,文档扫描`,
+		type: `m.`,
+
+	}, {
+		dh: `dæv`,
+		cn: `给汽车加油`,
+		type: `d.`,
+
+	}, {
+		dh: `dæviat`,
+		cn: `汽车加油,加油过程`,
+		type: `m.`,
+
+	}, {
+		dh: `kæsh`,
+		cn: `扣紧安全带`,
+		type: `d.`,
+
+	}, {
+		dh: `kæshiat`,
+		cn: `扣紧安全带,系安全带的动作`,
+		type: `m.`,
+
+	}, {
+		dh: `zvêp`,
+		cn: `拔掉电器插头`,
+		type: `d.`,
+
+	}, {
+		dh: `zvêpiat`,
+		cn: `拔掉插头,断开电源`,
+		type: `m.`,
+
+	}, {
+		dh: `stœr`,
+		cn: `分类垃圾,分拣回收物`,
+		type: `d.`,
+
+	}, {
+		dh: `stœriat`,
+		cn: `垃圾分类,回收物分拣`,
+		type: `m.`,
+
+	}, {
+		dh: `bæbisit`,
+		cn: `临时照看孩子,照看婴幼儿`,
+		type: `d.`,
+
+	}, {
+		dh: `bæbisitiad`,
+		cn: `照看孩子,育儿照护活动`,
+		type: `m.`,
+
+	}, {
+		dh: `deli`,
+		cn: `投递,送货`,
+		type: `d.`,
+
+	}, {
+		dh: `delihiad`,
+		cn: `投递,送货活动`,
+		type: `m.`,
+
+	}, {
+		dh: `plum`,
+		cn: `安装水管,维修水管`,
+		type: `d.`,
+
+	}, {
+		dh: `plumiac`,
+		cn: `水管安装与维修`,
+		type: `m.`,
+
+	}, {
+		dh: `wire`,
+		cn: `布设电线,接电线`,
+		type: `d.`,
+
+	}, {
+		dh: `wirehiad`,
+		cn: `布线,电线安装`,
+		type: `m.`,
+
+	}, {
+		dh: `carp`,
+		cn: `做木工,制作或修理木制品`,
+		type: `d.`,
+
+	}, {
+		dh: `carpiat`,
+		cn: `木工制作,木工活`,
+		type: `m.`,
+
+	}, {
+		dh: `pênt`,
+		cn: `给表面上漆,刷墙`,
+		type: `d.`,
+
+	}, {
+		dh: `pêntiad`,
+		cn: `刷漆,上漆活动`,
+		type: `m.`,
+
+	}, // 2026.11.26 — 日常基础名词
+	{
+		dh: `bræsh`,
+		cn: `儿子`,
+		type: `m.`,
+
+	}, {
+		dh: `plœst`,
+		cn: `女儿`,
+		type: `m.`,
+
+	}, {
+		dh: `dœn`,
+		cn: `表亲,堂亲`,
+		type: `m.`,
+
+	}, {
+		dh: `kæth`,
+		cn: `阿姨,姑姑`,
+		type: `m.`,
+
+	}, {
+		dh: `vrom`,
+		cn: `叔叔,舅舅`,
+		type: `m.`,
+
+	}, {
+		dh: `drêth`,
+		cn: `祖父母,外祖父母`,
+		type: `m.`,
+
+	}, {
+		dh: `særn`,
+		cn: `卧室`,
+		type: `m.`,
+
+	}, {
+		dh: `glæv`,
+		cn: `客厅,起居室`,
+		type: `m.`,
+
+	}, {
+		dh: `frond`,
+		cn: `饭厅,用餐室`,
+		type: `m.`,
+
+	}, {
+		dh: `sclæp`,
+		cn: `书房,学习室`,
+		type: `m.`,
+
+	}, {
+		dh: `drelsh`,
+		cn: `洗衣房`,
+		type: `m.`,
+
+	}, {
+		dh: `dræm`,
+		cn: `车库`,
+		type: `m.`,
+
+	}, {
+		dh: `sœfn`,
+		cn: `沙发`,
+		type: `m.`,
+
+	}, {
+		dh: `plêrm`,
+		cn: `茶几,咖啡桌`,
+		type: `m.`,
+
+	}, {
+		dh: `blæv`,
+		cn: `黄油`,
+		type: `m.`,
+
+	}, {
+		dh: `krœn`,
+		cn: `谷物,早餐麦片`,
+		type: `m.`,
+
+	}, {
+		dh: `vrænt`,
+		cn: `三明治`,
+		type: `m.`,
+
+	}, {
+		dh: `plwæ`,
+		cn: `果酱`,
+		type: `m.`,
+
+	}, {
+		dh: `jœg`,
+		cn: `酸奶`,
+		type: `m.`,
+
+	}, {
+		dh: `lemwæd`,
+		cn: `柠檬水`,
+		type: `m.`,
+
+	}, // 2026.11.26 — 职业与器具派生名词
+	{
+		dh: `plumhih`,
+		cn: `水管工,管道工`,
+		type: `m.`,
+
+	}, {
+		dh: `wirehih`,
+		cn: `电工,电气技工`,
+		type: `m.`,
+
+	}, {
+		dh: `carphih`,
+		cn: `木工,木匠`,
+		type: `m.`,
+
+	}, {
+		dh: `pênthih`,
+		cn: `油漆工,漆工`,
+		type: `m.`,
+
+	}, {
+		dh: `bæbisithih`,
+		cn: `保姆,育儿照看者`,
+		type: `m.`,
+
+	}, {
+		dh: `delihih`,
+		cn: `快递员,送货员`,
+		type: `m.`,
+
+	}, {
+		dh: `intervhih`,
+		cn: `面试官,采访者`,
+		type: `m.`,
+
+	}, {
+		dh: `kashhih`,
+		cn: `收银员,现金出纳`,
+		type: `m.`,
+
+	}, {
+		dh: `trwsthih`,
+		cn: `接待员,迎宾员`,
+		type: `m.`,
+
+	}, {
+		dh: `kriphih`,
+		cn: `维修技师,修理工`,
+		type: `m.`,
+
+	}, {
+		dh: `closhinh`,
+		cn: `洗碗机`,
+		type: `m.`,
+
+	}, {
+		dh: `drêvinh`,
+		cn: `烘干机`,
+		type: `m.`,
+
+	}, {
+		dh: `ploshinh`,
+		cn: `衣架,晾衣架`,
+		type: `m.`,
+
+	}, {
+		dh: `frustinh`,
+		cn: `除尘掸,掸子`,
+		type: `m.`,
+
+	}, {
+		dh: `prêfiêr`,
+		cn: `烤箱`,
+		type: `m.`,
+
+	}, {
+		dh: `zænkiêr`,
+		cn: `闹钟`,
+		type: `m.`,
+
+	}, {
+		dh: `fliwinh`,
+		cn: `牙线`,
+		type: `m.`,
+
+	}, {
+		dh: `sœlinh`,
+		cn: `防晒霜`,
+		type: `m.`,
+
+	}, {
+		dh: `mœrdinh`,
+		cn: `润肤霜,保湿乳`,
+		type: `m.`,
+
+	}, {
+		dh: `zwêliêr`,
+		cn: `吹风机`,
+		type: `m.`,
+
 	}
 ];
