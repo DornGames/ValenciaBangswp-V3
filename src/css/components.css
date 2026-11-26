@@ -311,9 +311,37 @@
 }
 
 /* ---------- 翻译页面 ---------- */
+.translation-panel {
+  width: 90%;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.translation-panel h1 {
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-text);
+  font-size: var(--font-size-xl);
+}
+
+.translation-help {
+  margin: 0 0 var(--spacing-md);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+}
+
+.translation-label {
+  display: block;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
 #leftTA {
   width: 90%;
-  max-width: 560px;
+  max-width: 720px;
   height: 180px;
   padding: var(--spacing-md);
   border: 1px solid var(--color-border);
@@ -362,7 +390,7 @@
 #translateResult {
   display: none;
   width: 90%;
-  max-width: 560px;
+  max-width: 720px;
   padding: var(--spacing-md);
   background: var(--color-white);
   border-radius: var(--radius-md);
@@ -373,6 +401,19 @@
   color: var(--color-text);
   border-left: 3px solid var(--color-accent);
   animation: fadeIn 0.3s ease forwards;
+}
+
+.translation-output {
+  margin: 0;
+  white-space: pre-wrap;
+  font-size: var(--font-size-md);
+  font-weight: 600;
+}
+
+.translation-meta {
+  margin: var(--spacing-sm) 0 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
 }
 
 /* ---------- 详情页表格样式 ---------- */
