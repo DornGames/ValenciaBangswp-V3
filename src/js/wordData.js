@@ -18431,4 +18431,2180 @@ globalThis.wordData = [
 		type: `d.`,
 
 	},
+// 2026-11-26 — 新增日常词汇：300个名词及133个配套动词
+// 服装与护理：40个名词
+	{
+		dh: "reththich",
+		cn: "外套",
+		type: "m.",
+	},
+	{
+		dh: "reththichiêt",
+		cn: "穿上外套",
+		type: "d.",
+	},
+	{
+		dh: "kroptho",
+		cn: "夹克",
+		type: "m.",
+	},
+	{
+		dh: "kropthohiêt",
+		cn: "穿上夹克",
+		type: "d.",
+	},
+	{
+		dh: "dribslyh",
+		cn: "毛衣",
+		type: "m.",
+	},
+	{
+		dh: "dribslyhiêt",
+		cn: "穿毛衣",
+		type: "d.",
+	},
+	{
+		dh: "plozpw",
+		cn: "卫衣",
+		type: "m.",
+	},
+	{
+		dh: "glyto",
+		cn: "连帽衫",
+		type: "m.",
+	},
+	{
+		dh: "drahêg",
+		cn: "连衣裙",
+		type: "m.",
+	},
+	{
+		dh: "drahêgiêt",
+		cn: "穿上连衣裙",
+		type: "d.",
+	},
+	{
+		dh: "drês",
+		cn: "西装",
+		type: "m.",
+	},
+	{
+		dh: "klepkre",
+		cn: "领带",
+		type: "m.",
+	},
+	{
+		dh: "klepkrehiêt",
+		cn: "系领带",
+		type: "d.",
+	},
+	{
+		dh: "kanklys",
+		cn: "围巾",
+		type: "m.",
+	},
+	{
+		dh: "kanklysiêt",
+		cn: "围上围巾",
+		type: "d.",
+	},
+	{
+		dh: "zwze",
+		cn: "手套",
+		type: "m.",
+	},
+	{
+		dh: "zwzehiêt",
+		cn: "戴上手套",
+		type: "d.",
+	},
+	{
+		dh: "gœnga",
+		cn: "靴子",
+		type: "m.",
+	},
+	{
+		dh: "gœngahiêt",
+		cn: "穿上靴子",
+		type: "d.",
+	},
+	{
+		dh: "nysoth",
+		cn: "凉鞋",
+		type: "m.",
+	},
+	{
+		dh: "prwzyl",
+		cn: "运动鞋",
+		type: "m.",
+	},
+	{
+		dh: "prwzyliêt",
+		cn: "穿运动鞋",
+		type: "d.",
+	},
+	{
+		dh: "slêdæ",
+		cn: "拖鞋",
+		type: "m.",
+	},
+	{
+		dh: "grysh",
+		cn: "雨衣",
+		type: "m.",
+	},
+	{
+		dh: "gryshiêt",
+		cn: "穿上雨衣",
+		type: "d.",
+	},
+	{
+		dh: "slæzmæsh",
+		cn: "皮带",
+		type: "m.",
+	},
+	{
+		dh: "slæzmæshiêt",
+		cn: "系紧皮带",
+		type: "d.",
+	},
+	{
+		dh: "lyne",
+		cn: "衣袋",
+		type: "m.",
+	},
+	{
+		dh: "hêthi",
+		cn: "袖子",
+		type: "m.",
+	},
+	{
+		dh: "brygsnak",
+		cn: "衣领",
+		type: "m.",
+	},
+	{
+		dh: "pevslœ",
+		cn: "内衣",
+		type: "m.",
+	},
+	{
+		dh: "dinzhang",
+		cn: "睡衣",
+		type: "m.",
+	},
+	{
+		dh: "plevsla",
+		cn: "短裤",
+		type: "m.",
+	},
+	{
+		dh: "grwthfly",
+		cn: "牛仔裤",
+		type: "m.",
+	},
+	{
+		dh: "vwztræ",
+		cn: "制服",
+		type: "m.",
+	},
+	{
+		dh: "vwztræhiêt",
+		cn: "穿制服",
+		type: "d.",
+	},
+	{
+		dh: "hangy",
+		cn: "泳衣",
+		type: "m.",
+	},
+	{
+		dh: "zêræ",
+		cn: "风衣",
+		type: "m.",
+	},
+	{
+		dh: "brikw",
+		cn: "雨靴",
+		type: "m.",
+	},
+	{
+		dh: "vœrplab",
+		cn: "鞋带",
+		type: "m.",
+	},
+	{
+		dh: "vœrplabiêt",
+		cn: "系鞋带",
+		type: "d.",
+	},
+	{
+		dh: "zhep",
+		cn: "鞋盒",
+		type: "m.",
+	},
+	{
+		dh: "glochkrê",
+		cn: "鞋拔子",
+		type: "m.",
+	},
+	{
+		dh: "rænot",
+		cn: "鞋油",
+		type: "m.",
+	},
+	{
+		dh: "rænotiêt",
+		cn: "给鞋上油",
+		type: "d.",
+	},
+	{
+		dh: "bezwng",
+		cn: "梳理头发",
+		type: "d.",
+	},
+	{
+		dh: "bezwnginh",
+		cn: "发梳",
+		type: "m.",
+	},
+	{
+		dh: "lœng",
+		cn: "手镜",
+		type: "m.",
+	},
+	{
+		dh: "plœnggri",
+		cn: "口红",
+		type: "m.",
+	},
+	{
+		dh: "plœnggrihiêt",
+		cn: "涂口红",
+		type: "d.",
+	},
+	{
+		dh: "zostrob",
+		cn: "睫毛膏",
+		type: "m.",
+	},
+	{
+		dh: "slœshtœm",
+		cn: "指甲油",
+		type: "m.",
+	},
+	{
+		dh: "snosty",
+		cn: "指甲锉",
+		type: "m.",
+	},
+	{
+		dh: "vohyp",
+		cn: "香水",
+		type: "m.",
+	},
+	{
+		dh: "vohypiêt",
+		cn: "喷香水",
+		type: "d.",
+	},
+	{
+		dh: "glachas",
+		cn: "粉底",
+		type: "m.",
+	},
+	{
+		dh: "spisith",
+		cn: "洗面奶",
+		type: "m.",
+	},
+// 学校与办公：37个名词
+	{
+		dh: "stame",
+		cn: "教科书",
+		type: "m.",
+	},
+	{
+		dh: "stamehiêt",
+		cn: "阅读教科书",
+		type: "d.",
+	},
+	{
+		dh: "ryshwz",
+		cn: "练习册",
+		type: "m.",
+	},
+	{
+		dh: "ryshwziêt",
+		cn: "完成练习册上的题目",
+		type: "d.",
+	},
+	{
+		dh: "prog",
+		cn: "作业本",
+		type: "m.",
+	},
+	{
+		dh: "glwnzha",
+		cn: "复印纸",
+		type: "m.",
+	},
+	{
+		dh: "glwnzhahiêt",
+		cn: "用复印纸复印文件",
+		type: "d.",
+	},
+	{
+		dh: "mæng",
+		cn: "讲义",
+		type: "m.",
+	},
+	{
+		dh: "mængiêt",
+		cn: "分发讲义",
+		type: "d.",
+	},
+	{
+		dh: "swaf",
+		cn: "试卷",
+		type: "m.",
+	},
+	{
+		dh: "swafiêt",
+		cn: "批改试卷",
+		type: "d.",
+	},
+	{
+		dh: "merw",
+		cn: "考场",
+		type: "m.",
+	},
+	{
+		dh: "zhyby",
+		cn: "成绩单",
+		type: "m.",
+	},
+	{
+		dh: "zhybyhiêt",
+		cn: "制作成绩单",
+		type: "d.",
+	},
+	{
+		dh: "braz",
+		cn: "学分",
+		type: "m.",
+	},
+	{
+		dh: "shoshdœ",
+		cn: "奖学金",
+		type: "m.",
+	},
+	{
+		dh: "plenor",
+		cn: "学费",
+		type: "m.",
+	},
+	{
+		dh: "bryssnæ",
+		cn: "学期",
+		type: "m.",
+	},
+	{
+		dh: "træthæ",
+		cn: "学年",
+		type: "m.",
+	},
+	{
+		dh: "thychpi",
+		cn: "教室",
+		type: "m.",
+	},
+	{
+		dh: "fredbrê",
+		cn: "擦黑板",
+		type: "d.",
+	},
+	{
+		dh: "fredbrêiêr",
+		cn: "黑板擦",
+		type: "m.",
+	},
+	{
+		dh: "diko",
+		cn: "粉笔盒",
+		type: "m.",
+	},
+	{
+		dh: "flêz",
+		cn: "文件夹",
+		type: "m.",
+	},
+	{
+		dh: "swazæ",
+		cn: "档案柜",
+		type: "m.",
+	},
+	{
+		dh: "sloh",
+		cn: "文件盒",
+		type: "m.",
+	},
+	{
+		dh: "tæhê",
+		cn: "资料夹",
+		type: "m.",
+	},
+	{
+		dh: "dongsha",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "dongshaiêr",
+		cn: "计算器",
+		type: "m.",
+	},
+	{
+		dh: "swifœ",
+		cn: "账簿",
+		type: "m.",
+	},
+	{
+		dh: "drynzhê",
+		cn: "发票",
+		type: "m.",
+	},
+	{
+		dh: "drynzhêhiêt",
+		cn: "开具发票",
+		type: "d.",
+	},
+	{
+		dh: "prach",
+		cn: "工资单",
+		type: "m.",
+	},
+	{
+		dh: "prachiêt",
+		cn: "制作工资单",
+		type: "d.",
+	},
+	{
+		dh: "swinghor",
+		cn: "会议纪要",
+		type: "m.",
+	},
+	{
+		dh: "swinghoriêt",
+		cn: "撰写会议纪要",
+		type: "d.",
+	},
+	{
+		dh: "lihslysh",
+		cn: "复印文件",
+		type: "d.",
+	},
+	{
+		dh: "lihslyshinh",
+		cn: "复印机",
+		type: "m.",
+	},
+	{
+		dh: "spœkas",
+		cn: "投影图像",
+		type: "d.",
+	},
+	{
+		dh: "spœkasiêr",
+		cn: "投影机",
+		type: "m.",
+	},
+	{
+		dh: "mimœ",
+		cn: "讲台",
+		type: "m.",
+	},
+	{
+		dh: "trymnog",
+		cn: "发表演讲",
+		type: "d.",
+	},
+	{
+		dh: "trymnogiat",
+		cn: "讲座",
+		type: "m.",
+	},
+	{
+		dh: "glachfry",
+		cn: "校园",
+		type: "m.",
+	},
+	{
+		dh: "zœfot",
+		cn: "教师办公室",
+		type: "m.",
+	},
+	{
+		dh: "zhira",
+		cn: "课表",
+		type: "m.",
+	},
+	{
+		dh: "drwlo",
+		cn: "记录出勤",
+		type: "d.",
+	},
+	{
+		dh: "drwloiac",
+		cn: "考勤",
+		type: "m.",
+	},
+	{
+		dh: "slokæz",
+		cn: "截止日",
+		type: "m.",
+	},
+	{
+		dh: "swim",
+		cn: "实验室",
+		type: "m.",
+	},
+	{
+		dh: "lysh",
+		cn: "实验报告",
+		type: "m.",
+	},
+	{
+		dh: "lyshiêt",
+		cn: "撰写实验报告",
+		type: "d.",
+	},
+	{
+		dh: "fæshzœ",
+		cn: "从学校毕业",
+		type: "d.",
+	},
+	{
+		dh: "fæshzœhih",
+		cn: "校友",
+		type: "m.",
+	},
+// 公共场所与金融：50个名词
+	{
+		dh: "glyna",
+		cn: "阅览室",
+		type: "m.",
+	},
+	{
+		dh: "frêmæl",
+		cn: "信用社",
+		type: "m.",
+	},
+	{
+		dh: "kyngpræp",
+		cn: "法院",
+		type: "m.",
+	},
+	{
+		dh: "gwbzhel",
+		cn: "警察局",
+		type: "m.",
+	},
+	{
+		dh: "bochne",
+		cn: "消防站",
+		type: "m.",
+	},
+	{
+		dh: "stad",
+		cn: "市政厅",
+		type: "m.",
+	},
+	{
+		dh: "sêmdræ",
+		cn: "科技馆",
+		type: "m.",
+	},
+	{
+		dh: "swob",
+		cn: "美术馆",
+		type: "m.",
+	},
+	{
+		dh: "twra",
+		cn: "电影院",
+		type: "m.",
+	},
+	{
+		dh: "stwbo",
+		cn: "体育场",
+		type: "m.",
+	},
+	{
+		dh: "twgthos",
+		cn: "健身房",
+		type: "m.",
+	},
+	{
+		dh: "bedæ",
+		cn: "游乐场",
+		type: "m.",
+	},
+	{
+		dh: "snœmsnæ",
+		cn: "游泳池",
+		type: "m.",
+	},
+	{
+		dh: "sloda",
+		cn: "避难所",
+		type: "m.",
+	},
+	{
+		dh: "vabtro",
+		cn: "酒店",
+		type: "m.",
+	},
+	{
+		dh: "bryhe",
+		cn: "旅馆",
+		type: "m.",
+	},
+	{
+		dh: "stythdræk",
+		cn: "青年旅舍",
+		type: "m.",
+	},
+	{
+		dh: "goshtw",
+		cn: "酒吧",
+		type: "m.",
+	},
+	{
+		dh: "frœgash",
+		cn: "夜店",
+		type: "m.",
+	},
+	{
+		dh: "dratœth",
+		cn: "转移银行存款",
+		type: "d.",
+	},
+	{
+		dh: "dratœthiac",
+		cn: "银行转账",
+		type: "m.",
+	},
+	{
+		dh: "mechêb",
+		cn: "自动取款机",
+		type: "m.",
+	},
+	{
+		dh: "mechêbiêt",
+		cn: "在自动取款机取款",
+		type: "d.",
+	},
+	{
+		dh: "rito",
+		cn: "硬币",
+		type: "m.",
+	},
+	{
+		dh: "næhœ",
+		cn: "纸币",
+		type: "m.",
+	},
+	{
+		dh: "plyvach",
+		cn: "银行卡",
+		type: "m.",
+	},
+	{
+		dh: "plyvachiêt",
+		cn: "刷银行卡支付",
+		type: "d.",
+	},
+	{
+		dh: "kæshgro",
+		cn: "支票",
+		type: "m.",
+	},
+	{
+		dh: "kæshgrohiêt",
+		cn: "开出支票",
+		type: "d.",
+	},
+	{
+		dh: "plezo",
+		cn: "存折",
+		type: "m.",
+	},
+	{
+		dh: "plezohiêt",
+		cn: "登记存款",
+		type: "d.",
+	},
+	{
+		dh: "plab",
+		cn: "欠条",
+		type: "m.",
+	},
+	{
+		dh: "mæfsnœ",
+		cn: "贷款",
+		type: "m.",
+	},
+	{
+		dh: "mæfsnœhiêt",
+		cn: "贷出款项",
+		type: "d.",
+	},
+	{
+		dh: "plofthw",
+		cn: "利率",
+		type: "m.",
+	},
+	{
+		dh: "trœththw",
+		cn: "存入款项",
+		type: "d.",
+	},
+	{
+		dh: "trœththwiad",
+		cn: "存款",
+		type: "m.",
+	},
+	{
+		dh: "grivê",
+		cn: "提取现金",
+		type: "d.",
+	},
+	{
+		dh: "grivêiat",
+		cn: "提款",
+		type: "m.",
+	},
+	{
+		dh: "flwvæ",
+		cn: "余额",
+		type: "m.",
+	},
+	{
+		dh: "floshw",
+		cn: "汇出款项",
+		type: "d.",
+	},
+	{
+		dh: "floshwiad",
+		cn: "汇款",
+		type: "m.",
+	},
+	{
+		dh: "prizy",
+		cn: "优惠券",
+		type: "m.",
+	},
+	{
+		dh: "prizyhiêt",
+		cn: "使用优惠券",
+		type: "d.",
+	},
+	{
+		dh: "slækœk",
+		cn: "付款方式",
+		type: "m.",
+	},
+	{
+		dh: "slækœkiêt",
+		cn: "选择付款方式",
+		type: "d.",
+	},
+	{
+		dh: "hihæ",
+		cn: "给顾客找零",
+		type: "d.",
+	},
+	{
+		dh: "hihæiad",
+		cn: "找零",
+		type: "m.",
+	},
+	{
+		dh: "rwmyng",
+		cn: "小费",
+		type: "m.",
+	},
+	{
+		dh: "slwsfrwb",
+		cn: "收据",
+		type: "m.",
+	},
+	{
+		dh: "slwsfrwbiêt",
+		cn: "开具收据",
+		type: "d.",
+	},
+	{
+		dh: "shavhæ",
+		cn: "报销费用",
+		type: "d.",
+	},
+	{
+		dh: "shavhæiad",
+		cn: "报销",
+		type: "m.",
+	},
+	{
+		dh: "swatzœ",
+		cn: "税单",
+		type: "m.",
+	},
+	{
+		dh: "gloche",
+		cn: "邮政编码",
+		type: "m.",
+	},
+	{
+		dh: "slœtha",
+		cn: "邮筒",
+		type: "m.",
+	},
+	{
+		dh: "slœthahiêt",
+		cn: "投递信件",
+		type: "d.",
+	},
+	{
+		dh: "hêshgrer",
+		cn: "快递柜",
+		type: "m.",
+	},
+	{
+		dh: "hêshgreriêt",
+		cn: "把包裹存入快递柜",
+		type: "d.",
+	},
+	{
+		dh: "probi",
+		cn: "取件码",
+		type: "m.",
+	},
+	{
+		dh: "probihiêt",
+		cn: "输入取件码",
+		type: "d.",
+	},
+	{
+		dh: "stechtri",
+		cn: "身份证件",
+		type: "m.",
+	},
+	{
+		dh: "stechtrihiêt",
+		cn: "核验证件",
+		type: "d.",
+	},
+	{
+		dh: "zizœ",
+		cn: "出生证明",
+		type: "m.",
+	},
+	{
+		dh: "drege",
+		cn: "结婚证",
+		type: "m.",
+	},
+	{
+		dh: "swangswy",
+		cn: "营业执照",
+		type: "m.",
+	},
+	{
+		dh: "swangswyhiêt",
+		cn: "申请营业执照",
+		type: "d.",
+	},
+	{
+		dh: "kætply",
+		cn: "诉状",
+		type: "m.",
+	},
+	{
+		dh: "dwlflêz",
+		cn: "判决书",
+		type: "m.",
+	},
+	{
+		dh: "dwlflêziêt",
+		cn: "作出判决",
+		type: "d.",
+	},
+// 制造与维修：25个名词
+	{
+		dh: "træchbw",
+		cn: "焊接金属",
+		type: "d.",
+	},
+	{
+		dh: "træchbwinh",
+		cn: "电焊机",
+		type: "m.",
+	},
+	{
+		dh: "vosæk",
+		cn: "用焊枪焊接",
+		type: "d.",
+	},
+	{
+		dh: "vosækiêr",
+		cn: "焊枪",
+		type: "m.",
+	},
+	{
+		dh: "pêze",
+		cn: "焊条",
+		type: "m.",
+	},
+	{
+		dh: "zhykmw",
+		cn: "戴面罩保护面部",
+		type: "d.",
+	},
+	{
+		dh: "zhykmwiêr",
+		cn: "焊接面罩",
+		type: "m.",
+	},
+	{
+		dh: "hesol",
+		cn: "用角磨机打磨",
+		type: "d.",
+	},
+	{
+		dh: "hesolinh",
+		cn: "角磨机",
+		type: "m.",
+	},
+	{
+		dh: "zhoteng",
+		cn: "用砂轮机磨削",
+		type: "d.",
+	},
+	{
+		dh: "zhotengiêr",
+		cn: "砂轮机",
+		type: "m.",
+	},
+	{
+		dh: "zhithfly",
+		cn: "刨平木材",
+		type: "d.",
+	},
+	{
+		dh: "zhithflyinh",
+		cn: "电刨",
+		type: "m.",
+	},
+	{
+		dh: "flwso",
+		cn: "用电动锤敲击",
+		type: "d.",
+	},
+	{
+		dh: "flwsoiêr",
+		cn: "电动锤",
+		type: "m.",
+	},
+	{
+		dh: "tethpag",
+		cn: "卷绕电缆",
+		type: "d.",
+	},
+	{
+		dh: "tethpaginh",
+		cn: "电缆卷盘",
+		type: "m.",
+	},
+	{
+		dh: "slelw",
+		cn: "延长电源连接",
+		type: "d.",
+	},
+	{
+		dh: "slelwiêr",
+		cn: "延长电缆",
+		type: "m.",
+	},
+	{
+		dh: "math",
+		cn: "连接工业设备",
+		type: "d.",
+	},
+	{
+		dh: "mathinh",
+		cn: "工业插头",
+		type: "m.",
+	},
+	{
+		dh: "spazdry",
+		cn: "测量电压",
+		type: "d.",
+	},
+	{
+		dh: "spazdryiêr",
+		cn: "电压表",
+		type: "m.",
+	},
+	{
+		dh: "zhwk",
+		cn: "检测电路",
+		type: "d.",
+	},
+	{
+		dh: "zhwkinh",
+		cn: "万用表",
+		type: "m.",
+	},
+	{
+		dh: "glangæ",
+		cn: "测量电流",
+		type: "d.",
+	},
+	{
+		dh: "glangæiêr",
+		cn: "电流表",
+		type: "m.",
+	},
+	{
+		dh: "zwtêh",
+		cn: "测试电路",
+		type: "d.",
+	},
+	{
+		dh: "zwtêhiac",
+		cn: "电路测试",
+		type: "m.",
+	},
+	{
+		dh: "dyngw",
+		cn: "检测电压",
+		type: "d.",
+	},
+	{
+		dh: "dyngwiad",
+		cn: "电压检测",
+		type: "m.",
+	},
+	{
+		dh: "stws",
+		cn: "刨削木材",
+		type: "d.",
+	},
+	{
+		dh: "stwsiat",
+		cn: "刨削",
+		type: "m.",
+	},
+	{
+		dh: "klagfah",
+		cn: "二极管",
+		type: "m.",
+	},
+	{
+		dh: "pwrzhi",
+		cn: "在电路板上装配元件",
+		type: "d.",
+	},
+	{
+		dh: "pwrzhiinh",
+		cn: "电路板",
+		type: "m.",
+	},
+	{
+		dh: "fwrfrid",
+		cn: "检测环境变化",
+		type: "d.",
+	},
+	{
+		dh: "fwrfridiêr",
+		cn: "传感器",
+		type: "m.",
+	},
+	{
+		dh: "slæchêh",
+		cn: "电机",
+		type: "m.",
+	},
+	{
+		dh: "rænpet",
+		cn: "发电机",
+		type: "m.",
+	},
+	{
+		dh: "klwdw",
+		cn: "发动机",
+		type: "m.",
+	},
+	{
+		dh: "pakal",
+		cn: "轴承",
+		type: "m.",
+	},
+	{
+		dh: "zhahœd",
+		cn: "齿轮箱",
+		type: "m.",
+	},
+// 食材与菜品：45个名词
+	{
+		dh: "flœhthy",
+		cn: "枫糖浆",
+		type: "m.",
+	},
+	{
+		dh: "flœhthyhiêt",
+		cn: "用枫糖浆给食物调甜",
+		type: "d.",
+	},
+	{
+		dh: "staz",
+		cn: "玉米糖浆",
+		type: "m.",
+	},
+	{
+		dh: "tyzef",
+		cn: "糖粉",
+		type: "m.",
+	},
+	{
+		dh: "nisnok",
+		cn: "红糖",
+		type: "m.",
+	},
+	{
+		dh: "traky",
+		cn: "海盐",
+		type: "m.",
+	},
+	{
+		dh: "klwpw",
+		cn: "黑胡椒",
+		type: "m.",
+	},
+	{
+		dh: "klwpwhiêt",
+		cn: "用黑胡椒调味",
+		type: "d.",
+	},
+	{
+		dh: "kovvo",
+		cn: "肉桂",
+		type: "m.",
+	},
+	{
+		dh: "kovvohiêt",
+		cn: "用肉桂调味",
+		type: "d.",
+	},
+	{
+		dh: "plol",
+		cn: "肉豆蔻",
+		type: "m.",
+	},
+	{
+		dh: "flodœh",
+		cn: "丁香",
+		type: "m.",
+	},
+	{
+		dh: "prafæ",
+		cn: "孜然",
+		type: "m.",
+	},
+	{
+		dh: "spokœ",
+		cn: "姜黄",
+		type: "m.",
+	},
+	{
+		dh: "hêzo",
+		cn: "辣椒粉",
+		type: "m.",
+	},
+	{
+		dh: "hêzohiêt",
+		cn: "用辣椒粉调味",
+		type: "d.",
+	},
+	{
+		dh: "trœpmœm",
+		cn: "香草精",
+		type: "m.",
+	},
+	{
+		dh: "trœpmœmiêt",
+		cn: "用香草精增添香味",
+		type: "d.",
+	},
+	{
+		dh: "stêfhi",
+		cn: "泡打粉",
+		type: "m.",
+	},
+	{
+		dh: "krif",
+		cn: "小苏打",
+		type: "m.",
+	},
+	{
+		dh: "fothig",
+		cn: "醋",
+		type: "m.",
+	},
+	{
+		dh: "fothigiêt",
+		cn: "用醋腌制蔬菜",
+		type: "d.",
+	},
+	{
+		dh: "lêchœf",
+		cn: "橄榄油",
+		type: "m.",
+	},
+	{
+		dh: "lêchœfiêt",
+		cn: "用橄榄油烹调",
+		type: "d.",
+	},
+	{
+		dh: "plœkbrœm",
+		cn: "芝麻油",
+		type: "m.",
+	},
+	{
+		dh: "thantrê",
+		cn: "葵花籽油",
+		type: "m.",
+	},
+	{
+		dh: "drêkak",
+		cn: "菜籽油",
+		type: "m.",
+	},
+	{
+		dh: "nyth",
+		cn: "鱼露",
+		type: "m.",
+	},
+	{
+		dh: "vohæt",
+		cn: "料酒",
+		type: "m.",
+	},
+	{
+		dh: "grogfy",
+		cn: "米醋",
+		type: "m.",
+	},
+	{
+		dh: "flelswch",
+		cn: "苹果醋",
+		type: "m.",
+	},
+	{
+		dh: "snædsyl",
+		cn: "酸奶油",
+		type: "m.",
+	},
+	{
+		dh: "frovê",
+		cn: "奶油奶酪",
+		type: "m.",
+	},
+	{
+		dh: "mwshœ",
+		cn: "切达奶酪",
+		type: "m.",
+	},
+	{
+		dh: "slyp",
+		cn: "马苏里拉奶酪",
+		type: "m.",
+	},
+	{
+		dh: "krês",
+		cn: "帕尔马干酪",
+		type: "m.",
+	},
+	{
+		dh: "zagêz",
+		cn: "豆奶",
+		type: "m.",
+	},
+	{
+		dh: "vachi",
+		cn: "燕麦奶",
+		type: "m.",
+	},
+	{
+		dh: "grængê",
+		cn: "糙米",
+		type: "m.",
+	},
+	{
+		dh: "shon",
+		cn: "糯米",
+		type: "m.",
+	},
+	{
+		dh: "krytha",
+		cn: "米粉",
+		type: "m.",
+	},
+	{
+		dh: "slangæ",
+		cn: "意大利面",
+		type: "m.",
+	},
+	{
+		dh: "slangæhiêt",
+		cn: "煮意大利面",
+		type: "d.",
+	},
+	{
+		dh: "kwng",
+		cn: "通心粉",
+		type: "m.",
+	},
+	{
+		dh: "nêhswo",
+		cn: "千层面",
+		type: "m.",
+	},
+	{
+		dh: "zhênsni",
+		cn: "吐司",
+		type: "m.",
+	},
+	{
+		dh: "zhênsnihiêt",
+		cn: "烤吐司",
+		type: "d.",
+	},
+	{
+		dh: "pæzgrœ",
+		cn: "面包屑",
+		type: "m.",
+	},
+	{
+		dh: "glopkli",
+		cn: "皮塔饼",
+		type: "m.",
+	},
+	{
+		dh: "nynge",
+		cn: "玉米饼",
+		type: "m.",
+	},
+	{
+		dh: "plifæh",
+		cn: "玉米卷",
+		type: "m.",
+	},
+	{
+		dh: "plifæhiêt",
+		cn: "制作玉米卷",
+		type: "d.",
+	},
+	{
+		dh: "fœchswi",
+		cn: "披萨",
+		type: "m.",
+	},
+	{
+		dh: "fœchswihiêt",
+		cn: "烘烤披萨",
+		type: "d.",
+	},
+	{
+		dh: "flongœ",
+		cn: "炖菜",
+		type: "m.",
+	},
+	{
+		dh: "flongœhiêt",
+		cn: "炖煮食物",
+		type: "d.",
+	},
+	{
+		dh: "griving",
+		cn: "肉汁",
+		type: "m.",
+	},
+// 医疗与护理：21个名词
+	{
+		dh: "grærshi",
+		cn: "病人",
+		type: "m.",
+	},
+	{
+		dh: "bopœv",
+		cn: "康复中心",
+		type: "m.",
+	},
+	{
+		dh: "holgath",
+		cn: "急诊室",
+		type: "m.",
+	},
+	{
+		dh: "rêfæ",
+		cn: "手术室",
+		type: "m.",
+	},
+	{
+		dh: "pwvzw",
+		cn: "手术台",
+		type: "m.",
+	},
+	{
+		dh: "kœthœv",
+		cn: "手术刀",
+		type: "m.",
+	},
+	{
+		dh: "kœthœviêt",
+		cn: "用手术刀切开组织",
+		type: "d.",
+	},
+	{
+		dh: "flæzy",
+		cn: "麻醉剂",
+		type: "m.",
+	},
+	{
+		dh: "liri",
+		cn: "缝合伤口",
+		type: "d.",
+	},
+	{
+		dh: "liriiac",
+		cn: "伤口缝合",
+		type: "m.",
+	},
+	{
+		dh: "snætov",
+		cn: "拐杖",
+		type: "m.",
+	},
+	{
+		dh: "snætoviêt",
+		cn: "拄拐杖行走",
+		type: "d.",
+	},
+	{
+		dh: "kælw",
+		cn: "助行器",
+		type: "m.",
+	},
+	{
+		dh: "prwtæb",
+		cn: "轮椅",
+		type: "m.",
+	},
+	{
+		dh: "prwtæbiêt",
+		cn: "用轮椅移动病人",
+		type: "d.",
+	},
+	{
+		dh: "zemæng",
+		cn: "担架",
+		type: "m.",
+	},
+	{
+		dh: "zemængiêt",
+		cn: "用担架运送伤者",
+		type: "d.",
+	},
+	{
+		dh: "hinmw",
+		cn: "病床",
+		type: "m.",
+	},
+	{
+		dh: "glwmo",
+		cn: "病房",
+		type: "m.",
+	},
+	{
+		dh: "frætfli",
+		cn: "输液架",
+		type: "m.",
+	},
+	{
+		dh: "zhach",
+		cn: "输液袋",
+		type: "m.",
+	},
+	{
+		dh: "gætho",
+		cn: "注射器",
+		type: "m.",
+	},
+	{
+		dh: "gæthohiêt",
+		cn: "用注射器注射药物",
+		type: "d.",
+	},
+	{
+		dh: "snwkkrœch",
+		cn: "针头",
+		type: "m.",
+	},
+	{
+		dh: "pezæ",
+		cn: "注射药物",
+		type: "d.",
+	},
+	{
+		dh: "pezæiat",
+		cn: "注射",
+		type: "m.",
+	},
+	{
+		dh: "stævech",
+		cn: "进行手术",
+		type: "d.",
+	},
+	{
+		dh: "stævechiac",
+		cn: "手术",
+		type: "m.",
+	},
+	{
+		dh: "spwshnœ",
+		cn: "眼镜店",
+		type: "m.",
+	},
+// 运动与户外：30个名词
+	{
+		dh: "panæp",
+		cn: "网球拍",
+		type: "m.",
+	},
+	{
+		dh: "panæpiêt",
+		cn: "用网球拍打球",
+		type: "d.",
+	},
+	{
+		dh: "mœngy",
+		cn: "羽毛球拍",
+		type: "m.",
+	},
+	{
+		dh: "fræng",
+		cn: "乒乓球拍",
+		type: "m.",
+	},
+	{
+		dh: "klyfœt",
+		cn: "棒球棍",
+		type: "m.",
+	},
+	{
+		dh: "klyfœtiêt",
+		cn: "用棒球棍击球",
+		type: "d.",
+	},
+	{
+		dh: "drarhis",
+		cn: "棒球手套",
+		type: "m.",
+	},
+	{
+		dh: "bwkê",
+		cn: "曲棍球杆",
+		type: "m.",
+	},
+	{
+		dh: "hæpi",
+		cn: "冰球头盔",
+		type: "m.",
+	},
+	{
+		dh: "thith",
+		cn: "球门网",
+		type: "m.",
+	},
+	{
+		dh: "prœmith",
+		cn: "高尔夫球杆",
+		type: "m.",
+	},
+	{
+		dh: "rwkwn",
+		cn: "高尔夫球包",
+		type: "m.",
+	},
+	{
+		dh: "krêbê",
+		cn: "滑雪",
+		type: "d.",
+	},
+	{
+		dh: "krêbêiac",
+		cn: "滑雪",
+		type: "m.",
+	},
+	{
+		dh: "hêno",
+		cn: "保龄球",
+		type: "m.",
+	},
+	{
+		dh: "thezœ",
+		cn: "滑冰",
+		type: "d.",
+	},
+	{
+		dh: "thezœiat",
+		cn: "滑冰",
+		type: "m.",
+	},
+	{
+		dh: "zezsww",
+		cn: "滑雪板",
+		type: "m.",
+	},
+	{
+		dh: "zezswwhiêt",
+		cn: "用滑雪板滑雪",
+		type: "d.",
+	},
+	{
+		dh: "dafo",
+		cn: "滑雪杖",
+		type: "m.",
+	},
+	{
+		dh: "mithmw",
+		cn: "滑雪靴",
+		type: "m.",
+	},
+	{
+		dh: "bashæ",
+		cn: "冲浪",
+		type: "d.",
+	},
+	{
+		dh: "bashæiac",
+		cn: "冲浪",
+		type: "m.",
+	},
+	{
+		dh: "megiz",
+		cn: "单板滑雪板",
+		type: "m.",
+	},
+	{
+		dh: "fladyng",
+		cn: "冰刀",
+		type: "m.",
+	},
+	{
+		dh: "fladyngiêt",
+		cn: "穿冰刀滑冰",
+		type: "d.",
+	},
+	{
+		dh: "glibœng",
+		cn: "滑板",
+		type: "m.",
+	},
+	{
+		dh: "dodrop",
+		cn: "冲浪板",
+		type: "m.",
+	},
+	{
+		dh: "dodropiêt",
+		cn: "用冲浪板冲浪",
+		type: "d.",
+	},
+	{
+		dh: "rêlræ",
+		cn: "潜水镜",
+		type: "m.",
+	},
+	{
+		dh: "drwk",
+		cn: "潜水服",
+		type: "m.",
+	},
+	{
+		dh: "mœchba",
+		cn: "氧气瓶",
+		type: "m.",
+	},
+	{
+		dh: "stwbwp",
+		cn: "呼吸管",
+		type: "m.",
+	},
+	{
+		dh: "stwbwpiêt",
+		cn: "用呼吸管呼吸",
+		type: "d.",
+	},
+	{
+		dh: "frwg",
+		cn: "脚蹼",
+		type: "m.",
+	},
+	{
+		dh: "swêfê",
+		cn: "皮划艇",
+		type: "m.",
+	},
+	{
+		dh: "zobdrwd",
+		cn: "桨板",
+		type: "m.",
+	},
+	{
+		dh: "zobdrwdiêt",
+		cn: "用桨板划行",
+		type: "d.",
+	},
+	{
+		dh: "stipœ",
+		cn: "独木舟",
+		type: "m.",
+	},
+	{
+		dh: "stihi",
+		cn: "划皮艇",
+		type: "d.",
+	},
+	{
+		dh: "stihiiad",
+		cn: "划皮艇",
+		type: "m.",
+	},
+// 音乐与演出：20个名词
+	{
+		dh: "masy",
+		cn: "吉他",
+		type: "m.",
+	},
+	{
+		dh: "masyhiêt",
+		cn: "弹奏吉他",
+		type: "d.",
+	},
+	{
+		dh: "fika",
+		cn: "钢琴",
+		type: "m.",
+	},
+	{
+		dh: "fikahiêt",
+		cn: "弹奏钢琴",
+		type: "d.",
+	},
+	{
+		dh: "brwvse",
+		cn: "长笛",
+		type: "m.",
+	},
+	{
+		dh: "brwvsehiêt",
+		cn: "吹奏长笛",
+		type: "d.",
+	},
+	{
+		dh: "trævyd",
+		cn: "电子琴",
+		type: "m.",
+	},
+	{
+		dh: "drwnash",
+		cn: "大提琴",
+		type: "m.",
+	},
+	{
+		dh: "drwnashiêt",
+		cn: "演奏大提琴",
+		type: "d.",
+	},
+	{
+		dh: "trerwm",
+		cn: "竖琴",
+		type: "m.",
+	},
+	{
+		dh: "trerwmiêt",
+		cn: "弹奏竖琴",
+		type: "d.",
+	},
+	{
+		dh: "zhwfi",
+		cn: "萨克斯管",
+		type: "m.",
+	},
+	{
+		dh: "zhwfihiêt",
+		cn: "吹奏萨克斯管",
+		type: "d.",
+	},
+	{
+		dh: "slœlzæ",
+		cn: "单簧管",
+		type: "m.",
+	},
+	{
+		dh: "thako",
+		cn: "乐谱",
+		type: "m.",
+	},
+	{
+		dh: "næzi",
+		cn: "谱架",
+		type: "m.",
+	},
+	{
+		dh: "spychw",
+		cn: "管弦乐团",
+		type: "m.",
+	},
+	{
+		dh: "zyshet",
+		cn: "演奏音乐",
+		type: "d.",
+	},
+	{
+		dh: "zyshetiad",
+		cn: "演奏",
+		type: "m.",
+	},
+	{
+		dh: "fildœ",
+		cn: "舞台幕布",
+		type: "m.",
+	},
+	{
+		dh: "hyhsw",
+		cn: "音响放大器",
+		type: "m.",
+	},
+	{
+		dh: "snyzslæ",
+		cn: "调音台",
+		type: "m.",
+	},
+	{
+		dh: "hwffoth",
+		cn: "唱片机",
+		type: "m.",
+	},
+	{
+		dh: "stætheb",
+		cn: "黑胶唱片",
+		type: "m.",
+	},
+	{
+		dh: "prostræ",
+		cn: "光盘",
+		type: "m.",
+	},
+	{
+		dh: "famdro",
+		cn: "调校乐器",
+		type: "d.",
+	},
+	{
+		dh: "famdroiat",
+		cn: "调音",
+		type: "m.",
+	},
+	{
+		dh: "mênar",
+		cn: "吉他拨片",
+		type: "m.",
+	},
+// 水果：10个名词
+	{
+		dh: "zenych",
+		cn: "草莓",
+		type: "m.",
+	},
+	{
+		dh: "klwth",
+		cn: "树莓",
+		type: "m.",
+	},
+	{
+		dh: "dydœsh",
+		cn: "黑莓",
+		type: "m.",
+	},
+	{
+		dh: "prevklet",
+		cn: "青柠",
+		type: "m.",
+	},
+	{
+		dh: "mengbryr",
+		cn: "无花果",
+		type: "m.",
+	},
+	{
+		dh: "slotêl",
+		cn: "西柚",
+		type: "m.",
+	},
+	{
+		dh: "fryfklæ",
+		cn: "百香果",
+		type: "m.",
+	},
+	{
+		dh: "spœshaf",
+		cn: "木瓜",
+		type: "m.",
+	},
+	{
+		dh: "krotw",
+		cn: "菠萝蜜",
+		type: "m.",
+	},
+	{
+		dh: "seshdrœ",
+		cn: "椰枣",
+		type: "m.",
+	},
+// 职业与专业人员：22个名词
+	{
+		dh: "brefgrwg",
+		cn: "管理学校",
+		type: "d.",
+	},
+	{
+		dh: "brefgrwghih",
+		cn: "校长",
+		type: "m.",
+	},
+	{
+		dh: "shypprê",
+		cn: "指导学生",
+		type: "d.",
+	},
+	{
+		dh: "shypprêhih",
+		cn: "学术导师",
+		type: "m.",
+	},
+	{
+		dh: "trokzhach",
+		cn: "协助教学",
+		type: "d.",
+	},
+	{
+		dh: "trokzhachhih",
+		cn: "助教",
+		type: "m.",
+	},
+	{
+		dh: "plama",
+		cn: "管理图书馆藏书",
+		type: "d.",
+	},
+	{
+		dh: "plamahih",
+		cn: "图书管理员",
+		type: "m.",
+	},
+	{
+		dh: "vœshzib",
+		cn: "办理银行业务",
+		type: "d.",
+	},
+	{
+		dh: "vœshzibhih",
+		cn: "银行职员",
+		type: "m.",
+	},
+	{
+		dh: "swwl",
+		cn: "提供法律咨询",
+		type: "d.",
+	},
+	{
+		dh: "swwlhih",
+		cn: "律师",
+		type: "m.",
+	},
+	{
+		dh: "reto",
+		cn: "审理案件",
+		type: "d.",
+	},
+	{
+		dh: "retohih",
+		cn: "法官",
+		type: "m.",
+	},
+	{
+		dh: "brêthnib",
+		cn: "维护治安",
+		type: "d.",
+	},
+	{
+		dh: "brêthnibhih",
+		cn: "警察",
+		type: "m.",
+	},
+	{
+		dh: "vwchslov",
+		cn: "扑救火灾",
+		type: "d.",
+	},
+	{
+		dh: "vwchslovhih",
+		cn: "消防员",
+		type: "m.",
+	},
+	{
+		dh: "nihæsh",
+		cn: "提供急救",
+		type: "d.",
+	},
+	{
+		dh: "nihæshhih",
+		cn: "急救员",
+		type: "m.",
+	},
+	{
+		dh: "spirœl",
+		cn: "守护场所",
+		type: "d.",
+	},
+	{
+		dh: "spirœlhih",
+		cn: "保安",
+		type: "m.",
+	},
+	{
+		dh: "steshfrœk",
+		cn: "保护雇主",
+		type: "d.",
+	},
+	{
+		dh: "steshfrœkhih",
+		cn: "保镖",
+		type: "m.",
+	},
+	{
+		dh: "brwbgy",
+		cn: "侦查案件",
+		type: "d.",
+	},
+	{
+		dh: "brwbgyhih",
+		cn: "侦探",
+		type: "m.",
+	},
+	{
+		dh: "stæhlê",
+		cn: "调查事件",
+		type: "d.",
+	},
+	{
+		dh: "stæhlêhih",
+		cn: "调查员",
+		type: "m.",
+	},
+	{
+		dh: "slengœ",
+		cn: "提起公诉",
+		type: "d.",
+	},
+	{
+		dh: "slengœhih",
+		cn: "检察官",
+		type: "m.",
+	},
+	{
+		dh: "kêchyr",
+		cn: "记账与核算",
+		type: "d.",
+	},
+	{
+		dh: "kêchyrhih",
+		cn: "会计师",
+		type: "m.",
+	},
+	{
+		dh: "plwhar",
+		cn: "实施外科手术",
+		type: "d.",
+	},
+	{
+		dh: "plwharhih",
+		cn: "外科医生",
+		type: "m.",
+	},
+	{
+		dh: "tæsh",
+		cn: "检查视力",
+		type: "d.",
+	},
+	{
+		dh: "tæshhih",
+		cn: "验光师",
+		type: "m.",
+	},
+	{
+		dh: "trœp",
+		cn: "诊治皮肤疾病",
+		type: "d.",
+	},
+	{
+		dh: "trœphih",
+		cn: "皮肤科医生",
+		type: "m.",
+	},
+	{
+		dh: "gœhych",
+		cn: "诊治眼病",
+		type: "d.",
+	},
+	{
+		dh: "gœhychhih",
+		cn: "眼科医生",
+		type: "m.",
+	},
+	{
+		dh: "swich",
+		cn: "进行康复治疗",
+		type: "d.",
+	},
+	{
+		dh: "swichhih",
+		cn: "物理治疗师",
+		type: "m.",
+	},
+	{
+		dh: "klægpœk",
+		cn: "实施麻醉",
+		type: "d.",
+	},
+	{
+		dh: "klægpœkhih",
+		cn: "麻醉师",
+		type: "m.",
+	},
 ];
