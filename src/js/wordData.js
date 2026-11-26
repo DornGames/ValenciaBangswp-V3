@@ -16560,5 +16560,1875 @@ globalThis.wordData = [
 		cn: `吹风机`,
 		type: `m.`,
 
-	}
+	},
+	// 2026.11.26 — 电子与网络
+	{
+		dh: `blip`,
+		cn: `灯泡`,
+		type: `m.`,
+
+	},
+	{
+		dh: `sokêt`,
+		cn: `插座`,
+		type: `m.`,
+
+	},
+	{
+		dh: `extêncord`,
+		cn: `延长线`,
+		type: `m.`,
+
+	},
+	{
+		dh: `adaptr`,
+		cn: `电源适配器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bætri`,
+		cn: `电池`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hêdfon`,
+		cn: `耳机`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mikrof`,
+		cn: `麦克风`,
+		type: `m.`,
+
+	},
+	{
+		dh: `spikêr`,
+		cn: `扬声器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `monitr`,
+		cn: `显示器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tablêt`,
+		cn: `平板电脑`,
+		type: `m.`,
+
+	},
+	{
+		dh: `laptap`,
+		cn: `笔记本电脑`,
+		type: `m.`,
+
+	},
+	{
+		dh: `rutêr`,
+		cn: `路由器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `modêm`,
+		cn: `调制解调器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wifai`,
+		cn: `无线网络`,
+		type: `m.`,
+
+	},
+	{
+		dh: `paswêrd`,
+		cn: `密码`,
+		type: `m.`,
+
+	},
+	{
+		dh: `yusnêm`,
+		cn: `用户名`,
+		type: `m.`,
+
+	},
+	{
+		dh: `akont`,
+		cn: `账户`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wêbsit`,
+		cn: `网站`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wêbpag`,
+		cn: `网页`,
+		type: `m.`,
+
+	},
+	{
+		dh: `usbdriv`,
+		cn: `U盘`,
+		type: `m.`,
+
+	},
+	{
+		dh: `harddisk`,
+		cn: `硬盘`,
+		type: `m.`,
+
+	},
+	{
+		dh: `memkard`,
+		cn: `内存卡`,
+		type: `m.`,
+
+	},
+	{
+		dh: `pawbænk`,
+		cn: `充电宝`,
+		type: `m.`,
+
+	},
+	{
+		dh: `rimot`,
+		cn: `遥控器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `datacord`,
+		cn: `数据线`,
+		type: `m.`,
+
+	},
+	{
+		dh: `powstrip`,
+		cn: `插线板`,
+		type: `m.`,
+
+	},
+	{
+		dh: `scrênprot`,
+		cn: `屏幕保护膜`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kompbag`,
+		cn: `电脑包`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 厨房与家居
+	{
+		dh: `dêshsap`,
+		cn: `洗碗液`,
+		type: `m.`,
+
+	},
+	{
+		dh: `klineriêr`,
+		cn: `清洁剂`,
+		type: `m.`,
+
+	},
+	{
+		dh: `klœslain`,
+		cn: `晾衣绳`,
+		type: `m.`,
+
+	},
+	{
+		dh: `klothpin`,
+		cn: `衣夹`,
+		type: `m.`,
+
+	},
+	{
+		dh: `ketl`,
+		cn: `水壶`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tostiêr`,
+		cn: `烤面包机`,
+		type: `m.`,
+
+	},
+	{
+		dh: `raskokiêr`,
+		cn: `电饭锅`,
+		type: `m.`,
+
+	},
+	{
+		dh: `blendiêr`,
+		cn: `搅拌机`,
+		type: `m.`,
+
+	},
+	{
+		dh: `jusiêr`,
+		cn: `榨汁机`,
+		type: `m.`,
+
+	},
+	{
+		dh: `funl`,
+		cn: `漏斗`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kolandriêr`,
+		cn: `漏勺`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mezhriêr`,
+		cn: `量杯`,
+		type: `m.`,
+
+	},
+	{
+		dh: `spatel`,
+		cn: `锅铲`,
+		type: `m.`,
+
+	},
+	{
+		dh: `chopboard`,
+		cn: `切菜板`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bæktray`,
+		cn: `烤盘`,
+		type: `m.`,
+
+	},
+	{
+		dh: `aprn`,
+		cn: `围裙`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mug`,
+		cn: `马克杯`,
+		type: `m.`,
+
+	},
+	{
+		dh: `dêodrant`,
+		cn: `除臭剂`,
+		type: `m.`,
+
+	},
+	{
+		dh: `toiletpaper`,
+		cn: `卫生纸`,
+		type: `m.`,
+
+	},
+	{
+		dh: `matres`,
+		cn: `床垫`,
+		type: `m.`,
+
+	},
+	{
+		dh: `nightstand`,
+		cn: `床头柜`,
+		type: `m.`,
+
+	},
+	{
+		dh: `doormat`,
+		cn: `地垫`,
+		type: `m.`,
+
+	},
+	{
+		dh: `doorbell`,
+		cn: `门铃`,
+		type: `m.`,
+
+	},
+	{
+		dh: `doorknob`,
+		cn: `门把手`,
+		type: `m.`,
+
+	},
+	{
+		dh: `curtainrod`,
+		cn: `窗帘杆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `blindz`,
+		cn: `百叶窗`,
+		type: `m.`,
+
+	},
+	{
+		dh: `smokalarm`,
+		cn: `烟雾报警器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `extininh`,
+		cn: `灭火器`,
+		type: `m.`,
+
+	},
+	{
+		dh: `flashinh`,
+		cn: `手电筒`,
+		type: `m.`,
+
+	},
+	{
+		dh: `driliêr`,
+		cn: `电钻`,
+		type: `m.`,
+
+	},
+	{
+		dh: `trashcan`,
+		cn: `垃圾桶`,
+		type: `m.`,
+
+	},
+	{
+		dh: `recyclebin`,
+		cn: `回收箱`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 日常动作名词
+	{
+		dh: `foldlaundiat`,
+		cn: `叠衣活动`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hanglaundiad`,
+		cn: `晾衣活动`,
+		type: `m.`,
+
+	},
+	{
+		dh: `raskokiac`,
+		cn: `煮饭过程`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mezhriac`,
+		cn: `测量活动`,
+		type: `m.`,
+
+	},
+	{
+		dh: `filtriad`,
+		cn: `过滤过程`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bækiat`,
+		cn: `烘焙活动`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wêbpostiat`,
+		cn: `网站发布`,
+		type: `m.`,
+
+	},
+	{
+		dh: `gardiac`,
+		cn: `园艺活动`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 商店与公共场所
+	{
+		dh: `restorant`,
+		cn: `餐馆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `beiker`,
+		cn: `面包店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `konvinstor`,
+		cn: `便利店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kafê`,
+		cn: `咖啡馆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `fastfudstor`,
+		cn: `快餐店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `farmasi`,
+		cn: `药房`,
+		type: `m.`,
+
+	},
+	{
+		dh: `postofis`,
+		cn: `邮局`,
+		type: `m.`,
+
+	},
+	{
+		dh: `gasstêshn`,
+		cn: `加油站`,
+		type: `m.`,
+
+	},
+	{
+		dh: `parkinglot`,
+		cn: `停车场`,
+		type: `m.`,
+
+	},
+	{
+		dh: `basstop`,
+		cn: `公交车站`,
+		type: `m.`,
+
+	},
+	{
+		dh: `trainstêshn`,
+		cn: `火车站`,
+		type: `m.`,
+
+	},
+	{
+		dh: `platform`,
+		cn: `月台`,
+		type: `m.`,
+
+	},
+	{
+		dh: `erport`,
+		cn: `机场`,
+		type: `m.`,
+
+	},
+	{
+		dh: `chekaut`,
+		cn: `收银台`,
+		type: `m.`,
+
+	},
+	{
+		dh: `waitingrum`,
+		cn: `候车室`,
+		type: `m.`,
+
+	},
+	{
+		dh: `laundromat`,
+		cn: `洗衣店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `barbêrshop`,
+		cn: `理发店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `byutisalon`,
+		cn: `美容院`,
+		type: `m.`,
+
+	},
+	{
+		dh: `carwash`,
+		cn: `洗车店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bikeshop`,
+		cn: `自行车店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `ripêrshop`,
+		cn: `维修店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `steshnêrystore`,
+		cn: `文具店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bukstor`,
+		cn: `书店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `grosrystore`,
+		cn: `杂货店`,
+		type: `m.`,
+
+	},
+	{
+		dh: `florshop`,
+		cn: `花店`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 出行与车辆
+	{
+		dh: `lagaj`,
+		cn: `行李`,
+		type: `m.`,
+
+	},
+	{
+		dh: `boardingpas`,
+		cn: `登机牌`,
+		type: `m.`,
+
+	},
+	{
+		dh: `plæntiket`,
+		cn: `机票`,
+		type: `m.`,
+
+	},
+	{
+		dh: `visa`,
+		cn: `签证`,
+		type: `m.`,
+
+	},
+	{
+		dh: `pasport`,
+		cn: `护照`,
+		type: `m.`,
+
+	},
+	{
+		dh: `traveldok`,
+		cn: `旅行证件`,
+		type: `m.`,
+
+	},
+	{
+		dh: `trafikjam`,
+		cn: `交通堵塞`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kroswalk`,
+		cn: `斑马线`,
+		type: `m.`,
+
+	},
+	{
+		dh: `saidwalk`,
+		cn: `人行道`,
+		type: `m.`,
+
+	},
+	{
+		dh: `trafiklight`,
+		cn: `交通灯`,
+		type: `m.`,
+
+	},
+	{
+		dh: `roadsain`,
+		cn: `路标`,
+		type: `m.`,
+
+	},
+	{
+		dh: `len`,
+		cn: `车道`,
+		type: `m.`,
+
+	},
+	{
+		dh: `roundabout`,
+		cn: `环岛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tolbooth`,
+		cn: `收费站`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tol`,
+		cn: `过路费`,
+		type: `m.`,
+
+	},
+	{
+		dh: `parkingtiket`,
+		cn: `停车罚单`,
+		type: `m.`,
+
+	},
+	{
+		dh: `draivrlisens`,
+		cn: `驾照`,
+		type: `m.`,
+
+	},
+	{
+		dh: `lisensplêt`,
+		cn: `车牌`,
+		type: `m.`,
+
+	},
+	{
+		dh: `stêringwil`,
+		cn: `方向盘`,
+		type: `m.`,
+
+	},
+	{
+		dh: `rêrvirmirr`,
+		cn: `后视镜`,
+		type: `m.`,
+
+	},
+	{
+		dh: `windshildwaipr`,
+		cn: `雨刷`,
+		type: `m.`,
+
+	},
+	{
+		dh: `windshild`,
+		cn: `挡风玻璃`,
+		type: `m.`,
+
+	},
+	{
+		dh: `cartrunk`,
+		cn: `后备箱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `akselerator`,
+		cn: `油门`,
+		type: `m.`,
+
+	},
+	{
+		dh: `transmishn`,
+		cn: `变速箱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tair`,
+		cn: `轮胎`,
+		type: `m.`,
+
+	},
+	{
+		dh: `sparetair`,
+		cn: `备胎`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 食物与调味品
+	{
+		dh: `chip`,
+		cn: `薯片`,
+		type: `m.`,
+
+	},
+	{
+		dh: `popkorn`,
+		cn: `爆米花`,
+		type: `m.`,
+
+	},
+	{
+		dh: `peanut`,
+		cn: `花生`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kashu`,
+		cn: `腰果`,
+		type: `m.`,
+
+	},
+	{
+		dh: `almond`,
+		cn: `杏仁`,
+		type: `m.`,
+
+	},
+	{
+		dh: `reizin`,
+		cn: `葡萄干`,
+		type: `m.`,
+
+	},
+	{
+		dh: `peanutbutr`,
+		cn: `花生酱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `ots`,
+		cn: `燕麦`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hamburgr`,
+		cn: `汉堡`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hotdog`,
+		cn: `热狗`,
+		type: `m.`,
+
+	},
+	{
+		dh: `biskit`,
+		cn: `饼干`,
+		type: `m.`,
+
+	},
+	{
+		dh: `beigel`,
+		cn: `贝果`,
+		type: `m.`,
+
+	},
+	{
+		dh: `donat`,
+		cn: `甜甜圈`,
+		type: `m.`,
+
+	},
+	{
+		dh: `panekek`,
+		cn: `煎饼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wafel`,
+		cn: `华夫饼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mufin`,
+		cn: `松饼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `yist`,
+		cn: `酵母`,
+		type: `m.`,
+
+	},
+	{
+		dh: `dow`,
+		cn: `生面团`,
+		type: `m.`,
+
+	},
+	{
+		dh: `flour`,
+		cn: `面粉`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kornfleik`,
+		cn: `玉米片`,
+		type: `m.`,
+
+	},
+	{
+		dh: `milkshak`,
+		cn: `奶昔`,
+		type: `m.`,
+
+	},
+	{
+		dh: `smudi`,
+		cn: `冰沙`,
+		type: `m.`,
+
+	},
+	{
+		dh: `enerdydrink`,
+		cn: `能量饮料`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kokoapowder`,
+		cn: `可可粉`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mustard`,
+		cn: `芥末`,
+		type: `m.`,
+
+	},
+	{
+		dh: `ketshap`,
+		cn: `番茄酱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mayonêz`,
+		cn: `蛋黄酱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `saladdressing`,
+		cn: `沙拉酱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `gum`,
+		cn: `口香糖`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tofu`,
+		cn: `豆腐`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 健康与护理
+	{
+		dh: `eyedrops`,
+		cn: `眼药水`,
+		type: `m.`,
+
+	},
+	{
+		dh: `alerji`,
+		cn: `过敏症`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hayfever`,
+		cn: `花粉症`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hedæk`,
+		cn: `头痛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `migren`,
+		cn: `偏头痛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `stomachæk`,
+		cn: `胃痛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `toothæk`,
+		cn: `牙痛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `sorethroat`,
+		cn: `喉咙痛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kold`,
+		cn: `感冒`,
+		type: `m.`,
+
+	},
+	{
+		dh: `runnynose`,
+		cn: `流鼻涕`,
+		type: `m.`,
+
+	},
+	{
+		dh: `noskongeshtion`,
+		cn: `鼻塞`,
+		type: `m.`,
+
+	},
+	{
+		dh: `rash`,
+		cn: `皮疹`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bruis`,
+		cn: `瘀伤`,
+		type: `m.`,
+
+	},
+	{
+		dh: `skræp`,
+		cn: `擦伤`,
+		type: `m.`,
+
+	},
+	{
+		dh: `vaksin`,
+		cn: `疫苗`,
+		type: `m.`,
+
+	},
+	{
+		dh: `thermomitr`,
+		cn: `体温计`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bludpresmonit`,
+		cn: `血压计`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wæghingskæl`,
+		cn: `体重秤`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bandæd`,
+		cn: `创可贴`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bandaj`,
+		cn: `绷带`,
+		type: `m.`,
+
+	},
+	{
+		dh: `firstædkitt`,
+		cn: `急救箱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `medikrekord`,
+		cn: `病历`,
+		type: `m.`,
+
+	},
+	{
+		dh: `preskripshn`,
+		cn: `处方`,
+		type: `m.`,
+
+	},
+	{
+		dh: `pil`,
+		cn: `药片`,
+		type: `m.`,
+
+	},
+	{
+		dh: `kapsul`,
+		cn: `胶囊`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 宠物与户外
+	{
+		dh: `doglash`,
+		cn: `狗链`,
+		type: `m.`,
+
+	},
+	{
+		dh: `petkolr`,
+		cn: `项圈`,
+		type: `m.`,
+
+	},
+	{
+		dh: `petkarier`,
+		cn: `宠物笼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `petbed`,
+		cn: `宠物窝`,
+		type: `m.`,
+
+	},
+	{
+		dh: `katlitr`,
+		cn: `猫砂`,
+		type: `m.`,
+
+	},
+	{
+		dh: `skratshpost`,
+		cn: `猫抓板`,
+		type: `m.`,
+
+	},
+	{
+		dh: `dogfud`,
+		cn: `狗粮`,
+		type: `m.`,
+
+	},
+	{
+		dh: `katfud`,
+		cn: `猫粮`,
+		type: `m.`,
+
+	},
+	{
+		dh: `hamstr`,
+		cn: `仓鼠`,
+		type: `m.`,
+
+	},
+	{
+		dh: `birdcæg`,
+		cn: `鸟笼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `fishtank`,
+		cn: `鱼缸`,
+		type: `m.`,
+
+	},
+	{
+		dh: `litrbox`,
+		cn: `猫砂盆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tent`,
+		cn: `露营帐篷`,
+		type: `m.`,
+
+	},
+	{
+		dh: `sleepingbag`,
+		cn: `睡袋`,
+		type: `m.`,
+
+	},
+	{
+		dh: `campsait`,
+		cn: `露营地`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 职业
+	{
+		dh: `farmasihih`,
+		cn: `药剂师`,
+		type: `m.`,
+
+	},
+	{
+		dh: `dentihih`,
+		cn: `牙医`,
+		type: `m.`,
+
+	},
+	{
+		dh: `nærshih`,
+		cn: `护士`,
+		type: `m.`,
+
+	},
+	{
+		dh: `vethih`,
+		cn: `兽医`,
+		type: `m.`,
+
+	},
+	{
+		dh: `florhih`,
+		cn: `花艺师`,
+		type: `m.`,
+
+	},
+	{
+		dh: `mechhih`,
+		cn: `汽车修理工`,
+		type: `m.`,
+
+	},
+	{
+		dh: `bækerhih`,
+		cn: `面包师`,
+		type: `m.`,
+
+	},
+	{
+		dh: `gardhih`,
+		cn: `园丁`,
+		type: `m.`,
+
+	},
+	{
+		dh: `wêitrhih`,
+		cn: `餐厅服务生`,
+		type: `m.`,
+
+	},
+	{
+		dh: `tutorhih`,
+		cn: `私人辅导教师`,
+		type: `m.`,
+
+	},
+	// 2026.11.26 — 网络设备与账户动词
+	{
+		dh: `blipiêt`,
+		cn: `更换灯泡`,
+		type: `d.`,
+
+	},
+	{
+		dh: `sokêtiêt`,
+		cn: `把设备插入插座`,
+		type: `d.`,
+
+	},
+	{
+		dh: `bætrihiêt`,
+		cn: `更换电池`,
+		type: `d.`,
+
+	},
+	{
+		dh: `hêdfoniêt`,
+		cn: `用耳机听`,
+		type: `d.`,
+
+	},
+	{
+		dh: `mikrofiêt`,
+		cn: `用麦克风录音`,
+		type: `d.`,
+
+	},
+	{
+		dh: `spikêriêt`,
+		cn: `通过扬声器播放`,
+		type: `d.`,
+
+	},
+	{
+		dh: `monitriêt`,
+		cn: `监看显示器`,
+		type: `d.`,
+
+	},
+	{
+		dh: `tablêtiêt`,
+		cn: `使用平板电脑`,
+		type: `d.`,
+
+	},
+	{
+		dh: `laptapiêt`,
+		cn: `用笔记本电脑工作`,
+		type: `d.`,
+
+	},
+	{
+		dh: `rutêriêt`,
+		cn: `路由网络数据`,
+		type: `d.`,
+
+	},
+	{
+		dh: `modêmiêt`,
+		cn: `通过调制解调器联网`,
+		type: `d.`,
+
+	},
+	{
+		dh: `wifaihiêt`,
+		cn: `通过无线网络连接`,
+		type: `d.`,
+
+	},
+	{
+		dh: `paswêrdiêt`,
+		cn: `用密码保护`,
+		type: `d.`,
+
+	},
+	{
+		dh: `akontiêt`,
+		cn: `注册账户`,
+		type: `d.`,
+
+	},
+	{
+		dh: `wêbsitiêt`,
+		cn: `发布网站`,
+		type: `d.`,
+
+	},
+	{
+		dh: `wêbpagiêt`,
+		cn: `打开网页`,
+		type: `d.`,
+
+	},
+	{
+		dh: `usbdriviêt`,
+		cn: `保存到U盘`,
+		type: `d.`,
+
+	},
+	{
+		dh: `harddiskiêt`,
+		cn: `存入硬盘`,
+		type: `d.`,
+
+	},
+	{
+		dh: `memkardiêt`,
+		cn: `存入内存卡`,
+		type: `d.`,
+
+	},
+	{
+		dh: `pawbænkiêt`,
+		cn: `用充电宝充电`,
+		type: `d.`,
+
+	},
+	{
+		dh: `rimotiêt`,
+		cn: `遥控设备`,
+		type: `d.`,
+
+	},
+	{
+		dh: `datacordiêt`,
+		cn: `用数据线连接`,
+		type: `d.`,
+
+	},
+	{
+		dh: `powstripiêt`,
+		cn: `接入插线板`,
+		type: `d.`,
+
+	},
+	{
+		dh: `scrênprotiêt`,
+		cn: `贴屏幕保护膜`,
+		type: `d.`,
+
+	},
+	{
+		dh: `kompbagiêt`,
+		cn: `把电脑装进电脑包`,
+		type: `d.`,
+
+	},
+	// 2026.11.26 — 家务与器具动词
+	{
+		dh: `dêshsapiêt`,
+		cn: `用洗碗液洗碗`,
+		type: `d.`,
+
+	},
+	{
+		dh: `klineriêt`,
+		cn: `用清洁剂清洁`,
+		type: `d.`,
+
+	},
+	{
+		dh: `klœslainiêt`,
+		cn: `把衣物挂上晾衣绳`,
+		type: `d.`,
+
+	},
+	{
+		dh: `klothpiniêt`,
+		cn: `用衣夹夹住衣物`,
+		type: `d.`,
+
+	},
+	{
+		dh: `ketliêt`,
+		cn: `用水壶烧水`,
+		type: `d.`,
+
+	},
+	{
+		dh: `tostiêt`,
+		cn: `烤面包`,
+		type: `d.`,
+
+	},
+	{
+		dh: `raskokiêt`,
+		cn: `用电饭锅煮饭`,
+		type: `d.`,
+
+	},
+	{
+		dh: `blendiêt`,
+		cn: `搅拌食材`,
+		type: `d.`,
+
+	},
+	{
+		dh: `jusiêt`,
+		cn: `榨取果汁`,
+		type: `d.`,
+
+	},
+	{
+		dh: `funliêt`,
+		cn: `用漏斗倾倒液体`,
+		type: `d.`,
+
+	},
+	{
+		dh: `kolandriêt`,
+		cn: `用漏勺沥水`,
+		type: `d.`,
+
+	},
+	{
+		dh: `mezhriêt`,
+		cn: `用量杯测量`,
+		type: `d.`,
+
+	},
+	{
+		dh: `spateliêt`,
+		cn: `用锅铲翻动食物`,
+		type: `d.`,
+
+	},
+	{
+		dh: `chopboardiêt`,
+		cn: `在切菜板上切菜`,
+		type: `d.`,
+
+	},
+	{
+		dh: `bæktrayiêt`,
+		cn: `在烤盘上烘烤`,
+		type: `d.`,
+
+	},
+	{
+		dh: `aprniêt`,
+		cn: `穿上围裙`,
+		type: `d.`,
+
+	},
+	{
+		dh: `dêodrantiêt`,
+		cn: `涂抹除臭剂`,
+		type: `d.`,
+
+	},
+	{
+		dh: `toiletpaperiêt`,
+		cn: `用卫生纸擦拭`,
+		type: `d.`,
+
+	},
+	{
+		dh: `doorbelliêt`,
+		cn: `按响门铃`,
+		type: `d.`,
+
+	},
+	{
+		dh: `doorknobiêt`,
+		cn: `转动门把手`,
+		type: `d.`,
+
+	},
+	{
+		dh: `curtainrodiêt`,
+		cn: `安装窗帘杆`,
+		type: `d.`,
+
+	},
+	{
+		dh: `blindziêt`,
+		cn: `调节百叶窗`,
+		type: `d.`,
+
+	},
+	{
+		dh: `smokalamiêt`,
+		cn: `检查烟雾报警器`,
+		type: `d.`,
+
+	},
+	{
+		dh: `extiniêt`,
+		cn: `使用灭火器灭火`,
+		type: `d.`,
+
+	},
+	{
+		dh: `flashiêt`,
+		cn: `用手电筒照明`,
+		type: `d.`,
+
+	},
+	{
+		dh: `driliêt`,
+		cn: `钻孔`,
+		type: `d.`,
+
+	},
+	{
+		dh: `trashcaniêt`,
+		cn: `把垃圾扔进垃圾桶`,
+		type: `d.`,
+
+	},
+	{
+		dh: `recyclebiniêt`,
+		cn: `把物品放入回收箱`,
+		type: `d.`,
+
+	},
+	// 2026.11.26 — 动作名词对应的动词
+	{
+		dh: `foldlaund`,
+		cn: `叠衣服`,
+		type: `d.`,
+
+	},
+	{
+		dh: `hanglaund`,
+		cn: `晾晒衣物`,
+		type: `d.`,
+
+	},
+	{
+		dh: `raskok`,
+		cn: `煮饭`,
+		type: `d.`,
+
+	},
+	{
+		dh: `mezh`,
+		cn: `测量`,
+		type: `d.`,
+
+	},
+	{
+		dh: `filtr`,
+		cn: `过滤`,
+		type: `d.`,
+
+	},
+	{
+		dh: `bæk`,
+		cn: `烘焙`,
+		type: `d.`,
+
+	},
+	{
+		dh: `wêbpost`,
+		cn: `在网站发布内容`,
+		type: `d.`,
+
+	},
+	{
+		dh: `gard`,
+		cn: `打理花园`,
+		type: `d.`,
+
+	},
+	// 2026.11.26 — 商店与出行相关动词
+	{
+		dh: `restorantiêt`,
+		cn: `在餐馆用餐`,
+		type: `d.`,
+
+	},
+	{
+		dh: `beikeriêt`,
+		cn: `在面包店买面包`,
+		type: `d.`,
+
+	},
+	{
+		dh: `farmasihiêt`,
+		cn: `配发药物`,
+		type: `d.`,
+
+	},
+	{
+		dh: `postofisiêt`,
+		cn: `邮寄物品`,
+		type: `d.`,
+
+	},
+	{
+		dh: `gasstêshniêt`,
+		cn: `在加油站加油`,
+		type: `d.`,
+
+	},
+	{
+		dh: `parkinglotiêt`,
+		cn: `停车`,
+		type: `d.`,
+
+	},
+	{
+		dh: `carwashiêt`,
+		cn: `洗车`,
+		type: `d.`,
+
+	},
+	{
+		dh: `laundromatiêt`,
+		cn: `在自助洗衣店洗衣`,
+		type: `d.`,
+
+	},
+	{
+		dh: `grosrystoreiêt`,
+		cn: `采购杂货`,
+		type: `d.`,
+
+	},
+	{
+		dh: `lagajiêt`,
+		cn: `收拾行李`,
+		type: `d.`,
+
+	},
+	{
+		dh: `visahiêt`,
+		cn: `申请签证`,
+		type: `d.`,
+
+	},
+	{
+		dh: `trafikjamiêt`,
+		cn: `遭遇交通堵塞`,
+		type: `d.`,
+
+	},
+	{
+		dh: `kroswalkiêt`,
+		cn: `走过斑马线`,
+		type: `d.`,
+
+	},
+	{
+		dh: `toliêt`,
+		cn: `缴纳过路费`,
+		type: `d.`,
+
+	},
+	{
+		dh: `parkingtiketiêt`,
+		cn: `开出停车罚单`,
+		type: `d.`,
+
+	},
+	{
+		dh: `stêringwiliêt`,
+		cn: `转动方向盘驾驶`,
+		type: `d.`,
+
+	},
+	{
+		dh: `windshildwaipriêt`,
+		cn: `擦拭挡风玻璃`,
+		type: `d.`,
+
+	},
+	{
+		dh: `cartrunkiêt`,
+		cn: `把物品装入后备箱`,
+		type: `d.`,
+
+	},
+	{
+		dh: `tairiêt`,
+		cn: `更换轮胎`,
+		type: `d.`,
+
+	},
+	// 2026.11.26 — 食物与健康动词
+	{
+		dh: `popkorniêt`,
+		cn: `制作爆米花`,
+		type: `d.`,
+
+	},
+	{
+		dh: `peanutbutriêt`,
+		cn: `涂抹花生酱`,
+		type: `d.`,
+
+	},
+	{
+		dh: `otsiêt`,
+		cn: `煮燕麦`,
+		type: `d.`,
+
+	},
+	{
+		dh: `hamburgriêt`,
+		cn: `制作汉堡`,
+		type: `d.`,
+
+	},
+	{
+		dh: `beigeliêt`,
+		cn: `烤热贝果`,
+		type: `d.`,
+
+	},
+	{
+		dh: `panekekiêt`,
+		cn: `制作煎饼`,
+		type: `d.`,
+
+	},
+	{
+		dh: `dowiêt`,
+		cn: `揉面团`,
+		type: `d.`,
+
+	},
+	{
+		dh: `mustardiêt`,
+		cn: `给食物加芥末`,
+		type: `d.`,
+
+	},
+	{
+		dh: `tofuiêt`,
+		cn: `烹制豆腐`,
+		type: `d.`,
+
+	},
+	{
+		dh: `eyedropsiêt`,
+		cn: `滴眼药水`,
+		type: `d.`,
+
+	},
+	{
+		dh: `vaksiniêt`,
+		cn: `接种疫苗`,
+		type: `d.`,
+
+	},
+	{
+		dh: `bandajiêt`,
+		cn: `用绷带包扎`,
+		type: `d.`,
+
+	},
+	{
+		dh: `preskribiêt`,
+		cn: `开处方`,
+		type: `d.`,
+
+	},
+	{
+		dh: `piliêt`,
+		cn: `服药片`,
+		type: `d.`,
+
+	},
+	{
+		dh: `thermometriêt`,
+		cn: `测量体温`,
+		type: `d.`,
+
+	},
+	// 2026.11.26 — 职业对应动词
+	{
+		dh: `dentiêt`,
+		cn: `进行牙科治疗`,
+		type: `d.`,
+
+	},
+	{
+		dh: `nærshiêt`,
+		cn: `提供护理`,
+		type: `d.`,
+
+	},
+	{
+		dh: `vêtiêt`,
+		cn: `为动物诊治`,
+		type: `d.`,
+
+	},
+	{
+		dh: `floriêt`,
+		cn: `插花或售花`,
+		type: `d.`,
+
+	},
+	{
+		dh: `mechiêt`,
+		cn: `修理车辆或机械`,
+		type: `d.`,
+
+	},
+	{
+		dh: `bækeriêt`,
+		cn: `烘焙面包和糕点`,
+		type: `d.`,
+
+	},
+	{
+		dh: `gardiêt`,
+		cn: `园艺耕作`,
+		type: `d.`,
+
+	},
+	{
+		dh: `wêitriêt`,
+		cn: `为顾客上菜`,
+		type: `d.`,
+
+	},
+	{
+		dh: `tutoriêt`,
+		cn: `进行私人辅导`,
+		type: `d.`,
+
+	},
+	// 2026.11.26 — 宠物护理动词
+	{
+		dh: `doglashiêt`,
+		cn: `牵着狗链遛狗`,
+		type: `d.`,
+
+	},
+	{
+		dh: `petkolriêt`,
+		cn: `给宠物戴项圈`,
+		type: `d.`,
+
+	},
+	{
+		dh: `katlitriêt`,
+		cn: `铺猫砂`,
+		type: `d.`,
+
+	},
+	{
+		dh: `fishtankiêt`,
+		cn: `清理鱼缸`,
+		type: `d.`,
+
+	},
+	{
+		dh: `petbediêt`,
+		cn: `整理宠物窝`,
+		type: `d.`,
+
+	},
 ];
