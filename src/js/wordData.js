@@ -15253,5 +15253,508 @@ globalThis.wordData = [
 		cn: `[大区名]群岛大区`,
 		type: `m.`,
 
+	}, // 2026.11.26 — 日常词汇扩充：20组名词派生动词
+	{
+		dh: `brank`,
+		cn: `早餐,早饭`,
+		type: `m.`,
+
+	}, {
+		dh: `brankiêt`,
+		cn: `吃早餐`,
+		type: `d.`,
+
+	}, {
+		dh: `drel`,
+		cn: `午餐,午饭`,
+		type: `m.`,
+
+	}, {
+		dh: `dreliêt`,
+		cn: `吃午餐`,
+		type: `d.`,
+
+	}, {
+		dh: `sært`,
+		cn: `晚餐,晚饭`,
+		type: `m.`,
+
+	}, {
+		dh: `særtiêt`,
+		cn: `吃晚餐`,
+		type: `d.`,
+
+	}, {
+		dh: `plæm`,
+		cn: `零食,小吃`,
+		type: `m.`,
+
+	}, {
+		dh: `plæmiêt`,
+		cn: `吃零食,吃点心`,
+		type: `d.`,
+
+	}, {
+		dh: `kœrv`,
+		cn: `咖啡`,
+		type: `m.`,
+
+	}, {
+		dh: `kœrviêt`,
+		cn: `喝咖啡`,
+		type: `d.`,
+
+	}, {
+		dh: `zhoip`,
+		cn: `果汁`,
+		type: `m.`,
+
+	}, {
+		dh: `zhoipiêt`,
+		cn: `喝果汁`,
+		type: `d.`,
+
+	}, {
+		dh: `mæl`,
+		cn: `电子邮件,邮件`,
+		type: `m.`,
+
+	}, {
+		dh: `mæliêt`,
+		cn: `发送电子邮件,发邮件`,
+		type: `d.`,
+
+	}, {
+		dh: `frænt`,
+		cn: `短信,短消息`,
+		type: `m.`,
+
+	}, {
+		dh: `fræntiêt`,
+		cn: `发送短信,发短信`,
+		type: `d.`,
+
+	}, {
+		dh: `fœr`,
+		cn: `照片,相片`,
+		type: `m.`,
+
+	}, {
+		dh: `fœriêt`,
+		cn: `拍照,摄影`,
+		type: `d.`,
+
+	}, {
+		dh: `dwæp`,
+		cn: `视频,录像`,
+		type: `m.`,
+
+	}, {
+		dh: `dwæpiêt`,
+		cn: `录视频,拍摄视频`,
+		type: `d.`,
+
+	}, {
+		dh: `nœt`,
+		cn: `便条,留言条`,
+		type: `m.`,
+
+	}, {
+		dh: `nœtiêt`,
+		cn: `写便条,记下`,
+		type: `d.`,
+
+	}, {
+		dh: `glast`,
+		cn: `账单,费用单`,
+		type: `m.`,
+
+	}, {
+		dh: `glastiêt`,
+		cn: `开账单,向某人收费`,
+		type: `d.`,
+
+	}, {
+		dh: `schar`,
+		cn: `日程表,时间安排`,
+		type: `m.`,
+
+	}, {
+		dh: `schariêt`,
+		cn: `安排日程,排期`,
+		type: `d.`,
+
+	}, {
+		dh: `præm`,
+		cn: `预约,预订`,
+		type: `m.`,
+
+	}, {
+		dh: `præmiêt`,
+		cn: `预约,预订`,
+		type: `d.`,
+
+	}, {
+		dh: `plêd`,
+		cn: `约会,约定会面`,
+		type: `m.`,
+
+	}, {
+		dh: `plêdiêt`,
+		cn: `赴约,约会`,
+		type: `d.`,
+
+	}, {
+		dh: `flœn`,
+		cn: `派对,聚会`,
+		type: `m.`,
+
+	}, {
+		dh: `flœniêt`,
+		cn: `举办聚会,参加派对`,
+		type: `d.`,
+
+	}, {
+		dh: `shau`,
+		cn: `淋浴,淋浴过程`,
+		type: `m.`,
+
+	}, {
+		dh: `shauhiêt`,
+		cn: `淋浴,冲澡`,
+		type: `d.`,
+
+	}, {
+		dh: `klæ`,
+		cn: `洗衣,洗衣活`,
+		type: `m.`,
+
+	}, {
+		dh: `klæhiêt`,
+		cn: `洗衣服`,
+		type: `d.`,
+
+	}, {
+		dh: `kævo`,
+		cn: `电话,电话机`,
+		type: `m.`,
+
+	}, {
+		dh: `kævohiêt`,
+		cn: `打电话,电话联系`,
+		type: `d.`,
+
+	}, {
+		dh: `zædi`,
+		cn: `日历,月历`,
+		type: `m.`,
+
+	}, {
+		dh: `zædihiêt`,
+		cn: `记入日历,安排到日历`,
+		type: `d.`,
+
+	}, // 2026.11.26 — 日常词汇扩充：20组裸动词派生动作名词
+	{
+		dh: `zrem`,
+		cn: `做饭,烹饪`,
+		type: `d.`,
+
+	}, {
+		dh: `zremiat`,
+		cn: `烹饪,做饭过程`,
+		type: `m.`,
+
+	}, {
+		dh: `brov`,
+		cn: `冲泡,泡咖啡或茶`,
+		type: `d.`,
+
+	}, {
+		dh: `broviad`,
+		cn: `冲泡活动`,
+		type: `m.`,
+
+	}, {
+		dh: `nœsk`,
+		cn: `用微波炉加热,微波加热`,
+		type: `d.`,
+
+	}, {
+		dh: `nœskiat`,
+		cn: `微波加热,加热过程`,
+		type: `m.`,
+
+	}, {
+		dh: `vrêmp`,
+		cn: `吸尘,用吸尘器清洁`,
+		type: `d.`,
+
+	}, {
+		dh: `vrêmpiat`,
+		cn: `吸尘,吸尘活动`,
+		type: `m.`,
+
+	}, {
+		dh: `glœt`,
+		cn: `拖地,用拖把擦地`,
+		type: `d.`,
+
+	}, {
+		dh: `glœtiad`,
+		cn: `拖地活动`,
+		type: `m.`,
+
+	}, {
+		dh: `clêv`,
+		cn: `洗衣服,做洗衣活`,
+		type: `d.`,
+
+	}, {
+		dh: `clêviat`,
+		cn: `洗衣,洗衣活动`,
+		type: `m.`,
+
+	}, {
+		dh: `zriw`,
+		cn: `熨衣服,熨烫`,
+		type: `d.`,
+
+	}, {
+		dh: `zriwiad`,
+		cn: `熨烫衣物,熨衣活动`,
+		type: `m.`,
+
+	}, {
+		dh: `dræmp`,
+		cn: `回收,回收利用`,
+		type: `d.`,
+
+	}, {
+		dh: `dræmpiac`,
+		cn: `回收利用,回收行为`,
+		type: `m.`,
+
+	}, {
+		dh: `plœn`,
+		cn: `给设备充电,充电`,
+		type: `d.`,
+
+	}, {
+		dh: `plœniat`,
+		cn: `充电,充电过程`,
+		type: `m.`,
+
+	}, {
+		dh: `krint`,
+		cn: `打字,键盘输入`,
+		type: `d.`,
+
+	}, {
+		dh: `krintiad`,
+		cn: `打字活动`,
+		type: `m.`,
+
+	}, {
+		dh: `frwsh`,
+		cn: `打印,印出`,
+		type: `d.`,
+
+	}, {
+		dh: `frwshiat`,
+		cn: `打印过程`,
+		type: `m.`,
+
+	}, {
+		dh: `zwêp`,
+		cn: `下载,从网络下载`,
+		type: `d.`,
+
+	}, {
+		dh: `zwêpiat`,
+		cn: `下载活动`,
+		type: `m.`,
+
+	}, {
+		dh: `vlæm`,
+		cn: `上传,向网络上传`,
+		type: `d.`,
+
+	}, {
+		dh: `vlæmiat`,
+		cn: `上传活动`,
+		type: `m.`,
+
+	}, {
+		dh: `shwêl`,
+		cn: `拍摄照片,拍照`,
+		type: `d.`,
+
+	}, {
+		dh: `shwêliac`,
+		cn: `摄影,拍摄照片`,
+		type: `m.`,
+
+	}, {
+		dh: `dæsk`,
+		cn: `录制视频,录像`,
+		type: `d.`,
+
+	}, {
+		dh: `dæsktiad`,
+		cn: `录像,视频录制`,
+		type: `m.`,
+
+	}, {
+		dh: `krœd`,
+		cn: `预订座位或房间,预约`,
+		type: `d.`,
+
+	}, {
+		dh: `krœdiat`,
+		cn: `预订,预约活动`,
+		type: `m.`,
+
+	}, {
+		dh: `flæsh`,
+		cn: `取消,撤销`,
+		type: `d.`,
+
+	}, {
+		dh: `flæshiad`,
+		cn: `取消行为`,
+		type: `m.`,
+
+	}, {
+		dh: `storn`,
+		cn: `通勤,上下班往返`,
+		type: `d.`,
+
+	}, {
+		dh: `storniat`,
+		cn: `通勤,上下班往返活动`,
+		type: `m.`,
+
+	}, {
+		dh: `plæv`,
+		cn: `放松,休息放松`,
+		type: `d.`,
+
+	}, {
+		dh: `plæviat`,
+		cn: `放松活动,放松状态`,
+		type: `m.`,
+
+	}, {
+		dh: `drœf`,
+		cn: `休息,歇息`,
+		type: `d.`,
+
+	}, {
+		dh: `drœfiat`,
+		cn: `休息,休息时间`,
+		type: `m.`,
+
+	}, // 2026.11.26 — 日常名词及人物/器具派生名词
+	{
+		dh: `bræthhih`,
+		cn: `孩子,儿童`,
+		type: `m.`,
+
+	}, {
+		dh: `plœrhih`,
+		cn: `婴儿,宝宝`,
+		type: `m.`,
+
+	}, {
+		dh: `drint`,
+		cn: `兄弟,哥哥,弟弟`,
+		type: `m.`,
+
+	}, {
+		dh: `vœl`,
+		cn: `姐妹,姐姐,妹妹`,
+		type: `m.`,
+
+	}, {
+		dh: `krænt`,
+		cn: `丈夫`,
+		type: `m.`,
+
+	}, {
+		dh: `sælp`,
+		cn: `妻子`,
+		type: `m.`,
+
+	}, {
+		dh: `blœn`,
+		cn: `厨房`,
+		type: `m.`,
+
+	}, {
+		dh: `frêth`,
+		cn: `浴室,洗澡间`,
+		type: `m.`,
+
+	}, {
+		dh: `sclœp`,
+		cn: `水槽,洗涤槽`,
+		type: `m.`,
+
+	}, {
+		dh: `gwæst`,
+		cn: `超市,超级市场`,
+		type: `m.`,
+
+	}, {
+		dh: `zremhih`,
+		cn: `厨师,烹饪者`,
+		type: `m.`,
+
+	}, {
+		dh: `nœskinh`,
+		cn: `微波炉`,
+		type: `m.`,
+
+	}, {
+		dh: `vrêmpinh`,
+		cn: `吸尘器`,
+		type: `m.`,
+
+	}, {
+		dh: `glœtiêr`,
+		cn: `拖把`,
+		type: `m.`,
+
+	}, {
+		dh: `clêvinh`,
+		cn: `洗衣机`,
+		type: `m.`,
+
+	}, {
+		dh: `zriwiêr`,
+		cn: `熨斗,电熨斗`,
+		type: `m.`,
+
+	}, {
+		dh: `plœninh`,
+		cn: `充电器`,
+		type: `m.`,
+
+	}, {
+		dh: `krintinh`,
+		cn: `键盘`,
+		type: `m.`,
+
+	}, {
+		dh: `frwshinh`,
+		cn: `打印机`,
+		type: `m.`,
+
+	}, {
+		dh: `shwêliêr`,
+		cn: `相机,照相机`,
+		type: `m.`,
+
 	}
 ];
