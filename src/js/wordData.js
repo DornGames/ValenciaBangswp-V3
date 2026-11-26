@@ -13954,6 +13954,505 @@ globalThis.wordData = [
 		dh: `dwokt`,
 		cn: `碉堡`,
 		type: `m.`,
-	}
+	}, {
+		dh: `vwopt`,
+		cn: `淬火`,
+		type: `d.`,
 
+	}, {
+		dh: `pwelz`,
+		cn: `泼洒`,
+		type: `d.`,
+
+	}, {
+		dh: `nwwrm`,
+		cn: `揉捏`,
+		type: `d.`,
+
+	}, {
+		dh: `nwwkl`,
+		cn: `搓捻`,
+		type: `d.`,
+
+	}, {
+		dh: `nwyfl`,
+		cn: `钩织`,
+		type: `d.`,
+
+	}, {
+		dh: `vryrt`,
+		cn: `凿刻`,
+		type: `d.`,
+
+	}, {
+		dh: `nwybz`,
+		cn: `夯击`,
+		type: `d.`,
+
+	}, {
+		dh: `pwadz`,
+		cn: `捆扎`,
+		type: `d.`,
+
+	}, {
+		dh: `swwrp`,
+		cn: `舂捣`,
+		type: `d.`,
+
+	}, {
+		dh: `plypt`,
+		cn: `泼溅`,
+		type: `d.`,
+
+	}, {
+		dh: `kralv`,
+		cn: `劈砍`,
+		type: `d.`,
+
+	}, {
+		dh: `klagr`,
+		cn: `磨光`,
+		type: `d.`,
+
+	}, {
+		dh: `kryfr`,
+		cn: `捣烂`,
+		type: `d.`,
+
+	}, {
+		dh: `klezl`,
+		cn: `浸染`,
+		type: `d.`,
+
+	}, {
+		dh: `pwabr`,
+		cn: `撒播`,
+		type: `d.`,
+
+	}, {
+		dh: `kledz`,
+		cn: `抛掷`,
+		type: `d.`,
+
+	}, {
+		dh: `klilg`,
+		cn: `吸吮`,
+		type: `d.`,
+
+	}, {
+		dh: `nwwtr`,
+		cn: `舔舐`,
+		type: `d.`,
+
+	}, {
+		dh: `pwarg`,
+		cn: `啃咬`,
+		type: `d.`,
+
+	}, {
+		dh: `fryrk`,
+		cn: `咀嚼`,
+		type: `d.`,
+
+	}, {
+		dh: `pwalkod`,
+		cn: `匍匐`,
+		type: `d.`,
+
+	}, {
+		dh: `frylpod`,
+		cn: `蹦跳`,
+		type: `d.`,
+
+	}, {
+		dh: `frytnod`,
+		cn: `跌倒`,
+		type: `d.`,
+
+	}, {
+		dh: `zwatzod`,
+		cn: `蜷缩`,
+		type: `d.`,
+
+	}, {
+		dh: `glokvod`,
+		cn: `伸展`,
+		type: `d.`,
+
+	}, {
+		dh: `mwyrbêt`,
+		cn: `摇晃`,
+		type: `d.`,
+
+	}, {
+		dh: `swetvêt`,
+		cn: `战栗`,
+		type: `d.`,
+
+	}, {
+		dh: `nwwvnêt`,
+		cn: `哆嗦`,
+		type: `d.`,
+
+	}, {
+		dh: `klermêt`,
+		cn: `憋气`,
+		type: `d.`,
+
+	}, {
+		dh: `swalbêt`,
+		cn: `凝望`,
+		type: `d.`,
+
+	}, {
+		dh: `vwoptiad`,
+		cn: `灰烬`,
+		type: `m.`,
+
+	}, {
+		dh: `pwelziac`,
+		cn: `火堆`,
+		type: `m.`,
+
+	}, {
+		dh: `nwwrmiat`,
+		cn: `炭渣`,
+		type: `m.`,
+
+	}, {
+		dh: `nwwkliêr`,
+		cn: `火塘`,
+		type: `m.`,
+
+	}, {
+		dh: `nwyflinh`,
+		cn: `火星`,
+		type: `m.`,
+
+	}, {
+		dh: `vryrtad`,
+		cn: `余烬`,
+		type: `m.`,
+
+	}, {
+		dh: `nwybzac`,
+		cn: `篝火`,
+		type: `m.`,
+
+	}, {
+		dh: `pwadzat`,
+		cn: `暖炕`,
+		type: `m.`,
+
+	}, {
+		dh: `swwrpiad`,
+		cn: `河岸`,
+		type: `m.`,
+
+	}, {
+		dh: `plyptiac`,
+		cn: `水闸`,
+		type: `m.`,
+
+	}, {
+		dh: `kralviat`,
+		cn: `渡口`,
+		type: `m.`,
+
+	}, {
+		dh: `klagriêr`,
+		cn: `河湾`,
+		type: `m.`,
+
+	}, {
+		dh: `kryfrinh`,
+		cn: `浅滩`,
+		type: `m.`,
+
+	}, {
+		dh: `klezlad`,
+		cn: `深潭`,
+		type: `m.`,
+
+	}, {
+		dh: `pwabrac`,
+		cn: `漩涡`,
+		type: `m.`,
+
+	}, {
+		dh: `kledzat`,
+		cn: `瀑布`,
+		type: `m.`,
+
+	}, {
+		dh: `klilgiad`,
+		cn: `山脊`,
+		type: `m.`,
+
+	}, {
+		dh: `nwwtriac`,
+		cn: `山坳`,
+		type: `m.`,
+
+	}, {
+		dh: `pwargiat`,
+		cn: `山麓`,
+		type: `m.`,
+
+	}, {
+		dh: `fryrkiêr`,
+		cn: `隘口`,
+		type: `m.`,
+
+	}, {
+		dh: `klelb`,
+		cn: `峭壁`,
+		type: `m.`,
+
+	}, {
+		dh: `pwilp`,
+		cn: `岩洞`,
+		type: `m.`,
+
+	}, {
+		dh: `glelk`,
+		cn: `碎石`,
+		type: `m.`,
+
+	}, {
+		dh: `swerg`,
+		cn: `砂砾`,
+		type: `m.`,
+
+	}, {
+		dh: `rwwvz`,
+		cn: `茅屋`,
+		type: `m.`,
+
+	}, {
+		dh: `glykn`,
+		cn: `栅栏`,
+		type: `m.`,
+
+	}, {
+		dh: `dwebl`,
+		cn: `篱笆`,
+		type: `m.`,
+
+	}, {
+		dh: `klekn`,
+		cn: `井台`,
+		type: `m.`,
+
+	}, {
+		dh: `brylk`,
+		cn: `磨坊`,
+		type: `m.`,
+
+	}, {
+		dh: `blylz`,
+		cn: `染坊`,
+		type: `m.`,
+
+	}, {
+		dh: `xwedr`,
+		cn: `酒窖`,
+		type: `m.`,
+
+	}, {
+		dh: `mwegl`,
+		cn: `地窖`,
+		type: `m.`,
+
+	}, {
+		dh: `bwalv`,
+		cn: `纺锤`,
+		type: `m.`,
+
+	}, {
+		dh: `bwoft`,
+		cn: `织梭`,
+		type: `m.`,
+
+	}, {
+		dh: `frotv`,
+		cn: `陶轮`,
+		type: `m.`,
+
+	}, {
+		dh: `fwazt`,
+		cn: `铁砧`,
+		type: `m.`,
+
+	}, {
+		dh: `gwekt`,
+		cn: `风炉`,
+		type: `m.`,
+
+	}, {
+		dh: `fwilg`,
+		cn: `熔炉`,
+		type: `m.`,
+
+	}, {
+		dh: `bwerp`,
+		cn: `炭窑`,
+		type: `m.`,
+
+	}, {
+		dh: `nwwnt`,
+		cn: `砖窑`,
+		type: `m.`,
+
+	}, {
+		dh: `mwwzr`,
+		cn: `榆树`,
+		type: `m.`,
+
+	}, {
+		dh: `swevr`,
+		cn: `柳树`,
+		type: `m.`,
+
+	}, {
+		dh: `rwwfr`,
+		cn: `杉树`,
+		type: `m.`,
+
+	}, {
+		dh: `xwotz`,
+		cn: `柏树`,
+		type: `m.`,
+
+	}, {
+		dh: `blykt`,
+		cn: `松树`,
+		type: `m.`,
+
+	}, {
+		dh: `plekt`,
+		cn: `枫树`,
+		type: `m.`,
+
+	}, {
+		dh: `bwang`,
+		cn: `桦树`,
+		type: `m.`,
+
+	}, {
+		dh: `fwwtv`,
+		cn: `榕树`,
+		type: `m.`,
+
+	}, {
+		dh: `pwist`,
+		cn: `苍鹭`,
+		type: `m.`,
+
+	}, {
+		dh: `glytz`,
+		cn: `八哥`,
+		type: `m.`,
+
+	}, {
+		dh: `fwirk`,
+		cn: `画眉`,
+		type: `m.`,
+
+	}, {
+		dh: `fryfs`,
+		cn: `杜鹃`,
+		type: `m.`,
+
+	}, {
+		dh: `krwvr`,
+		cn: `黄鹂`,
+		type: `m.`,
+
+	}, {
+		dh: `fwwbz`,
+		cn: `夜莺`,
+		type: `m.`,
+
+	}, {
+		dh: `plagz`,
+		cn: `燕子`,
+		type: `m.`,
+
+	}, {
+		dh: `swavn`,
+		cn: `黄雀`,
+		type: `m.`,
+
+	}, {
+		dh: `dwovl`,
+		cn: `鹌鹑`,
+		type: `m.`,
+
+	}, {
+		dh: `pwirs`,
+		cn: `雉鸡`,
+		type: `m.`,
+
+	}, {
+		dh: `gwerm`,
+		cn: `鸬鹚`,
+		type: `m.`,
+
+	}, {
+		dh: `frozn`,
+		cn: `鸥鸟`,
+		type: `m.`,
+
+	}, {
+		dh: `blokz`,
+		cn: `海鹦`,
+		type: `m.`,
+
+	}, {
+		dh: `bwoks`,
+		cn: `海鸥`,
+		type: `m.`,
+
+	}, {
+		dh: `xwogr`,
+		cn: `鸵鸟`,
+		type: `m.`,
+
+	}, {
+		dh: `fwyrz`,
+		cn: `鹦鹉`,
+		type: `m.`,
+
+	}, {
+		dh: `fryvl`,
+		cn: `枣树`,
+		type: `m.`,
+
+	}, {
+		dh: `rwwkt`,
+		cn: `柿树`,
+		type: `m.`,
+
+	}, {
+		dh: `bwodr`,
+		cn: `漆树`,
+		type: `m.`,
+
+	}, {
+		dh: `twelb`,
+		cn: `胶树`,
+		type: `m.`,
+
+	}, {
+		dh: `fwogz`,
+		cn: `樟树`,
+		type: `m.`,
+
+	}, {
+		dh: `dwozn`,
+		cn: `槐树`,
+		type: `m.`,
+
+	}
 ];

@@ -791,3 +791,65 @@
 - **修改** `src/js/components.js` 第61行 — 动态页脚版本号 `Ver 3.0.0` → `Ver V3.1`
 - **修改** `src/pages/search.html` 第156行 — 页脚版本号 `Ver 2.0.0` → `Ver V3.1`
 - **修改** `src/pages/tondhæDetail.html` 第208行 — 页脚版本号 `Ver 2.0.0` → `Ver V3.1`
+
+### 2026-08-11 — 第三十二阶段：词汇扩充（新增 20 动词 + 40 名词）
+- **扩充** `src/js/wordData.js` — 新增 60 个词条（20动词+20名词派生+20独立名词，严格审查无重复）：
+  - **动词（20个，-od/-iêt词缀，均含名词派生）**：
+    - `blam` 游泳,游水 → `blamion` 游泳,游水
+    - `crœl` 飞行,飞翔,翱翔 → `crœlion` 飞行,航程,飞行
+    - `dring` 降落,着陆,落下 → `drinion` 降落,下落,下降
+    - `drang` 矗立,伫立,直立 → `drangion` 矗立,伫立,直立
+    - `snigod` 绑,缚,系住 → `snigodiac` 绑缚,捆绑,束缚
+    - `strobod` 解开,松开,解脱 → `strobodiac` 解开,松开,解脱
+    - `fripod` 浏览,翻阅,浏览 → `fripodiêr` 浏览,翻阅,阅读活动
+    - `blakiêt` 嘲笑,讥讽,奚落 → `blakiêtia` 嘲笑,讥讽,奚落
+    - `grœbiêt` 辩论,争辩,辩驳 → `grœbiêtia` 辩论,争辩,辩驳
+    - `plœkhiêt` 拥抱,搂抱,环抱 → `plœkhiêtia` 拥抱,搂抱,亲昵
+    - `trœdod` 穿透,贯穿,钻穿 → `trœdodiac` 穿透,贯穿,穿透力
+    - `zrœkiêt` 骑,乘,乘坐 → `zrœkiêtia` 骑术,骑行,乘坐
+    - `splœniêt` 雕刻,镂空,镌刻 → `splœniêtiêr` 雕刻师,雕刻家
+    - `snœfiêt` 遮蔽,遮护,庇护 → `snœfiêtiêr` 遮蔽处,庇护所
+    - `drœnod` 洗澡,洗浴,沐浴 → `drœnodiac` 洗澡,洗浴,沐浴
+    - `grœfiêt` 赞美,称颂,颂扬 → `grœfiêtiêr` 赞美者,称颂者
+    - `dwœmiêt` 庆祝,欢庆,庆贺 → `dwœmiêtiêr` 庆典,庆祝活动
+    - `frœdod` 狩猎,捕猎,追捕 → `frœdodiêr` 猎人,猎手
+    - `blœkiêt` 记忆,记住,铭记 → `blœkiêtiêr` 记忆,记忆能力
+    - `krœgihêt` 召唤,呼唤,号召 → `krœgihêtiêr` 召唤,号召
+  - **名词（20个，独立名词，词根多样化）**：
+    - `rwan` 颜色,色彩,色泽 — `zraf` 气味,气息,味道
+    - `kwêk` 声响,声音,响声 — `mœs` 触感,手感,质感
+    - `drin` 形态,形状,外形 — `klir` 光线,光亮,光晕
+    - `blœb` 阴影,影子,暗影 — `kwar` 温度,热度,热
+    - `glœd` 寒冷,凉意,冷 — `stœm` 力量,强度,力
+    - `krih` 勇气,胆量,气魄 — `zræm` 温柔,柔和,温婉
+    - `plœs` 姿态,仪态,神态 — `drah` 景象,景色,景致
+    - `vrœl` 情感,感情,情绪 — `krœh` 意愿,意志,意图
+    - `stœd` 道路,路径,途径 — `blœf` 作品,产物,制品
+    - `drœm` 梦境,梦想,幻想 — `kwœr` 和谐,融洽,和睦
+
+### 2026-08-13 — 第三十三阶段：词汇扩充（新增 50 动词 + 100 名词）
+- **扩充** `src/js/wordData.js` — 新增 150 个词条（50动词+35动词派生名词+65独立名词，严格审查无重复，词缀多样化，闭音节，词根拼写拉开差距，不使用字母 u）：
+  - **动词（50个，带词缀 15 个 + 无词缀 35 个）**：
+    - 带词缀动词（-od/-iêt/-hiêt，15个）：`swarnod` 停泊、`girnvod` 种菜、`kweftod` 拱起、`twerthiêt` 赶集、`nemblod` 起云、`plawrod` 覆泥、`prenskod` 滴落、`skrofiêt` 刻画、`kvornhiêt` 环绕、`bladgod` 上锁、`treptod` 登阶、`warshod` 翻涌、`drefonod` 犁沟、`zlonbod` 摇铃、`gropizod` 耕种
+    - 无词缀动词（35个）：`klonbrt` 巡逻、`drenb` 潜水、`fronz` 撒种、`grolm` 收割、`hlorm` 挖掘、`mizwk` 搅拌、`snebx` 缝补、`krivs` 烤制、`vembr` 编织、`grirt` 磨砺、`blard` 呼唤、`fzats` 驮运、`kwoz` 敲打、`znad` 抓握、`shrold` 翱翔、`cridk` 攀登、`blekst` 咆哮、`clolax` 疾驰、`sprewg` 洒落、`hwenk` 闷燃、`fwopis` 牵引、`klynsk` 折叠、`vlarz` 飘荡、`swertk` 醒转、`krelt` 颤抖、`dwingd` 缠绕、`flarnk` 尖叫、`pelet` 拖延、`stavz` 斥喝、`chwarnk` 撕扯、`tromb` 压制、`blivn` 闪烁、`snaft` 屏息、`klandr` 诵读、`wrenth` 徘徊
+  - **动词派生名词（35个，-iad/-iac/-iat/-iêr/-inh）**：
+    - `klonbrtiad` 巡逻队、`drenbiac` 潜水活动、`fronziad` 撒种时节、`grolmiac` 收割时节、`hloriad` 挖掘作业、`mizwkiad` 搅拌之物、`snebxiac` 缝补针脚、`krivsiad` 烤制炉火、`vembriad` 编织纹样、`grirtiat` 磨砺之功、`blardiad` 呼唤之声、`fzatsiac` 驮运载具、`kwaziac` 敲打节奏、`znadiad` 抓握之势、`cridkiêr` 攀登者、`trowliêr` 牵引者、`flarnkiêr` 尖叫者、`chwarnkinh` 撕扯碎片、`dwingdinh` 缠绕物、`trombinh` 压镇石、`krindinh` 折痕、`peletiad` 拖延之举、`klandriac` 诵读之声、`wrenthiad` 徘徊之路、`blivniac` 闪烁之光、`snaftiad` 屏息之刻、`kreltiac` 颤抖之势、`swertkiad` 苏醒之时、`clolaxiac` 疾驰之势、`sprewgiad` 洒落之迹、`vlarziat` 飘荡之姿、`zrengiad` 斥喝之语、`shroldiad` 翱翔之态、`blekstiac` 咆哮之声、`hwenkiad` 闷燃之火
+  - **独立名词（65个，词根多样化）**：
+    - 自然景物/地物（15个）：`tlornb` 港口、`girnv` 蔬菜、`kweft` 山丘、`twerth` 集市、`nembl` 云、`plawr` 泥土、`prensk` 水滴、`skrof` 划痕、`kvorn` 圆周、`bladg` 锁扣、`trept` 台阶、`warsh` 浪涛、`drefon` 垄沟、`zlonb` 铃铛、`gropiz` 田地
+    - 动物（10个）：`vrelag` 狐狸、`snokb` 野猪、`klornt` 秃鹫、`plewn` 竹鼠、`zlarp` 守宫、`glorsh` 果蝠、`wempl` 鳐鱼、`frinwk` 蟾蜍、`zinkr` 山羊、`spilov` 龟
+    - 植物（10个）：`shtarnb` 橡树、`trigr` 藤蔓、`trewl` 麦穗、`whornk` 苔藓、`zlwornx` 菌菇、`snarpt` 灌木、`knavog` 芦苇、`thranp` 峡谷、`glawn` 雾气、`grwolnt` 冰川
+    - 天气天象（10个）：`drenst` 暴雨、`plowen` 潮汐、`shrenk` 尘土、`wromd` 彩虹、`tlenk` 闪电、`brynz` 陨石、`qlwornk` 关节、`skrwnz` 拳头、`twarnzh` 肋骨、`frwolnk` 肌腱
+    - 身体部位（5个）：`vrown` 脉搏、`gwelnz` 瞳仁、`klwernx` 虹膜、`krepn` 锤子、`blavk` 镰刀
+    - 工具器物（10个）：`swernzh` 镐头、`vlerd` 锯子、`klodn` 绳索、`pwerk` 木筏、`shronl` 扁担、`zlapm` 笸箩、`trevn` 陶罐、`shtrwnk` 蜂蜜、`fvezm` 粥、`grwelnx` 豆浆
+    - 饮食建材（5个）：`gwipx` 酱油、`snend` 腌菜、`mranx` 辣椒、`pelyd` 糕点、`dwokt` 碉堡
+
+### 2026-08-13 — 第三十四阶段：词汇扩充（新增 30 动词 + 70 名词）
+- **扩充** `src/js/wordData.js` — 新增 100 个词条（30动词+20动词派生名词+50独立名词，严格审查无重复，词缀多样化，闭音节，不使用字母 u，拼写与已有词距离 ≥ 2）：
+  - **动词（30个，无词缀 20 个 + 有词缀 10 个）**：
+    - 无词缀动词（20个）：`vwopt` 淬火、`pwelz` 泼洒、`nwwrm` 揉捏、`nwwkl` 搓捻、`nwyfl` 钩织、`vryrt` 凿刻、`nwybz` 夯击、`pwadz` 捆扎、`swwrp` 舂捣、`plypt` 泼溅、`kralv` 劈砍、`klagr` 磨光、`kryfr` 捣烂、`klezl` 浸染、`pwabr` 撒播、`kledz` 抛掷、`klilg` 吸吮、`nwwtr` 舔舐、`pwarg` 啃咬、`fryrk` 咀嚼
+    - 有词缀动词（-od 5个）：`pwalkod` 匍匐、`frylpod` 蹦跳、`frytnod` 跌倒、`zwatzod` 蜷缩、`glokvod` 伸展
+    - 有词缀动词（-êt 5个）：`mwyrbêt` 摇晃、`swetvêt` 战栗、`nwwvnêt` 哆嗦、`klermêt` 憋气、`swalbêt` 凝望
+  - **派生名词（20个，-iad/-iac/-iat/-iêr/-inh/-ad/-ac/-at）**：
+    `vwoptiad` 灰烬、`pwelziac` 火堆、`nwwrmiat` 炭渣、`nwwkliêr` 火塘、`nwyflinh` 火星、`vryrtad` 余烬、`nwybzac` 篝火、`pwadzat` 暖炕、`swwrpiad` 河岸、`plyptiac` 水闸、`kralviat` 渡口、`klagriêr` 河湾、`kryfrinh` 浅滩、`klezlad` 深潭、`pwabrac` 漩涡、`kledzat` 瀑布、`klilgiad` 山脊、`nwwtriac` 山坳、`pwargiat` 山麓、`fryrkiêr` 隘口
+  - **独立名词（50个，词根多样化）**：
+    `klelb` 峭壁、`pwilp` 岩洞、`glelk` 碎石、`swerg` 砂砾、`rwwvz` 茅屋、`glykn` 栅栏、`dwebl` 篱笆、`klekn` 井台、`brylk` 磨坊、`blylz` 染坊、`xwedr` 酒窖、`mwegl` 地窖、`bwalv` 纺锤、`bwoft` 织梭、`frotv` 陶轮、`fwazt` 铁砧、`gwekt` 风炉、`fwilg` 熔炉、`bwerp` 炭窑、`nwwnt` 砖窑、`mwwzr` 榆树、`swevr` 柳树、`rwwfr` 杉树、`xwotz` 柏树、`blykt` 松树、`plekt` 枫树、`bwang` 桦树、`fwwtv` 榕树、`pwist` 苍鹭、`glytz` 八哥、`fwirk` 画眉、`fryfs` 杜鹃、`krwvr` 黄鹂、`fwwbz` 夜莺、`plagz` 燕子、`swavn` 黄雀、`dwovl` 鹌鹑、`pwirs` 雉鸡、`gwerm` 鸬鹚、`frozn` 鸥鸟、`blokz` 海鹦、`bwoks` 海鸥、`xwogr` 鸵鸟、`fwyrz` 鹦鹉、`fryvl` 枣树、`rwwkt` 柿树、`bwodr` 漆树、`twelb` 胶树、`fwogz` 樟树、`dwozn` 槐树
