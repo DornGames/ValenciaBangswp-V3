@@ -20607,4 +20607,2245 @@ globalThis.wordData = [
 		cn: "麻醉师",
 		type: "m.",
 	},
+// 2026-11-26 — 新增日常词汇：300个名词及133个配套动词
+// 家居设施：22个名词
+	{
+		dh: "nyksnop",
+		cn: "屋檐",
+		type: "m.",
+	},
+	{
+		dh: "ridim",
+		cn: "雨槽",
+		type: "m.",
+	},
+	{
+		dh: "klêng",
+		cn: "门框",
+		type: "m.",
+	},
+	{
+		dh: "stœthsœv",
+		cn: "窗框",
+		type: "m.",
+	},
+	{
+		dh: "lehdrwk",
+		cn: "窗台",
+		type: "m.",
+	},
+	{
+		dh: "stêraf",
+		cn: "窗纱",
+		type: "m.",
+	},
+	{
+		dh: "stêrafiêt",
+		cn: "安装窗纱",
+		type: "d.",
+	},
+	{
+		dh: "snêpyv",
+		cn: "门垫",
+		type: "m.",
+	},
+	{
+		dh: "snêpyviêt",
+		cn: "擦净鞋底",
+		type: "d.",
+	},
+	{
+		dh: "fazzhy",
+		cn: "沙发床",
+		type: "m.",
+	},
+	{
+		dh: "fazzhyhiêt",
+		cn: "展开沙发床",
+		type: "d.",
+	},
+	{
+		dh: "frêshte",
+		cn: "扶手椅",
+		type: "m.",
+	},
+	{
+		dh: "shogyv",
+		cn: "脚凳",
+		type: "m.",
+	},
+	{
+		dh: "klæthdrw",
+		cn: "长凳",
+		type: "m.",
+	},
+	{
+		dh: "gebœ",
+		cn: "床架",
+		type: "m.",
+	},
+	{
+		dh: "gwnfæ",
+		cn: "枕套",
+		type: "m.",
+	},
+	{
+		dh: "drybvod",
+		cn: "被套",
+		type: "m.",
+	},
+	{
+		dh: "prœvêp",
+		cn: "床单",
+		type: "m.",
+	},
+	{
+		dh: "prœvêpiêt",
+		cn: "铺设床单",
+		type: "d.",
+	},
+	{
+		dh: "fagw",
+		cn: "毛毯",
+		type: "m.",
+	},
+	{
+		dh: "fagwhiêt",
+		cn: "盖上毛毯",
+		type: "d.",
+	},
+	{
+		dh: "kræs",
+		cn: "蚊帐",
+		type: "m.",
+	},
+	{
+		dh: "kræsiêt",
+		cn: "挂起蚊帐",
+		type: "d.",
+	},
+	{
+		dh: "lwgæl",
+		cn: "鞋柜",
+		type: "m.",
+	},
+	{
+		dh: "lwgæliêt",
+		cn: "收纳鞋子",
+		type: "d.",
+	},
+	{
+		dh: "fralêz",
+		cn: "抽屉柜",
+		type: "m.",
+	},
+	{
+		dh: "slœza",
+		cn: "置物架",
+		type: "m.",
+	},
+	{
+		dh: "slœzahiêt",
+		cn: "摆放物品",
+		type: "d.",
+	},
+	{
+		dh: "flagy",
+		cn: "落地灯",
+		type: "m.",
+	},
+	{
+		dh: "flagyhiêt",
+		cn: "照亮房间",
+		type: "d.",
+	},
+	{
+		dh: "trastrwn",
+		cn: "空调",
+		type: "m.",
+	},
+	{
+		dh: "trastrwniêt",
+		cn: "调节室温",
+		type: "d.",
+	},
+// 厨房与餐具：22个名词
+	{
+		dh: "prechmœ",
+		cn: "冷冻柜",
+		type: "m.",
+	},
+	{
+		dh: "prechmœhiêt",
+		cn: "冷冻食物",
+		type: "d.",
+	},
+	{
+		dh: "swwngw",
+		cn: "煮米饭",
+		type: "d.",
+	},
+	{
+		dh: "swwngwinh",
+		cn: "电饭煲",
+		type: "m.",
+	},
+	{
+		dh: "faky",
+		cn: "切碎食材",
+		type: "d.",
+	},
+	{
+		dh: "fakyiêr",
+		cn: "食物处理机",
+		type: "m.",
+	},
+	{
+		dh: "gremlef",
+		cn: "冲泡咖啡",
+		type: "d.",
+	},
+	{
+		dh: "gremlefinh",
+		cn: "咖啡机",
+		type: "m.",
+	},
+	{
+		dh: "sêtw",
+		cn: "烧开水",
+		type: "d.",
+	},
+	{
+		dh: "sêtwiêr",
+		cn: "电热水壶",
+		type: "m.",
+	},
+	{
+		dh: "titœth",
+		cn: "煎食物",
+		type: "d.",
+	},
+	{
+		dh: "titœthinh",
+		cn: "平底锅",
+		type: "m.",
+	},
+	{
+		dh: "prelzæ",
+		cn: "翻炒食材",
+		type: "d.",
+	},
+	{
+		dh: "prelzæiêr",
+		cn: "炒锅",
+		type: "m.",
+	},
+	{
+		dh: "slidêth",
+		cn: "煮汤",
+		type: "d.",
+	},
+	{
+		dh: "slidêthinh",
+		cn: "汤锅",
+		type: "m.",
+	},
+	{
+		dh: "tehw",
+		cn: "烤制食物",
+		type: "d.",
+	},
+	{
+		dh: "tehwiêr",
+		cn: "烤架",
+		type: "m.",
+	},
+	{
+		dh: "greb",
+		cn: "切菜",
+		type: "d.",
+	},
+	{
+		dh: "grebinh",
+		cn: "菜刀",
+		type: "m.",
+	},
+	{
+		dh: "pægnæ",
+		cn: "垫放食材供切割",
+		type: "d.",
+	},
+	{
+		dh: "pægnæiêr",
+		cn: "砧板",
+		type: "m.",
+	},
+	{
+		dh: "shegil",
+		cn: "削去果蔬外皮",
+		type: "d.",
+	},
+	{
+		dh: "shegilinh",
+		cn: "削皮器",
+		type: "m.",
+	},
+	{
+		dh: "nybsov",
+		cn: "量取调料",
+		type: "d.",
+	},
+	{
+		dh: "nybsoviêr",
+		cn: "量匙",
+		type: "m.",
+	},
+	{
+		dh: "datkry",
+		cn: "打开罐头",
+		type: "d.",
+	},
+	{
+		dh: "datkryinh",
+		cn: "开罐器",
+		type: "m.",
+	},
+	{
+		dh: "dich",
+		cn: "打开瓶子",
+		type: "d.",
+	},
+	{
+		dh: "dichiêr",
+		cn: "开瓶器",
+		type: "m.",
+	},
+	{
+		dh: "thoch",
+		cn: "保鲜盒",
+		type: "m.",
+	},
+	{
+		dh: "thochiêt",
+		cn: "保存剩菜",
+		type: "d.",
+	},
+	{
+		dh: "shæmœp",
+		cn: "保鲜膜",
+		type: "m.",
+	},
+	{
+		dh: "shæmœpiêt",
+		cn: "包裹食物",
+		type: "d.",
+	},
+	{
+		dh: "trash",
+		cn: "锡纸",
+		type: "m.",
+	},
+	{
+		dh: "trashiêt",
+		cn: "用锡纸包裹食材",
+		type: "d.",
+	},
+	{
+		dh: "styzœ",
+		cn: "调味罐",
+		type: "m.",
+	},
+	{
+		dh: "styzœhiêt",
+		cn: "给菜肴调味",
+		type: "d.",
+	},
+	{
+		dh: "rikste",
+		cn: "餐巾纸",
+		type: "m.",
+	},
+	{
+		dh: "rikstehiêt",
+		cn: "擦拭嘴或桌面",
+		type: "d.",
+	},
+	{
+		dh: "vêtha",
+		cn: "杯垫",
+		type: "m.",
+	},
+	{
+		dh: "vêthahiêt",
+		cn: "垫住杯子",
+		type: "d.",
+	},
+	{
+		dh: "gwth",
+		cn: "餐垫",
+		type: "m.",
+	},
+	{
+		dh: "gwthiêt",
+		cn: "铺设餐垫",
+		type: "d.",
+	},
+// 家务维修与庭院：22个名词
+	{
+		dh: "kekod",
+		cn: "清洁地面",
+		type: "d.",
+	},
+	{
+		dh: "kekodiêr",
+		cn: "蒸汽拖把",
+		type: "m.",
+	},
+	{
+		dh: "pyhfræ",
+		cn: "刷洗锅具",
+		type: "d.",
+	},
+	{
+		dh: "pyhfræinh",
+		cn: "钢丝球",
+		type: "m.",
+	},
+	{
+		dh: "hohsta",
+		cn: "水桶",
+		type: "m.",
+	},
+	{
+		dh: "fromsnoh",
+		cn: "喷水",
+		type: "d.",
+	},
+	{
+		dh: "fromsnohinh",
+		cn: "喷壶",
+		type: "m.",
+	},
+	{
+		dh: "hyfflech",
+		cn: "洗衣篮",
+		type: "m.",
+	},
+	{
+		dh: "slælri",
+		cn: "熨衣板",
+		type: "m.",
+	},
+	{
+		dh: "tril",
+		cn: "缝制衣物",
+		type: "d.",
+	},
+	{
+		dh: "triliêr",
+		cn: "缝纫机",
+		type: "m.",
+	},
+	{
+		dh: "mwth",
+		cn: "针线盒",
+		type: "m.",
+	},
+	{
+		dh: "lydshœl",
+		cn: "工具箱",
+		type: "m.",
+	},
+	{
+		dh: "dræmkyt",
+		cn: "拧紧或松开螺母",
+		type: "d.",
+	},
+	{
+		dh: "dræmkytinh",
+		cn: "活动扳手",
+		type: "m.",
+	},
+	{
+		dh: "frêzzê",
+		cn: "手锯",
+		type: "m.",
+	},
+	{
+		dh: "fesh",
+		cn: "测量长度",
+		type: "d.",
+	},
+	{
+		dh: "feshinh",
+		cn: "卷尺",
+		type: "m.",
+	},
+	{
+		dh: "hihok",
+		cn: "水平尺",
+		type: "m.",
+	},
+	{
+		dh: "shachw",
+		cn: "螺丝",
+		type: "m.",
+	},
+	{
+		dh: "trir",
+		cn: "螺母",
+		type: "m.",
+	},
+	{
+		dh: "lærspw",
+		cn: "垫圈",
+		type: "m.",
+	},
+	{
+		dh: "stêchfli",
+		cn: "电灯开关",
+		type: "m.",
+	},
+	{
+		dh: "pœgflyp",
+		cn: "电源线",
+		type: "m.",
+	},
+	{
+		dh: "snœngwb",
+		cn: "水龙头",
+		type: "m.",
+	},
+	{
+		dh: "snepfle",
+		cn: "花洒",
+		type: "m.",
+	},
+	{
+		dh: "rithæf",
+		cn: "下水道",
+		type: "m.",
+	},
+	{
+		dh: "stongw",
+		cn: "水管",
+		type: "m.",
+	},
+// 交通工具与道路：22个名词
+	{
+		dh: "nezê",
+		cn: "拖车",
+		type: "m.",
+	},
+	{
+		dh: "nezêhiêt",
+		cn: "拖曳车辆",
+		type: "d.",
+	},
+	{
+		dh: "flwfath",
+		cn: "皮卡",
+		type: "m.",
+	},
+	{
+		dh: "flwfathiêt",
+		cn: "用皮卡运货",
+		type: "d.",
+	},
+	{
+		dh: "krêmshœ",
+		cn: "越野车",
+		type: "m.",
+	},
+	{
+		dh: "krêmshœhiêt",
+		cn: "驾驶越野车",
+		type: "d.",
+	},
+	{
+		dh: "zêgkli",
+		cn: "救护车",
+		type: "m.",
+	},
+	{
+		dh: "zêgklihiêt",
+		cn: "用救护车转运病人",
+		type: "d.",
+	},
+	{
+		dh: "lwta",
+		cn: "消防车",
+		type: "m.",
+	},
+	{
+		dh: "lwtahiêt",
+		cn: "出动消防车灭火",
+		type: "d.",
+	},
+	{
+		dh: "sweswsh",
+		cn: "警车",
+		type: "m.",
+	},
+	{
+		dh: "sweswshiêt",
+		cn: "驾警车巡逻",
+		type: "d.",
+	},
+	{
+		dh: "niraf",
+		cn: "垃圾车",
+		type: "m.",
+	},
+	{
+		dh: "nirafiêt",
+		cn: "收集垃圾",
+		type: "d.",
+	},
+	{
+		dh: "podzhyt",
+		cn: "混凝土搅拌车",
+		type: "m.",
+	},
+	{
+		dh: "podzhytiêt",
+		cn: "搅拌混凝土",
+		type: "d.",
+	},
+	{
+		dh: "fêthkly",
+		cn: "邮政车",
+		type: "m.",
+	},
+	{
+		dh: "fêthklyhiêt",
+		cn: "用邮政车投递邮件",
+		type: "d.",
+	},
+	{
+		dh: "gêshslœ",
+		cn: "叉车",
+		type: "m.",
+	},
+	{
+		dh: "gêshslœhiêt",
+		cn: "用叉车搬运货物",
+		type: "d.",
+	},
+	{
+		dh: "flœp",
+		cn: "推土机",
+		type: "m.",
+	},
+	{
+		dh: "flœpiêt",
+		cn: "用推土机推土",
+		type: "d.",
+	},
+	{
+		dh: "swezhe",
+		cn: "起重机",
+		type: "m.",
+	},
+	{
+		dh: "swezhehiêt",
+		cn: "用起重机吊运重物",
+		type: "d.",
+	},
+	{
+		dh: "tryfnœ",
+		cn: "拖拉机",
+		type: "m.",
+	},
+	{
+		dh: "tryfnœhiêt",
+		cn: "用拖拉机耕地",
+		type: "d.",
+	},
+	{
+		dh: "frengo",
+		cn: "收割机",
+		type: "m.",
+	},
+	{
+		dh: "frengohiêt",
+		cn: "用收割机收割庄稼",
+		type: "d.",
+	},
+	{
+		dh: "danœ",
+		cn: "摩托车",
+		type: "m.",
+	},
+	{
+		dh: "stæfy",
+		cn: "滑板车",
+		type: "m.",
+	},
+	{
+		dh: "plobfle",
+		cn: "车轴",
+		type: "m.",
+	},
+	{
+		dh: "maze",
+		cn: "车钥匙",
+		type: "m.",
+	},
+	{
+		dh: "klæbaz",
+		cn: "油箱",
+		type: "m.",
+	},
+	{
+		dh: "glœpê",
+		cn: "充电桩",
+		type: "m.",
+	},
+	{
+		dh: "swrhez",
+		cn: "人行横道",
+		type: "m.",
+	},
+	{
+		dh: "shypêv",
+		cn: "十字路口",
+		type: "m.",
+	},
+// 旅行与露营：22个名词
+	{
+		dh: "pipœ",
+		cn: "行李标签",
+		type: "m.",
+	},
+	{
+		dh: "glochswev",
+		cn: "行李转盘",
+		type: "m.",
+	},
+	{
+		dh: "gifeng",
+		cn: "登机口",
+		type: "m.",
+	},
+	{
+		dh: "gryze",
+		cn: "候机厅",
+		type: "m.",
+	},
+	{
+		dh: "vêbw",
+		cn: "海关",
+		type: "m.",
+	},
+	{
+		dh: "hœchfrê",
+		cn: "边检",
+		type: "m.",
+	},
+	{
+		dh: "sœchw",
+		cn: "旅行保险",
+		type: "m.",
+	},
+	{
+		dh: "zhapeng",
+		cn: "导游手册",
+		type: "m.",
+	},
+	{
+		dh: "gœchsty",
+		cn: "旅游地图",
+		type: "m.",
+	},
+	{
+		dh: "masa",
+		cn: "旅行团",
+		type: "m.",
+	},
+	{
+		dh: "glachyk",
+		cn: "观光巴士",
+		type: "m.",
+	},
+	{
+		dh: "glachykiêt",
+		cn: "载客观光",
+		type: "d.",
+	},
+	{
+		dh: "sængy",
+		cn: "渡轮",
+		type: "m.",
+	},
+	{
+		dh: "sængyhiêt",
+		cn: "用渡轮运送旅客",
+		type: "d.",
+	},
+	{
+		dh: "trythæ",
+		cn: "游轮",
+		type: "m.",
+	},
+	{
+		dh: "trythæhiêt",
+		cn: "乘游轮旅行",
+		type: "d.",
+	},
+	{
+		dh: "dofê",
+		cn: "船舱",
+		type: "m.",
+	},
+	{
+		dh: "snysh",
+		cn: "救生衣",
+		type: "m.",
+	},
+	{
+		dh: "snyshiêt",
+		cn: "穿上救生衣",
+		type: "d.",
+	},
+	{
+		dh: "nœthit",
+		cn: "救生圈",
+		type: "m.",
+	},
+	{
+		dh: "firking",
+		cn: "帐篷",
+		type: "m.",
+	},
+	{
+		dh: "firkingiêt",
+		cn: "搭建帐篷",
+		type: "d.",
+	},
+	{
+		dh: "dænga",
+		cn: "睡垫",
+		type: "m.",
+	},
+	{
+		dh: "gezæh",
+		cn: "营地椅",
+		type: "m.",
+	},
+	{
+		dh: "dafe",
+		cn: "折叠桌",
+		type: "m.",
+	},
+	{
+		dh: "rwchæ",
+		cn: "野餐篮",
+		type: "m.",
+	},
+	{
+		dh: "rwchæhiêt",
+		cn: "用篮子装野餐食物",
+		type: "d.",
+	},
+	{
+		dh: "gêkw",
+		cn: "冰袋",
+		type: "m.",
+	},
+// 天气与地形：17个名词
+	{
+		dh: "bipswi",
+		cn: "日出",
+		type: "m.",
+	},
+	{
+		dh: "bipswihiêt",
+		cn: "太阳升起",
+		type: "d.",
+	},
+	{
+		dh: "frêhfa",
+		cn: "日落",
+		type: "m.",
+	},
+	{
+		dh: "frêhfahiêt",
+		cn: "太阳落下",
+		type: "d.",
+	},
+	{
+		dh: "zachrœv",
+		cn: "月光",
+		type: "m.",
+	},
+	{
+		dh: "fryrtrok",
+		cn: "星光",
+		type: "m.",
+	},
+	{
+		dh: "dochpra",
+		cn: "雷暴",
+		type: "m.",
+	},
+	{
+		dh: "pwdi",
+		cn: "浓雾",
+		type: "m.",
+	},
+	{
+		dh: "pryzo",
+		cn: "雾霾",
+		type: "m.",
+	},
+	{
+		dh: "thwzswœg",
+		cn: "沙尘暴",
+		type: "m.",
+	},
+	{
+		dh: "snivæ",
+		cn: "喷泉",
+		type: "m.",
+	},
+	{
+		dh: "kivgy",
+		cn: "山脉",
+		type: "m.",
+	},
+	{
+		dh: "ræma",
+		cn: "海岸线",
+		type: "m.",
+	},
+	{
+		dh: "stæpzæ",
+		cn: "雪原",
+		type: "m.",
+	},
+	{
+		dh: "pœpwm",
+		cn: "海浪",
+		type: "m.",
+	},
+	{
+		dh: "snov",
+		cn: "海啸",
+		type: "m.",
+	},
+	{
+		dh: "drœn",
+		cn: "泥石流",
+		type: "m.",
+	},
+	{
+		dh: "trœre",
+		cn: "泥潭",
+		type: "m.",
+	},
+	{
+		dh: "kryrdræ",
+		cn: "地层",
+		type: "m.",
+	},
+// 植物与园艺：22个名词
+	{
+		dh: "dêgæ",
+		cn: "树干",
+		type: "m.",
+	},
+	{
+		dh: "grœs",
+		cn: "树冠",
+		type: "m.",
+	},
+	{
+		dh: "flazœ",
+		cn: "树荫",
+		type: "m.",
+	},
+	{
+		dh: "zhepysh",
+		cn: "树脂",
+		type: "m.",
+	},
+	{
+		dh: "trædlæ",
+		cn: "松针",
+		type: "m.",
+	},
+	{
+		dh: "flashro",
+		cn: "果核",
+		type: "m.",
+	},
+	{
+		dh: "hontrw",
+		cn: "果皮",
+		type: "m.",
+	},
+	{
+		dh: "stwgvê",
+		cn: "蕨类",
+		type: "m.",
+	},
+	{
+		dh: "nichspy",
+		cn: "仙人掌",
+		type: "m.",
+	},
+	{
+		dh: "brik",
+		cn: "竹笋",
+		type: "m.",
+	},
+	{
+		dh: "pæla",
+		cn: "竹叶",
+		type: "m.",
+	},
+	{
+		dh: "glamzw",
+		cn: "野草",
+		type: "m.",
+	},
+	{
+		dh: "thwzgrœg",
+		cn: "盆栽",
+		type: "m.",
+	},
+	{
+		dh: "thwzgrœgiêt",
+		cn: "给盆栽浇水",
+		type: "d.",
+	},
+	{
+		dh: "nosfræz",
+		cn: "花圃",
+		type: "m.",
+	},
+	{
+		dh: "plêbas",
+		cn: "菜园",
+		type: "m.",
+	},
+	{
+		dh: "plêbasiêt",
+		cn: "种植蔬菜",
+		type: "d.",
+	},
+	{
+		dh: "zamo",
+		cn: "温室",
+		type: "m.",
+	},
+	{
+		dh: "zamohiêt",
+		cn: "在温室里培育幼苗",
+		type: "d.",
+	},
+	{
+		dh: "klichœ",
+		cn: "肥料",
+		type: "m.",
+	},
+	{
+		dh: "klichœhiêt",
+		cn: "给土壤施肥",
+		type: "d.",
+	},
+	{
+		dh: "zhittœ",
+		cn: "堆肥",
+		type: "m.",
+	},
+	{
+		dh: "zhittœhiêt",
+		cn: "把有机废料制成堆肥",
+		type: "d.",
+	},
+	{
+		dh: "glekmo",
+		cn: "花坛",
+		type: "m.",
+	},
+	{
+		dh: "glekmohiêt",
+		cn: "在花坛种花",
+		type: "d.",
+	},
+	{
+		dh: "pwsh",
+		cn: "草籽",
+		type: "m.",
+	},
+	{
+		dh: "spoloh",
+		cn: "鸟食器",
+		type: "m.",
+	},
+	{
+		dh: "karfæm",
+		cn: "鸟浴盆",
+		type: "m.",
+	},
+// 动物与昆虫：22个名词
+	{
+		dh: "nith",
+		cn: "水獭",
+		type: "m.",
+	},
+	{
+		dh: "tæfdre",
+		cn: "海豹",
+		type: "m.",
+	},
+	{
+		dh: "kofæth",
+		cn: "海狮",
+		type: "m.",
+	},
+	{
+		dh: "glathe",
+		cn: "海象",
+		type: "m.",
+	},
+	{
+		dh: "kodswê",
+		cn: "河狸",
+		type: "m.",
+	},
+	{
+		dh: "swangê",
+		cn: "浣熊",
+		type: "m.",
+	},
+	{
+		dh: "kosh",
+		cn: "臭鼬",
+		type: "m.",
+	},
+	{
+		dh: "krorpa",
+		cn: "郊狼",
+		type: "m.",
+	},
+	{
+		dh: "stœfœng",
+		cn: "山猫",
+		type: "m.",
+	},
+	{
+		dh: "têrrê",
+		cn: "猞猁",
+		type: "m.",
+	},
+	{
+		dh: "bêdshy",
+		cn: "驼鹿",
+		type: "m.",
+	},
+	{
+		dh: "swingæ",
+		cn: "羚羊",
+		type: "m.",
+	},
+	{
+		dh: "nêvkla",
+		cn: "斑马",
+		type: "m.",
+	},
+	{
+		dh: "glitœd",
+		cn: "河马",
+		type: "m.",
+	},
+	{
+		dh: "grænzhik",
+		cn: "犀牛",
+		type: "m.",
+	},
+	{
+		dh: "kegw",
+		cn: "袋鼠",
+		type: "m.",
+	},
+	{
+		dh: "præsod",
+		cn: "考拉",
+		type: "m.",
+	},
+	{
+		dh: "hentra",
+		cn: "树懒",
+		type: "m.",
+	},
+	{
+		dh: "stêlswæ",
+		cn: "穿山甲",
+		type: "m.",
+	},
+	{
+		dh: "nœlsnip",
+		cn: "水豚",
+		type: "m.",
+	},
+	{
+		dh: "frêtach",
+		cn: "企鹅",
+		type: "m.",
+	},
+	{
+		dh: "klohy",
+		cn: "火烈鸟",
+		type: "m.",
+	},
+// 数码设备与网络：22个名词
+	{
+		dh: "hwlsa",
+		cn: "台式电脑",
+		type: "m.",
+	},
+	{
+		dh: "hwlsahiêt",
+		cn: "使用台式电脑工作",
+		type: "d.",
+	},
+	{
+		dh: "thwd",
+		cn: "智能手表",
+		type: "m.",
+	},
+	{
+		dh: "thwdiêt",
+		cn: "查看时间",
+		type: "d.",
+	},
+	{
+		dh: "trwkræz",
+		cn: "电子书阅读器",
+		type: "m.",
+	},
+	{
+		dh: "trwkræziêt",
+		cn: "阅读电子书",
+		type: "d.",
+	},
+	{
+		dh: "sako",
+		cn: "充电线",
+		type: "m.",
+	},
+	{
+		dh: "bælmw",
+		cn: "转接头",
+		type: "m.",
+	},
+	{
+		dh: "gælœ",
+		cn: "移动电源",
+		type: "m.",
+	},
+	{
+		dh: "gælœhiêt",
+		cn: "给设备充电",
+		type: "d.",
+	},
+	{
+		dh: "vebshœp",
+		cn: "网线",
+		type: "m.",
+	},
+	{
+		dh: "zêshstyv",
+		cn: "无线网卡",
+		type: "m.",
+	},
+	{
+		dh: "zêshstyviêt",
+		cn: "连接无线网络",
+		type: "d.",
+	},
+	{
+		dh: "plokœ",
+		cn: "鼠标垫",
+		type: "m.",
+	},
+	{
+		dh: "bêth",
+		cn: "触控板",
+		type: "m.",
+	},
+	{
+		dh: "bêthiêt",
+		cn: "移动光标",
+		type: "d.",
+	},
+	{
+		dh: "vœhêd",
+		cn: "网络摄像头",
+		type: "m.",
+	},
+	{
+		dh: "brabo",
+		cn: "固态硬盘",
+		type: "m.",
+	},
+	{
+		dh: "brabohiêt",
+		cn: "储存数据",
+		type: "d.",
+	},
+	{
+		dh: "boding",
+		cn: "内存条",
+		type: "m.",
+	},
+	{
+		dh: "glwgswa",
+		cn: "主板",
+		type: "m.",
+	},
+	{
+		dh: "krœmstœsh",
+		cn: "显卡",
+		type: "m.",
+	},
+	{
+		dh: "bræng",
+		cn: "处理器",
+		type: "m.",
+	},
+	{
+		dh: "stêzê",
+		cn: "散热器",
+		type: "m.",
+	},
+	{
+		dh: "famêb",
+		cn: "读卡器",
+		type: "m.",
+	},
+	{
+		dh: "hæppæn",
+		cn: "存储卡",
+		type: "m.",
+	},
+	{
+		dh: "tribi",
+		cn: "闪存盘",
+		type: "m.",
+	},
+	{
+		dh: "tribihiêt",
+		cn: "转存文件",
+		type: "d.",
+	},
+	{
+		dh: "brith",
+		cn: "耳塞",
+		type: "m.",
+	},
+	{
+		dh: "græmw",
+		cn: "充电盒",
+		type: "m.",
+	},
+// 洗漱与育儿：22个名词
+	{
+		dh: "zhid",
+		cn: "漱口水",
+		type: "m.",
+	},
+	{
+		dh: "zhidiêt",
+		cn: "用漱口水漱口",
+		type: "d.",
+	},
+	{
+		dh: "nody",
+		cn: "浴巾",
+		type: "m.",
+	},
+	{
+		dh: "fetfra",
+		cn: "护发素",
+		type: "m.",
+	},
+	{
+		dh: "fetfrahiêt",
+		cn: "护理头发",
+		type: "d.",
+	},
+	{
+		dh: "prêhag",
+		cn: "沐浴露",
+		type: "m.",
+	},
+	{
+		dh: "prêhagiêt",
+		cn: "用沐浴露清洗身体",
+		type: "d.",
+	},
+	{
+		dh: "brisip",
+		cn: "洗手液",
+		type: "m.",
+	},
+	{
+		dh: "brisipiêt",
+		cn: "用洗手液洗手",
+		type: "d.",
+	},
+	{
+		dh: "shœze",
+		cn: "剃须刀",
+		type: "m.",
+	},
+	{
+		dh: "shœzehiêt",
+		cn: "用剃须刀刮胡子",
+		type: "d.",
+	},
+	{
+		dh: "stwdi",
+		cn: "剃须泡沫",
+		type: "m.",
+	},
+	{
+		dh: "zhwlo",
+		cn: "纸巾盒",
+		type: "m.",
+	},
+	{
+		dh: "snysê",
+		cn: "棉签",
+		type: "m.",
+	},
+	{
+		dh: "hæth",
+		cn: "棉球",
+		type: "m.",
+	},
+	{
+		dh: "trari",
+		cn: "指甲剪",
+		type: "m.",
+	},
+	{
+		dh: "vybwz",
+		cn: "浴帽",
+		type: "m.",
+	},
+	{
+		dh: "gredspo",
+		cn: "浴袍",
+		type: "m.",
+	},
+	{
+		dh: "rêshaf",
+		cn: "婴儿车",
+		type: "m.",
+	},
+	{
+		dh: "rêshafiêt",
+		cn: "推着婴儿车出行",
+		type: "d.",
+	},
+	{
+		dh: "drochves",
+		cn: "奶瓶",
+		type: "m.",
+	},
+	{
+		dh: "drochvesiêt",
+		cn: "用奶瓶喂婴儿",
+		type: "d.",
+	},
+	{
+		dh: "klahah",
+		cn: "奶嘴",
+		type: "m.",
+	},
+	{
+		dh: "tohklæ",
+		cn: "尿布",
+		type: "m.",
+	},
+	{
+		dh: "tohklæhiêt",
+		cn: "给婴儿换尿布",
+		type: "d.",
+	},
+	{
+		dh: "pœthther",
+		cn: "纸尿裤",
+		type: "m.",
+	},
+	{
+		dh: "nehy",
+		cn: "婴儿床",
+		type: "m.",
+	},
+	{
+		dh: "glængi",
+		cn: "婴儿背带",
+		type: "m.",
+	},
+	{
+		dh: "lêmglæ",
+		cn: "安抚奶嘴",
+		type: "m.",
+	},
+	{
+		dh: "klyhkyn",
+		cn: "口水巾",
+		type: "m.",
+	},
+// 商店、服务与职业：20个名词
+	{
+		dh: "shœmshis",
+		cn: "购物车",
+		type: "m.",
+	},
+	{
+		dh: "shœmshisiêt",
+		cn: "推购物车",
+		type: "d.",
+	},
+	{
+		dh: "stochi",
+		cn: "购物篮",
+		type: "m.",
+	},
+	{
+		dh: "trwz",
+		cn: "货架",
+		type: "m.",
+	},
+	{
+		dh: "gêmyth",
+		cn: "价格标签",
+		type: "m.",
+	},
+	{
+		dh: "genprw",
+		cn: "条形码",
+		type: "m.",
+	},
+	{
+		dh: "genprwhiêt",
+		cn: "扫描条形码",
+		type: "d.",
+	},
+	{
+		dh: "sningzæb",
+		cn: "传送带",
+		type: "m.",
+	},
+	{
+		dh: "bwng",
+		cn: "购物清单",
+		type: "m.",
+	},
+	{
+		dh: "bwngiêt",
+		cn: "核对购物清单",
+		type: "d.",
+	},
+	{
+		dh: "slochœ",
+		cn: "礼品卡",
+		type: "m.",
+	},
+	{
+		dh: "slochœhiêt",
+		cn: "用礼品卡付款",
+		type: "d.",
+	},
+	{
+		dh: "fêsy",
+		cn: "会员卡",
+		type: "m.",
+	},
+	{
+		dh: "fœhwn",
+		cn: "积分卡",
+		type: "m.",
+	},
+	{
+		dh: "soped",
+		cn: "退款单",
+		type: "m.",
+	},
+	{
+		dh: "dridfrim",
+		cn: "退货标签",
+		type: "m.",
+	},
+	{
+		dh: "zythpêl",
+		cn: "购物小票",
+		type: "m.",
+	},
+	{
+		dh: "shashzhe",
+		cn: "折扣码",
+		type: "m.",
+	},
+	{
+		dh: "klimis",
+		cn: "促销海报",
+		type: "m.",
+	},
+	{
+		dh: "katlwng",
+		cn: "纸袋",
+		type: "m.",
+	},
+	{
+		dh: "thœfy",
+		cn: "保温袋",
+		type: "m.",
+	},
+	{
+		dh: "trœd",
+		cn: "外卖袋",
+		type: "m.",
+	},
+	{
+		dh: "brwsklæ",
+		cn: "快递袋",
+		type: "m.",
+	},
+	{
+		dh: "brwsklæhiêt",
+		cn: "把物品装进快递袋",
+		type: "d.",
+	},
+	{
+		dh: "hœshge",
+		cn: "包装箱",
+		type: "m.",
+	},
+	{
+		dh: "hœshgehiêt",
+		cn: "把物品装箱",
+		type: "d.",
+	},
+// 手工、游戏与材料：22个名词
+	{
+		dh: "kresdrê",
+		cn: "棋盘",
+		type: "m.",
+	},
+	{
+		dh: "zæpœ",
+		cn: "棋子",
+		type: "m.",
+	},
+	{
+		dh: "pisha",
+		cn: "骰子",
+		type: "m.",
+	},
+	{
+		dh: "slwkgit",
+		cn: "扑克牌",
+		type: "m.",
+	},
+	{
+		dh: "shwzash",
+		cn: "跳棋",
+		type: "m.",
+	},
+	{
+		dh: "shwka",
+		cn: "国际象棋",
+		type: "m.",
+	},
+	{
+		dh: "vœrplw",
+		cn: "围棋",
+		type: "m.",
+	},
+	{
+		dh: "prahgled",
+		cn: "拼字游戏",
+		type: "m.",
+	},
+	{
+		dh: "drwttroth",
+		cn: "桌游",
+		type: "m.",
+	},
+	{
+		dh: "spæhslêp",
+		cn: "模型车",
+		type: "m.",
+	},
+	{
+		dh: "pithpœd",
+		cn: "遥控车",
+		type: "m.",
+	},
+	{
+		dh: "tyngslyf",
+		cn: "风筝",
+		type: "m.",
+	},
+	{
+		dh: "tyngslyfiêt",
+		cn: "放风筝",
+		type: "d.",
+	},
+	{
+		dh: "hashthæh",
+		cn: "泡泡水",
+		type: "m.",
+	},
+	{
+		dh: "spædsti",
+		cn: "泡泡棒",
+		type: "m.",
+	},
+	{
+		dh: "ridthe",
+		cn: "弹珠",
+		type: "m.",
+	},
+	{
+		dh: "zhæsh",
+		cn: "橡皮筋",
+		type: "m.",
+	},
+	{
+		dh: "vivœng",
+		cn: "画布",
+		type: "m.",
+	},
+	{
+		dh: "vivœngiêt",
+		cn: "在画布上作画",
+		type: "d.",
+	},
+	{
+		dh: "kêchi",
+		cn: "画架",
+		type: "m.",
+	},
+	{
+		dh: "fengav",
+		cn: "调色板",
+		type: "m.",
+	},
+	{
+		dh: "dwcho",
+		cn: "画笔",
+		type: "m.",
+	},
+	{
+		dh: "rwvma",
+		cn: "蜡笔",
+		type: "m.",
+	},
+	{
+		dh: "bræfpras",
+		cn: "粉彩",
+		type: "m.",
+	},
+// 日常活动与流程：20个名词
+	{
+		dh: "rosêv",
+		cn: "清洁住宅",
+		type: "d.",
+	},
+	{
+		dh: "rosêviat",
+		cn: "家庭清洁",
+		type: "m.",
+	},
+	{
+		dh: "sœgyp",
+		cn: "清洗并保养衣物",
+		type: "d.",
+	},
+	{
+		dh: "sœgypiac",
+		cn: "衣物护理",
+		type: "m.",
+	},
+	{
+		dh: "glis",
+		cn: "修缮屋顶",
+		type: "d.",
+	},
+	{
+		dh: "glisiad",
+		cn: "屋顶维修",
+		type: "m.",
+	},
+	{
+		dh: "ponga",
+		cn: "检修家用电器",
+		type: "d.",
+	},
+	{
+		dh: "pongaiat",
+		cn: "家电维修",
+		type: "m.",
+	},
+	{
+		dh: "hyshflir",
+		cn: "疏通排水管",
+		type: "d.",
+	},
+	{
+		dh: "hyshfliriac",
+		cn: "管道疏通",
+		type: "m.",
+	},
+	{
+		dh: "rynspef",
+		cn: "修剪草坪",
+		type: "d.",
+	},
+	{
+		dh: "rynspefiad",
+		cn: "草坪修剪",
+		type: "m.",
+	},
+	{
+		dh: "slœt",
+		cn: "给轮胎充气",
+		type: "d.",
+	},
+	{
+		dh: "slœtiat",
+		cn: "轮胎充气",
+		type: "m.",
+	},
+	{
+		dh: "kriv",
+		cn: "检查车辆",
+		type: "d.",
+	},
+	{
+		dh: "kriviac",
+		cn: "车辆检修",
+		type: "m.",
+	},
+	{
+		dh: "hithzha",
+		cn: "保养汽车",
+		type: "d.",
+	},
+	{
+		dh: "hithzhaiad",
+		cn: "汽车保养",
+		type: "m.",
+	},
+	{
+		dh: "trœftrœ",
+		cn: "规划路线",
+		type: "d.",
+	},
+	{
+		dh: "trœftrœiat",
+		cn: "路线规划",
+		type: "m.",
+	},
+	{
+		dh: "rêbkræm",
+		cn: "搭建露营地",
+		type: "d.",
+	},
+	{
+		dh: "rêbkræmiac",
+		cn: "露营搭建",
+		type: "m.",
+	},
+	{
+		dh: "drœfœr",
+		cn: "在户外野餐",
+		type: "d.",
+	},
+	{
+		dh: "drœfœriad",
+		cn: "户外野餐",
+		type: "m.",
+	},
+	{
+		dh: "gygwk",
+		cn: "在野外徒步",
+		type: "d.",
+	},
+	{
+		dh: "gygwkiat",
+		cn: "野外徒步",
+		type: "m.",
+	},
+	{
+		dh: "stœme",
+		cn: "观测星空",
+		type: "d.",
+	},
+	{
+		dh: "stœmeiac",
+		cn: "观星活动",
+		type: "m.",
+	},
+	{
+		dh: "demthe",
+		cn: "修剪花木",
+		type: "d.",
+	},
+	{
+		dh: "demtheiad",
+		cn: "花木修剪",
+		type: "m.",
+	},
+	{
+		dh: "progip",
+		cn: "为植物更换花盆",
+		type: "d.",
+	},
+	{
+		dh: "progipiat",
+		cn: "植物换盆",
+		type: "m.",
+	},
+	{
+		dh: "byth",
+		cn: "喂养婴儿",
+		type: "d.",
+	},
+	{
+		dh: "bythiac",
+		cn: "婴儿喂养",
+		type: "m.",
+	},
+	{
+		dh: "vaby",
+		cn: "训练宠物",
+		type: "d.",
+	},
+	{
+		dh: "vabyiad",
+		cn: "宠物训练",
+		type: "m.",
+	},
+	{
+		dh: "styzek",
+		cn: "维护网站",
+		type: "d.",
+	},
+	{
+		dh: "styzekiat",
+		cn: "网站维护",
+		type: "m.",
+	},
+	{
+		dh: "kœve",
+		cn: "备份数据",
+		type: "d.",
+	},
+	{
+		dh: "kœveiac",
+		cn: "数据备份",
+		type: "m.",
+	},
+// 新职业与专业人员：23个名词
+	{
+		dh: "slæzstœf",
+		cn: "管理住宅物业",
+		type: "d.",
+	},
+	{
+		dh: "slæzstœfhih",
+		cn: "物业管理员",
+		type: "m.",
+	},
+	{
+		dh: "klêfo",
+		cn: "检查房屋结构",
+		type: "d.",
+	},
+	{
+		dh: "klêfohih",
+		cn: "房屋检查员",
+		type: "m.",
+	},
+	{
+		dh: "frwfon",
+		cn: "维修家用电器",
+		type: "d.",
+	},
+	{
+		dh: "frwfonhih",
+		cn: "家电维修员",
+		type: "m.",
+	},
+	{
+		dh: "swengsni",
+		cn: "检修电梯",
+		type: "d.",
+	},
+	{
+		dh: "swengsnihih",
+		cn: "电梯维修工",
+		type: "m.",
+	},
+	{
+		dh: "krihræth",
+		cn: "配制钥匙",
+		type: "d.",
+	},
+	{
+		dh: "krihræthhih",
+		cn: "锁匠",
+		type: "m.",
+	},
+	{
+		dh: "kriri",
+		cn: "装修房间",
+		type: "d.",
+	},
+	{
+		dh: "kririhih",
+		cn: "装修工",
+		type: "m.",
+	},
+	{
+		dh: "rênben",
+		cn: "铺贴瓷砖",
+		type: "d.",
+	},
+	{
+		dh: "rênbenhih",
+		cn: "瓷砖工",
+		type: "m.",
+	},
+	{
+		dh: "rêngæ",
+		cn: "修理屋顶",
+		type: "d.",
+	},
+	{
+		dh: "rêngæhih",
+		cn: "屋顶工",
+		type: "m.",
+	},
+	{
+		dh: "gyth",
+		cn: "切割玻璃",
+		type: "d.",
+	},
+	{
+		dh: "gythhih",
+		cn: "玻璃工",
+		type: "m.",
+	},
+	{
+		dh: "kichstœ",
+		cn: "焊接金属构件",
+		type: "d.",
+	},
+	{
+		dh: "kichstœhih",
+		cn: "焊工",
+		type: "m.",
+	},
+	{
+		dh: "drachwn",
+		cn: "安装供水管线",
+		type: "d.",
+	},
+	{
+		dh: "drachwnhih",
+		cn: "水暖工",
+		type: "m.",
+	},
+	{
+		dh: "shash",
+		cn: "检修空调设备",
+		type: "d.",
+	},
+	{
+		dh: "shashhih",
+		cn: "空调维修工",
+		type: "m.",
+	},
+	{
+		dh: "klarkrwn",
+		cn: "铺设电缆",
+		type: "d.",
+	},
+	{
+		dh: "klarkrwnhih",
+		cn: "电缆工",
+		type: "m.",
+	},
+	{
+		dh: "dahœr",
+		cn: "安装木地板",
+		type: "d.",
+	},
+	{
+		dh: "dahœrhih",
+		cn: "木地板安装工",
+		type: "m.",
+	},
+	{
+		dh: "byhw",
+		cn: "设计花园",
+		type: "d.",
+	},
+	{
+		dh: "byhwhih",
+		cn: "园林设计师",
+		type: "m.",
+	},
+	{
+		dh: "prompe",
+		cn: "设计室内空间",
+		type: "d.",
+	},
+	{
+		dh: "prompehih",
+		cn: "室内设计师",
+		type: "m.",
+	},
+	{
+		dh: "stechzhop",
+		cn: "规划景观",
+		type: "d.",
+	},
+	{
+		dh: "stechzhophih",
+		cn: "景观设计师",
+		type: "m.",
+	},
+	{
+		dh: "rypvœr",
+		cn: "拍摄影像",
+		type: "d.",
+	},
+	{
+		dh: "rypvœrhih",
+		cn: "摄像师",
+		type: "m.",
+	},
+	{
+		dh: "plongêf",
+		cn: "录制声音",
+		type: "d.",
+	},
+	{
+		dh: "plongêfhih",
+		cn: "录音师",
+		type: "m.",
+	},
+	{
+		dh: "gængep",
+		cn: "调整舞台灯光",
+		type: "d.",
+	},
+	{
+		dh: "gængephih",
+		cn: "灯光师",
+		type: "m.",
+	},
+	{
+		dh: "shyvi",
+		cn: "统筹舞台演出",
+		type: "d.",
+	},
+	{
+		dh: "shyvihih",
+		cn: "舞台监督",
+		type: "m.",
+	},
+	{
+		dh: "pytfli",
+		cn: "规划旅行",
+		type: "d.",
+	},
+	{
+		dh: "pytflihih",
+		cn: "旅行顾问",
+		type: "m.",
+	},
+	{
+		dh: "privæ",
+		cn: "驾驶船只",
+		type: "d.",
+	},
+	{
+		dh: "privæhih",
+		cn: "船长",
+		type: "m.",
+	},
+// 2026-11-26 — 新增常用副词（12个）
+	{
+		dh: "wnp",
+		cn: "常常",
+		type: "f.",
+	},
+	{
+		dh: "eft",
+		cn: "有时",
+		type: "f.",
+	},
+	{
+		dh: "noth",
+		cn: "很少",
+		type: "f.",
+	},
+	{
+		dh: "ledh",
+		cn: "通常",
+		type: "f.",
+	},
+	{
+		dh: "rint",
+		cn: "从不",
+		type: "f.",
+	},
+	{
+		dh: "fenpdesh",
+		cn: "也许",
+		type: "f.",
+	},
+	{
+		dh: "tokonk",
+		cn: "大概",
+		type: "f.",
+	},
+	{
+		dh: "rifon",
+		cn: "这里",
+		type: "f.",
+	},
+	{
+		dh: "rafon",
+		cn: "那里",
+		type: "f.",
+	},
+	{
+		dh: "priv",
+		cn: "现在",
+		type: "f.",
+	},
+	{
+		dh: "fwv",
+		cn: "以后",
+		type: "f.",
+	},
+	{
+		dh: "pav",
+		cn: "之前",
+		type: "f.",
+	},
 ];
