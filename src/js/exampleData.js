@@ -1,10 +1,12 @@
 // 湩语（Irelav）例句库
 // 基于 intro.md 语法规则和 wordData.js 词汇创建
-// 包含90个涵盖不同时态和语法点的例句
+// 包含110个涵盖不同时态和语法点的例句
 // 注意：例句与词汇的关联通过 exampleUtils.js 中的算法自动匹配，无需手动维护 words 数组
 //
 // 更新日志：2026-07-31 第二十九阶段（40句）
 // 更新日志：2026-07-31 第三十阶段（新增50句，累计90句）
+// 更新日志：2026-11-26 第三十一阶段（新增20句，累计110句）
+// - 补充 Duniverse 地名用法，以及过去/将来、否定、疑问、被动、祈使、条件和比较句
 // - 例句从40句扩充至90句，新增50个涵盖更多语法点和词汇的例句
 // - 新增语法点覆盖：比较级/最高级、情态词、条件句、因果句、更多时态与特殊疑问词等
 // - 新增词汇覆盖：动词（haor/sarbib/blan/neu/zipwshiêt/apui/plon/zœb/glwxtod 等）、
@@ -493,5 +495,105 @@ globalThis.exampleData = [
 		dh: "Mad tlipodif snixod grinp, hr mad dlopodah taichê.",
 		cn: "我开始读书，和我结束了作业。"
 		// 现在时+过去时+hr连接两个分句
+	},
+	{
+		dh: "Grêld, mad ogah Græt.",
+		cn: "昨天我去了臭都。"
+		// 过去时；时间状语置于句首，并使用城市名作目的地
+	},
+	{
+		dh: "Jadot, mad ogif Cwasain.",
+		cn: "今天我正在前往出塞。"
+		// 现在进行时；使用特别行政区名作目的地
+	},
+	{
+		dh: "Mads ogif Is'hiadonhfak.",
+		cn: "我们正前往东𣿅大区。"
+		// 现在进行时；以官方大区名为目的地
+	},
+	{
+		dh: "Ton strokit Wendfsfaks.",
+		cn: "他将前往群岛大区。"
+		// 将来时；以官方大区名为旅行目的地
+	},
+	{
+		dh: "Mad sht sarbib plirp.",
+		cn: "我不喜欢钱。"
+		// sht 放在被否定的谓语前
+	},
+	{
+		dh: "Wna ton rerrif kornd?",
+		cn: "他正在吃苹果吗？"
+		// 一般疑问句；现在进行时
+	},
+	{
+		dh: "Tah ton krwêshit mad?",
+		cn: "他将向我推荐什么？"
+		// 特殊疑问词前置；将来时
+	},
+	{
+		dh: "Th bwbæ ais caofak.",
+		cn: "这个词是你的。"
+		// 系词 ais 与所有格形容词
+	},
+	{
+		dh: "Th fwash kehiad ais bejan.",
+		cn: "这栋高楼是红色的。"
+		// 形容词置于名词前作肯定修饰
+	},
+	{
+		dh: "Th kehiad bejan.",
+		cn: "这栋楼不红。"
+		// 名词后置形容词表示否定
+	},
+	{
+		dh: "Ton piwfakesht ogif fench.",
+		cn: "他正在快速地去学校。"
+		// 动词副词置于动词之前；现在时
+	},
+	{
+		dh: "Taichê aizêr mads smadop.",
+		cn: "作业被我们完成了。"
+		// 被动语态；过去被动分词 -op
+	},
+	{
+		dh: "Cmar kisnixod grinp!",
+		cn: "请读一本书！"
+		// 礼貌祈使句；ki- 使动前缀
+	},
+	{
+		dh: "Daajd og fench!",
+		cn: "禁止去学校！"
+		// 否定命令使用 daajd 加动词原形
+	},
+	{
+		dh: "Hinhh mad sarbib kornd, mad hanhh rerr kornd.",
+		cn: "因为我喜欢苹果，所以我吃苹果。"
+		// 因果连接词引导两个分句
+	},
+	{
+		dh: "Hihh cao ogif Græt, mad whr ogif Græt.",
+		cn: "如果你去臭都，我也去臭都。"
+		// 条件句；whr 表示“也”
+	},
+	{
+		dh: "Mad haorif blan, hohh mad hreh dwênhod taichê.",
+		cn: "我想玩，但我应该写作业。"
+		// 转折连词 hohh 与情态词 hreh
+	},
+	{
+		dh: "Mad zind piw ton.",
+		cn: "我比他慢。"
+		// 比较级 zind piw
+	},
+	{
+		dh: "Rih kehiad ais zindn fwash.",
+		cn: "这栋楼是最低的。"
+		// 最高级 zindn
+	},
+	{
+		dh: "Grêld, ton klemtah madfak kehiad, hr mads dwênhodah taichê.",
+		cn: "昨天他拜访了我家，我们写了作业。"
+		// 过去时；hr 连接两个分句
 	}
 ];

@@ -4367,7 +4367,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'tonhvin',
-		cn: '[北湩地名]黑头山',
+		cn: '[北湩地名]黑头山；[山名]黑头山',
 		type: 'm.',
 
 	}, {
@@ -4482,52 +4482,52 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Nohiadonhfak',
-		cn: '[大区名]中𣿅大区',
+		cn: '[城市名]北𣿅；[省名]北𣿅；[大区名]中𣿅大区；[大区名]北𣿅大区',
 		type: 'm.',
 
 	}, {
-		dh: 'Is’hiadonhfak',
+		dh: 'Is\'hiadonhfak',
 		cn: '[大区名]东𣿅大区',
 		type: 'm.',
 
 	}, {
 		dh: 'Donma',
-		cn: '[特别行政区名,',
+		cn: '[城市名]四九；[特别行政区名]四九',
 		type: 'm.',
 
 	}, {
 		dh: 'Wendfar',
-		cn: '[特别行政区名,',
+		cn: '[城市名]王德发；[特别行政区名]王德发',
 		type: 'm.',
 
 	}, {
 		dh: 'Gnwan',
-		cn: '[省名,',
+		cn: '[省名]光安',
 		type: 'm.',
 
 	}, {
 		dh: 'Sabid',
-		cn: '[省名,',
+		cn: '[城市名]萨比；[省名]萨比',
 		type: 'm.',
 
 	}, {
 		dh: 'Donsa',
-		cn: '[省名,',
+		cn: '[城市名]四六；[省名]四六',
 		type: 'm.',
 
 	}, {
 		dh: 'Repwifak',
-		cn: '[省名,',
+		cn: '[城市名]刺梨；[省名]刺梨',
 		type: 'm.',
 
 	}, {
 		dh: 'Satornfak',
-		cn: '[省名,',
+		cn: '[城市名]土星；[省名]土星',
 		type: 'm.',
 
 	}, {
 		dh: 'Bannpwi',
-		cn: '[省名,',
+		cn: '[城市名]邦普；[省名]邦普',
 		type: 'm.',
 
 	}, {
@@ -4582,7 +4582,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Tonhd',
-		cn: '[城市名]百岁山',
+		cn: '[城市名]百岁山；[山名]百岁山',
 		type: 'm.',
 
 	}, {
@@ -4712,7 +4712,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Donvin',
-		cn: '[城市名]𣿅山',
+		cn: '[城市名]𣿅山；[山名]𣿅山',
 		type: 'm.',
 
 	}, {
@@ -4852,7 +4852,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Ucenc',
-		cn: '[城市名]成岗',
+		cn: '[城市名]成岗；[山名]成岗',
 		type: 'm.',
 
 	}, {
@@ -4897,7 +4897,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Daêdœ',
-		cn: '[省名,城市名]大尔',
+		cn: '[城市名]大尔；[省名]大尔',
 		type: 'm.',
 
 	}, {
@@ -4922,7 +4922,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Cheutonh',
-		cn: '[省名,城市名]羟基',
+		cn: '[城市名]羟基；[省名]羟基',
 		type: 'm.',
 
 	}, {
@@ -4957,7 +4957,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Hosh',
-		cn: '[省名,城市名]后雄',
+		cn: '[城市名]后雄；[省名]后雄',
 		type: 'm.',
 
 	}, {
@@ -5022,12 +5022,12 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Tamad',
-		cn: '[省名,城市名]塔马',
+		cn: '[城市名]塔马；[省名]塔马',
 		type: 'm.',
 
 	}, {
 		dh: 'Têsenk',
-		cn: '[城市名]铁山',
+		cn: '[城市名]铁山；[山名]铁山',
 		type: 'm.',
 
 	}, {
@@ -5041,8 +5041,8 @@ globalThis.wordData = [
 		type: 'm.',
 
 	}, {
-		dh: 'Zoyo',
-		cn: '[城市名]长岭',
+		dh: 'Zoyo Gos',
+		cn: '[城市名]长岭；[山名]长岭',
 		type: 'm.',
 
 	}, {
@@ -5182,7 +5182,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Lauid',
-		cn: '[省或城市名]拉基',
+		cn: '[城市名]拉基；[省名]拉基',
 		type: 'm.',
 
 	}, {
@@ -5247,7 +5247,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Valæhi',
-		cn: '[省或城市名]瓦莱莉',
+		cn: '[城市名]瓦莱莉；[省名]瓦莱莉',
 		type: 'm.',
 
 	}, {
@@ -5292,7 +5292,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Mæmar',
-		cn: '[省或城市名]梅马',
+		cn: '[城市名]梅马；[省名]梅马',
 		type: 'm.',
 
 	}, {
@@ -5332,7 +5332,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Wchin',
-		cn: '[省或城市名]欧芹',
+		cn: '[城市名]欧芹；[省名]欧芹',
 		type: 'm.',
 
 	}, {
@@ -5377,7 +5377,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Sem',
-		cn: '[省或城市名]萨姆',
+		cn: '[城市名]萨姆；[省名]萨姆',
 		type: 'm.',
 
 	}, {
@@ -5422,7 +5422,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Shmævin',
-		cn: '[城市名]梅花山',
+		cn: '[城市名]梅花山；[山名]梅花山',
 		type: 'm.',
 
 	}, {
@@ -5457,7 +5457,7 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Tonhr',
-		cn: '[省或城市名]天狗',
+		cn: '[城市名]天狗；[省名]天狗',
 		type: 'm.',
 
 	}, {
@@ -5497,12 +5497,12 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Sbench',
-		cn: '[城市名]金汤湖',
+		cn: '[城市名]金汤湖；[湖名]金汤湖',
 		type: 'm.',
 
 	}, {
 		dh: 'Swhiadonhfak',
-		cn: '[省或城市名]南𣿅',
+		cn: '[城市名]南𣿅；[省名]南𣿅；[大区名]南𣿅大区',
 		type: 'm.',
 
 	}, {
@@ -5542,12 +5542,12 @@ globalThis.wordData = [
 
 	}, {
 		dh: 'Loclvin',
-		cn: '[城市名]龙子山',
+		cn: '[城市名]龙子山；[山名]龙子山',
 		type: 'm.',
 
 	}, {
 		dh: 'Kfechvin',
-		cn: '[城市名]木子山',
+		cn: '[城市名]木子山；[山名]木子山',
 		type: 'm.',
 
 	}, {
@@ -14452,6 +14452,805 @@ globalThis.wordData = [
 	}, {
 		dh: `dwozn`,
 		cn: `槐树`,
+		type: `m.`,
+
+	},
+	// Duniverse 官方 Irelav 地名（仅去除空格分隔的类别词，连写专名原样保留）
+	{
+		dh: `Biv Hreshtork`,
+		cn: `[城市名]七阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Hisdintsfaks`,
+		cn: `[城市名]三林`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Hidon`,
+		cn: `[城市名]三董；[省名]三董`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Hiv Hreshtork`,
+		cn: `[城市名]三阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Iswhiadonhfak`,
+		cn: `[城市名]东南𣿅；[省名]东南𣿅；[大区名]东南𣿅大区`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ishiadonhfak`,
+		cn: `[城市名]东𣿅；[特别行政区名]东𣿅`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Mav Hreshtork`,
+		cn: `[城市名]九阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Lævav Hreshtork`,
+		cn: `[城市名]二十一阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Læv Hreshtork`,
+		cn: `[城市名]二十阶行列；[城市名]二阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Haov Hreshtork`,
+		cn: `[城市名]五阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Astork`,
+		cn: `[城市名]亚斯`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Iftork`,
+		cn: `[城市名]伊府`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ortbres`,
+		cn: `[城市名]伍德布瑞`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Benwj`,
+		cn: `[城市名]伯努利`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Pejann`,
+		cn: `[城市名]佩亚诺`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tav Hreshtork`,
+		cn: `[城市名]八阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Sav Hreshtork`,
+		cn: `[城市名]六阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Bsenksdohtfak`,
+		cn: `[城市名]冻梨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Swkdeb`,
+		cn: `[城市名]几丁`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Enadohlfak`,
+		cn: `[城市名]凤凰；[省名]凤凰`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kaltork`,
+		cn: `[城市名]凯莱`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Belenstonh`,
+		cn: `[城市名]别林斯𣿅`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Jistork`,
+		cn: `[城市名]剑山；[山名]剑山`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Uakac`,
+		cn: `[城市名]加克亚斯`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Uakic`,
+		cn: `[城市名]加克西`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Gam`,
+		cn: `[城市名]加马`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vavav Hreshtork`,
+		cn: `[城市名]十一阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vabiv Hreshtork`,
+		cn: `[城市名]十七阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vahiv Hreshtork`,
+		cn: `[城市名]十三阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vamav Hreshtork`,
+		cn: `[城市名]十九阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vahaov Hreshtork`,
+		cn: `[城市名]十五阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vasav Hreshtork`,
+		cn: `[城市名]十六阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vadonv Hreshtork`,
+		cn: `[城市名]十四阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Dêv Hreshtork`,
+		cn: `[城市名]十阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Senfor`,
+		cn: `[城市名]千里；[省名]千里`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kau`,
+		cn: `[城市名]卡吉`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Gwak`,
+		cn: `[城市名]古维克；[省名]古维克`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kapthaich`,
+		cn: `[城市名]咸蛋`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Katork`,
+		cn: `[城市名]哈基米`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Donv Hreshtork`,
+		cn: `[城市名]四阶行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Pomt`,
+		cn: `[城市名]土豆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Stwiapid`,
+		cn: `[城市名]圣维皮；[省名]圣维皮`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kris`,
+		cn: `[城市名]圣诞城`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Stwvictorn`,
+		cn: `[城市名]圣𣿅瀚`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Stwdoclif`,
+		cn: `[城市名]圣𣿅芬`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Pivz`,
+		cn: `[城市名]坚果`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Cesik`,
+		cn: `[城市名]天鸡`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Naphitork`,
+		cn: `[城市名]天龙`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Jenêrtork`,
+		cn: `[城市名]娟儿`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Baitork`,
+		cn: `[城市名]小号`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tonhswj`,
+		cn: `[城市名]小米`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Etatork`,
+		cn: `[城市名]尼塔`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tonhhihfak`,
+		cn: `[城市名]山林丽花`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Baslom`,
+		cn: `[城市名]巴斯鲁姆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kensf`,
+		cn: `[城市名]康家庄`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tonk`,
+		cn: `[城市名]彤管`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tonhfak`,
+		cn: `[特别市名]总统（𣿅赫）；[特别行政区名]总统（𣿅赫）`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Taolitait`,
+		cn: `[城市名]托易雷特`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Labrotork`,
+		cn: `[城市名]拉堡`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Lamd`,
+		cn: `[城市名]拉姆达`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Laghannu`,
+		cn: `[城市名]拉格朗日`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Lahws`,
+		cn: `[城市名]拉鲁斯`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kaptlshdonhfak`,
+		cn: `[城市名]提琴城`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Mlest`,
+		cn: `[城市名]摩勒斯特`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Mortork`,
+		cn: `[城市名]摩尔`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Skeblos`,
+		cn: `[城市名]斯科布勒思`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Sjotork`,
+		cn: `[城市名]新友`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kecyc`,
+		cn: `[城市名]无穷`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Chant`,
+		cn: `[城市名]昌眺`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Chominh`,
+		cn: `[城市名]明光`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Uenk`,
+		cn: `[城市名]朱干`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ueg`,
+		cn: `[城市名]杰格`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Korshtork`,
+		cn: `[城市名]柯西`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Hywtork`,
+		cn: `[城市名]核移位`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Grabac`,
+		cn: `[城市名]格拉巴茨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ghriach`,
+		cn: `[城市名]格里亚奇`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Dod`,
+		cn: `[城市名]椰树`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Gwangtork`,
+		cn: `[城市名]氨醛`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Faitork`,
+		cn: `[城市名]法因`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Uiufak`,
+		cn: `[城市名]泡椒`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tæltork`,
+		cn: `[城市名]泰勒`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Paitork`,
+		cn: `[城市名]派城`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Haizênbg`,
+		cn: `[城市名]海森堡`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Gesh`,
+		cn: `[城市名]深原`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Enad Hreshtork`,
+		cn: `[城市名]爪形行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Mastapaid`,
+		cn: `[城市名]玛斯特贝`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Wastm`,
+		cn: `[城市名]瓦史鲁姆`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Nenkfak`,
+		cn: `[城市名]甘蔗`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tonbwch`,
+		cn: `[城市名]番茄`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Paiaflar`,
+		cn: `[城市名]皮德菲拉`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tonhsed`,
+		cn: `[城市名]眺高`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Tohnob`,
+		cn: `[城市名]科技`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Kiishtork`,
+		cn: `[城市名]箕舌`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Chdab`,
+		cn: `[城市名]米共`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Minhtork`,
+		cn: `[城市名]米哈`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ladab`,
+		cn: `[城市名]米巴`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Hwedorn`,
+		cn: `[城市名]红尾`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Chrionb`,
+		cn: `[城市名]红滨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Yorn`,
+		cn: `[城市名]约恩`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Rortork`,
+		cn: `[城市名]罗尔`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Conmad`,
+		cn: `[城市名]羊驼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Mestork`,
+		cn: `[城市名]美桑`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Vevws`,
+		cn: `[城市名]肯塔基；[省名]肯塔基`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Forian`,
+		cn: `[城市名]芙里莲`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ventmot Hreshtork`,
+		cn: `[城市名]范德蒙德行列`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Conma`,
+		cn: `[城市名]草泥马；[省名]草泥马`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Moristork`,
+		cn: `[城市名]莫里森`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Laibnic`,
+		cn: `[城市名]莱布尼茨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Labtar`,
+		cn: `[城市名]莱布特瑞`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Laich`,
+		cn: `[城市名]莱普`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Zotfau`,
+		cn: `[城市名]萝卜`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Binoe`,
+		cn: `[城市名]葫芦`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Majtork`,
+		cn: `[城市名]蔓叶`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Femjyc`,
+		cn: `[城市名]蜂蜜`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Des'shiic`,
+		cn: `[城市名]袋鼠鱼子`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Eswhiadonhfak`,
+		cn: `[城市名]西南𣿅；[省名]西南𣿅；[大区名]西南𣿅大区`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Hibait`,
+		cn: `[城市名]西贝特；[省名]西贝特`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Es'hiadonhfak`,
+		cn: `[城市名]西𣿅；[省名]西𣿅；[大区名]西𣿅大区`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Shœrmon`,
+		cn: `[城市名]谢尔曼`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Desh`,
+		cn: `[城市名]达希`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Ljer`,
+		cn: `[城市名]里伊尔`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Arf`,
+		cn: `[城市名]阿尔法`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Binta`,
+		cn: `[城市名]雪梨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Raistm`,
+		cn: `[城市名]雷斯特卢`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Mach`,
+		cn: `[城市名]马奇`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Shic`,
+		cn: `[城市名]鱼子`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Zenltork`,
+		cn: `[城市名]鲁城`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Sdohtfak`,
+		cn: `[城市名]鸭梨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Gectork`,
+		cn: `[城市名]鸽子`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Makrorin`,
+		cn: `[城市名]麦克劳林`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Taoilait`,
+		cn: `[省名]托易雷特`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Bintashêrli`,
+		cn: `[省名]冰糖-雪梨`,
+		type: `m.`,
+
+	},
+	{
+		dh: `Wendfsfaks`,
+		cn: `[大区名]群岛大区`,
 		type: `m.`,
 
 	}
