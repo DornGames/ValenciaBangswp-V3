@@ -22848,4 +22848,2184 @@ globalThis.wordData = [
 		cn: "之前",
 		type: "f.",
 	},
+	// 2026-11-26 — 抽象、位置与测量词汇（300个名词，133个配套动词）
+	// 位置与方位
+	{
+		dh: "qot",
+		cn: "位置",
+		type: "m.",
+	},
+	{
+		dh: "qotiêt",
+		cn: "定位",
+		type: "d.",
+	},
+	{
+		dh: "nwsgêt",
+		cn: "方位",
+		type: "m.",
+	},
+	{
+		dh: "nwsgêtiêt",
+		cn: "判定",
+		type: "d.",
+	},
+	{
+		dh: "cosbæx",
+		cn: "坐标",
+		type: "m.",
+	},
+	{
+		dh: "cosbæxiêt",
+		cn: "标注",
+		type: "d.",
+	},
+	{
+		dh: "vêmbêz",
+		cn: "坐标系",
+		type: "m.",
+	},
+	{
+		dh: "vêmbêziêt",
+		cn: "建立",
+		type: "d.",
+	},
+	{
+		dh: "tirsæs",
+		cn: "坐标点",
+		type: "m.",
+	},
+	{
+		dh: "tirsæsiêt",
+		cn: "标记",
+		type: "d.",
+	},
+	{
+		dh: "gæsrœr",
+		cn: "参照点",
+		type: "m.",
+	},
+	{
+		dh: "gæsrœriêt",
+		cn: "选定",
+		type: "d.",
+	},
+	{
+		dh: "dwlqœd",
+		cn: "基准点",
+		type: "m.",
+	},
+	{
+		dh: "dwlqœdiêt",
+		cn: "校准",
+		type: "d.",
+	},
+	{
+		dh: "baszæg",
+		cn: "起点",
+		type: "m.",
+	},
+	{
+		dh: "baszægiêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "lêp",
+		cn: "终点",
+		type: "m.",
+	},
+	{
+		dh: "lêpiêt",
+		cn: "确定",
+		type: "d.",
+	},
+	{
+		dh: "formyl",
+		cn: "中点",
+		type: "m.",
+	},
+	{
+		dh: "formyliêt",
+		cn: "求出",
+		type: "d.",
+	},
+	{
+		dh: "girjwc",
+		cn: "交点",
+		type: "m.",
+	},
+	{
+		dh: "girjwciêt",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "nemqæk",
+		cn: "位置关系",
+		type: "m.",
+	},
+	{
+		dh: "nemqækiêt",
+		cn: "分析",
+		type: "d.",
+	},
+	{
+		dh: "læltyg",
+		cn: "朝向",
+		type: "m.",
+	},
+	{
+		dh: "læltygiêt",
+		cn: "调整",
+		type: "d.",
+	},
+	{
+		dh: "næmfac",
+		cn: "航向",
+		type: "m.",
+	},
+	{
+		dh: "næmfaciêt",
+		cn: "规划",
+		type: "d.",
+	},
+	{
+		dh: "dæmhyx",
+		cn: "方向",
+		type: "m.",
+	},
+	{
+		dh: "dæmhyxiêt",
+		cn: "指明",
+		type: "d.",
+	},
+	{
+		dh: "qwnxêv",
+		cn: "路线",
+		type: "m.",
+	},
+	{
+		dh: "qwnxêviêt",
+		cn: "规划",
+		type: "d.",
+	},
+	{
+		dh: "kof",
+		cn: "岔路",
+		type: "m.",
+	},
+	{
+		dh: "kofiêt",
+		cn: "选择",
+		type: "d.",
+	},
+	{
+		dh: "cimdœf",
+		cn: "通道",
+		type: "m.",
+	},
+	{
+		dh: "cimdœfiêt",
+		cn: "开辟",
+		type: "d.",
+	},
+	{
+		dh: "xæmqoz",
+		cn: "入口",
+		type: "m.",
+	},
+	{
+		dh: "xæmqoziêt",
+		cn: "寻找",
+		type: "d.",
+	},
+	{
+		dh: "fwmtek",
+		cn: "出口",
+		type: "m.",
+	},
+	{
+		dh: "fwmtekiêt",
+		cn: "寻找",
+		type: "d.",
+	},
+	{
+		dh: "barzom",
+		cn: "出入口",
+		type: "m.",
+	},
+	{
+		dh: "barzomiêt",
+		cn: "管理",
+		type: "d.",
+	},
+	{
+		dh: "zomtit",
+		cn: "路段",
+		type: "m.",
+	},
+	{
+		dh: "zomtitiêt",
+		cn: "划分",
+		type: "d.",
+	},
+	{
+		dh: "nylbœk",
+		cn: "路肩",
+		type: "m.",
+	},
+	{
+		dh: "nylbœkiêt",
+		cn: "修整",
+		type: "d.",
+	},
+	{
+		dh: "jwrkib",
+		cn: "路沿",
+		type: "m.",
+	},
+	{
+		dh: "jwrkibiêt",
+		cn: "铺设",
+		type: "d.",
+	},
+	{
+		dh: "rym",
+		cn: "坡道",
+		type: "m.",
+	},
+	{
+		dh: "rymiêt",
+		cn: "修建",
+		type: "d.",
+	},
+	{
+		dh: "værcix",
+		cn: "楼层",
+		type: "m.",
+	},
+	{
+		dh: "værcixiêt",
+		cn: "安排",
+		type: "d.",
+	},
+	{
+		dh: "visbêd",
+		cn: "层级",
+		type: "m.",
+	},
+	{
+		dh: "visbêdiêt",
+		cn: "分级",
+		type: "d.",
+	},
+	{
+		dh: "zelsœl",
+		cn: "深处",
+		type: "m.",
+	},
+	{
+		dh: "zelsœliêt",
+		cn: "探查",
+		type: "d.",
+	},
+	{
+		dh: "zœrbên",
+		cn: "表面",
+		type: "m.",
+	},
+	{
+		dh: "zœrbêniêt",
+		cn: "处理",
+		type: "d.",
+	},
+	{
+		dh: "vinjag",
+		cn: "顶部",
+		type: "m.",
+	},
+	{
+		dh: "vinjagiêt",
+		cn: "标记",
+		type: "d.",
+	},
+	{
+		dh: "misfœv",
+		cn: "周围",
+		type: "m.",
+	},
+	{
+		dh: "misfœviêt",
+		cn: "观察",
+		type: "d.",
+	},
+	{
+		dh: "linhæs",
+		cn: "远处",
+		type: "m.",
+	},
+	{
+		dh: "linhæsiêt",
+		cn: "观察",
+		type: "d.",
+	},
+	{
+		dh: "lwz",
+		cn: "近处",
+		type: "m.",
+	},
+	{
+		dh: "lwziêt",
+		cn: "观察",
+		type: "d.",
+	},
+	{
+		dh: "uespœg",
+		cn: "间隔",
+		type: "m.",
+	},
+	{
+		dh: "uespœgiêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "qymræc",
+		cn: "空隙",
+		type: "m.",
+	},
+	{
+		dh: "qymræciêt",
+		cn: "留出",
+		type: "d.",
+	},
+	{
+		dh: "jêrjom",
+		cn: "缝隙",
+		type: "m.",
+	},
+	{
+		dh: "jêrjomiêt",
+		cn: "填补",
+		type: "d.",
+	},
+	{
+		dh: "dolzêx",
+		cn: "边缘",
+		type: "m.",
+	},
+	{
+		dh: "dolzêxiêt",
+		cn: "修整",
+		type: "d.",
+	},
+	// 几何与测量概念
+	{
+		dh: "qiltêc",
+		cn: "长度",
+		type: "m.",
+	},
+	{
+		dh: "qiltêciêt",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "lwltip",
+		cn: "厚度",
+		type: "m.",
+	},
+	{
+		dh: "lwltipiêt",
+		cn: "测定",
+		type: "d.",
+	},
+	{
+		dh: "vesjin",
+		cn: "直径",
+		type: "m.",
+	},
+	{
+		dh: "vesjiniêt",
+		cn: "量出",
+		type: "d.",
+	},
+	{
+		dh: "jos",
+		cn: "半径",
+		type: "m.",
+	},
+	{
+		dh: "josiêt",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "kêrxyd",
+		cn: "周长",
+		type: "m.",
+	},
+	{
+		dh: "kêrxydiêt",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "vymban",
+		cn: "体积",
+		type: "m.",
+	},
+	{
+		dh: "vymbaniêt",
+		cn: "测算",
+		type: "d.",
+	},
+	{
+		dh: "vosxox",
+		cn: "容积",
+		type: "m.",
+	},
+	{
+		dh: "vosxoxiêt",
+		cn: "测定",
+		type: "d.",
+	},
+	{
+		dh: "rwnvor",
+		cn: "容量",
+		type: "m.",
+	},
+	{
+		dh: "rwnvoriêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "gêmkat",
+		cn: "密度",
+		type: "m.",
+	},
+	{
+		dh: "gêmkatiêt",
+		cn: "测定",
+		type: "d.",
+	},
+	{
+		dh: "felzæl",
+		cn: "尺度",
+		type: "m.",
+	},
+	{
+		dh: "felzæliêt",
+		cn: "调整",
+		type: "d.",
+	},
+	{
+		dh: "xonbeh",
+		cn: "刻度",
+		type: "m.",
+	},
+	{
+		dh: "xonbehiêt",
+		cn: "标出",
+		type: "d.",
+	},
+	{
+		dh: "qœm",
+		cn: "单位",
+		type: "m.",
+	},
+	{
+		dh: "qœmiêt",
+		cn: "统一",
+		type: "d.",
+	},
+	{
+		dh: "mêslar",
+		cn: "数值",
+		type: "m.",
+	},
+	{
+		dh: "mêslariêt",
+		cn: "记录",
+		type: "d.",
+	},
+	{
+		dh: "resxal",
+		cn: "总量",
+		type: "m.",
+	},
+	{
+		dh: "resxaliêt",
+		cn: "求出",
+		type: "d.",
+	},
+	{
+		dh: "kertyz",
+		cn: "余量",
+		type: "m.",
+	},
+	{
+		dh: "kertyziêt",
+		cn: "保留",
+		type: "d.",
+	},
+	{
+		dh: "syluæx",
+		cn: "限额",
+		type: "m.",
+	},
+	{
+		dh: "syluæxiêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "qimdêt",
+		cn: "上限",
+		type: "m.",
+	},
+	{
+		dh: "qimdêtiêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "uynqos",
+		cn: "下限",
+		type: "m.",
+	},
+	{
+		dh: "uynqosiêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "zanjyt",
+		cn: "平均值",
+		type: "m.",
+	},
+	{
+		dh: "zanjytiêt",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "xwx",
+		cn: "倾角",
+		type: "m.",
+	},
+	{
+		dh: "xwxiêt",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "benvex",
+		cn: "比例",
+		type: "m.",
+	},
+	{
+		dh: "benvexiêt",
+		cn: "换算",
+		type: "d.",
+	},
+	{
+		dh: "xælsêr",
+		cn: "百分比",
+		type: "m.",
+	},
+	{
+		dh: "xælsêriêt",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "tœntyk",
+		cn: "比率",
+		type: "m.",
+	},
+	{
+		dh: "tœntykiêt",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "qœmxwf",
+		cn: "差值",
+		type: "m.",
+	},
+	{
+		dh: "qœmxwfiêt",
+		cn: "求出",
+		type: "d.",
+	},
+	{
+		dh: "zarfœg",
+		cn: "误差",
+		type: "m.",
+	},
+	{
+		dh: "zarfœgiêt",
+		cn: "修正",
+		type: "d.",
+	},
+	// 时间与次序
+	{
+		dh: "ronvœg",
+		cn: "时间段",
+		type: "m.",
+	},
+	{
+		dh: "ronvœgiêt",
+		cn: "划定",
+		type: "d.",
+	},
+	{
+		dh: "hæslœl",
+		cn: "时间点",
+		type: "m.",
+	},
+	{
+		dh: "hæslœliêt",
+		cn: "标记",
+		type: "d.",
+	},
+	{
+		dh: "qyv",
+		cn: "时间差",
+		type: "m.",
+	},
+	{
+		dh: "qyviêt",
+		cn: "计算",
+		type: "d.",
+	},
+	{
+		dh: "qænlêh",
+		cn: "间隔期",
+		type: "m.",
+	},
+	{
+		dh: "qænlêhiêt",
+		cn: "设定",
+		type: "d.",
+	},
+	{
+		dh: "qarxœg",
+		cn: "节点",
+		type: "m.",
+	},
+	{
+		dh: "qarxœgiêt",
+		cn: "标记",
+		type: "d.",
+	},
+	{
+		dh: "værlæz",
+		cn: "先后",
+		type: "m.",
+	},
+	{
+		dh: "værlæziêt",
+		cn: "排列",
+		type: "d.",
+	},
+	{
+		dh: "hilpwt",
+		cn: "同时",
+		type: "m.",
+	},
+	{
+		dh: "hilpwtiêt",
+		cn: "同步",
+		type: "d.",
+	},
+	{
+		dh: "xœszêp",
+		cn: "连续性",
+		type: "m.",
+	},
+	{
+		dh: "xœszêpiêt",
+		cn: "维持",
+		type: "d.",
+	},
+	{
+		dh: "jœltæm",
+		cn: "起初",
+		type: "m.",
+	},
+	{
+		dh: "jysgwd",
+		cn: "结尾",
+		type: "m.",
+	},
+	{
+		dh: "jag",
+		cn: "转折",
+		type: "m.",
+	},
+	{
+		dh: "xymtœc",
+		cn: "变化率",
+		type: "m.",
+	},
+	{
+		dh: "lomlœh",
+		cn: "进程",
+		type: "m.",
+	},
+	{
+		dh: "xœnkwt",
+		cn: "流程",
+		type: "m.",
+	},
+	{
+		dh: "uænlom",
+		cn: "进度",
+		type: "m.",
+	},
+	{
+		dh: "monjig",
+		cn: "延迟",
+		type: "m.",
+	},
+	{
+		dh: "qælgwl",
+		cn: "暂停",
+		type: "m.",
+	},
+	{
+		dh: "tœmzab",
+		cn: "恢复",
+		type: "m.",
+	},
+	{
+		dh: "jwb",
+		cn: "终止",
+		type: "m.",
+	},
+	{
+		dh: "danfwb",
+		cn: "持续时间",
+		type: "m.",
+	},
+	// 逻辑与证据
+	{
+		dh: "zyszêc",
+		cn: "前提",
+		type: "m.",
+	},
+	{
+		dh: "lyrjon",
+		cn: "结论",
+		type: "m.",
+	},
+	{
+		dh: "fwnhwh",
+		cn: "例证",
+		type: "m.",
+	},
+	{
+		dh: "zœmkêf",
+		cn: "论据",
+		type: "m.",
+	},
+	{
+		dh: "lwlzwb",
+		cn: "论点",
+		type: "m.",
+	},
+	{
+		dh: "sorsyx",
+		cn: "论证",
+		type: "m.",
+	},
+	{
+		dh: "dœg",
+		cn: "判断",
+		type: "m.",
+	},
+	{
+		dh: "lalvwk",
+		cn: "判断力",
+		type: "m.",
+	},
+	{
+		dh: "uilsel",
+		cn: "认识",
+		type: "m.",
+	},
+	{
+		dh: "dylvên",
+		cn: "理解",
+		type: "m.",
+	},
+	{
+		dh: "uesvas",
+		cn: "误解",
+		type: "m.",
+	},
+	{
+		dh: "valced",
+		cn: "矛盾",
+		type: "m.",
+	},
+	{
+		dh: "zirdwt",
+		cn: "一致性",
+		type: "m.",
+	},
+	{
+		dh: "mynjwn",
+		cn: "相关性",
+		type: "m.",
+	},
+	{
+		dh: "rêx",
+		cn: "关联",
+		type: "m.",
+	},
+	{
+		dh: "uœsqoc",
+		cn: "因果关系",
+		type: "m.",
+	},
+	{
+		dh: "uwluav",
+		cn: "可能性",
+		type: "m.",
+	},
+	{
+		dh: "qelxêp",
+		cn: "概率",
+		type: "m.",
+	},
+	{
+		dh: "qwmhab",
+		cn: "确定性",
+		type: "m.",
+	},
+	{
+		dh: "qœsgym",
+		cn: "不确定性",
+		type: "m.",
+	},
+	// 思维与情绪
+	{
+		dh: "pælvêk",
+		cn: "焦虑",
+		type: "m.",
+	},
+	{
+		dh: "gœndig",
+		cn: "紧张",
+		type: "m.",
+	},
+	{
+		dh: "qol",
+		cn: "兴奋",
+		type: "m.",
+	},
+	{
+		dh: "ziskæl",
+		cn: "失望",
+		type: "m.",
+	},
+	{
+		dh: "uirlœh",
+		cn: "尴尬",
+		type: "m.",
+	},
+	{
+		dh: "pwrcyc",
+		cn: "怀疑",
+		type: "m.",
+	},
+	{
+		dh: "mælhêx",
+		cn: "好奇",
+		type: "m.",
+	},
+	{
+		dh: "rimrem",
+		cn: "专注",
+		type: "m.",
+	},
+	{
+		dh: "bænsyp",
+		cn: "注意力",
+		type: "m.",
+	},
+	{
+		dh: "hêrder",
+		cn: "意识",
+		type: "m.",
+	},
+	{
+		dh: "zaf",
+		cn: "念头",
+		type: "m.",
+	},
+	{
+		dh: "tongœd",
+		cn: "期待",
+		type: "m.",
+	},
+	{
+		dh: "mæluil",
+		cn: "愿望",
+		type: "m.",
+	},
+	{
+		dh: "xêsfir",
+		cn: "动机",
+		type: "m.",
+	},
+	{
+		dh: "dasfov",
+		cn: "态度",
+		type: "m.",
+	},
+	{
+		dh: "mwlqwg",
+		cn: "看法",
+		type: "m.",
+	},
+	{
+		dh: "gymryt",
+		cn: "犹豫",
+		type: "m.",
+	},
+	{
+		dh: "fælcœs",
+		cn: "困惑",
+		type: "m.",
+	},
+	{
+		dh: "sws",
+		cn: "疑问",
+		type: "m.",
+	},
+	{
+		dh: "samqex",
+		cn: "困境",
+		type: "m.",
+	},
+	{
+		dh: "vircæs",
+		cn: "创意",
+		type: "m.",
+	},
+	{
+		dh: "mwrvyh",
+		cn: "知识",
+		type: "m.",
+	},
+	{
+		dh: "kysqan",
+		cn: "技能",
+		type: "m.",
+	},
+	{
+		dh: "forzyb",
+		cn: "经验",
+		type: "m.",
+	},
+	{
+		dh: "qirxal",
+		cn: "习惯",
+		type: "m.",
+	},
+	// 关系与规范
+	{
+		dh: "qenpov",
+		cn: "联系",
+		type: "m.",
+	},
+	{
+		dh: "boz",
+		cn: "合作",
+		type: "m.",
+	},
+	{
+		dh: "kælxæp",
+		cn: "竞争",
+		type: "m.",
+	},
+	{
+		dh: "garbæx",
+		cn: "冲突",
+		type: "m.",
+	},
+	{
+		dh: "comhid",
+		cn: "协议",
+		type: "m.",
+	},
+	{
+		dh: "uærdit",
+		cn: "资格",
+		type: "m.",
+	},
+	{
+		dh: "tamdap",
+		cn: "隐私",
+		type: "m.",
+	},
+	{
+		dh: "qêrxav",
+		cn: "尊重",
+		type: "m.",
+	},
+	{
+		dh: "cœsvig",
+		cn: "公平",
+		type: "m.",
+	},
+	{
+		dh: "hol",
+		cn: "不公",
+		type: "m.",
+	},
+	{
+		dh: "konfêm",
+		cn: "许可",
+		type: "m.",
+	},
+	{
+		dh: "saruad",
+		cn: "权限",
+		type: "m.",
+	},
+	{
+		dh: "uelsiz",
+		cn: "限制",
+		type: "m.",
+	},
+	{
+		dh: "qæsqwx",
+		cn: "例外",
+		type: "m.",
+	},
+	{
+		dh: "lelmwc",
+		cn: "政策",
+		type: "m.",
+	},
+	{
+		dh: "nymnœs",
+		cn: "习俗",
+		type: "m.",
+	},
+	{
+		dh: "lœrqot",
+		cn: "依赖",
+		type: "m.",
+	},
+	{
+		dh: "mig",
+		cn: "支持",
+		type: "m.",
+	},
+	{
+		dh: "bêrlik",
+		cn: "影响",
+		type: "m.",
+	},
+	{
+		dh: "xwrqid",
+		cn: "参与",
+		type: "m.",
+	},
+	// 规划与经济
+	{
+		dh: "bimqêt",
+		cn: "费用",
+		type: "m.",
+	},
+	{
+		dh: "qeslod",
+		cn: "开支",
+		type: "m.",
+	},
+	{
+		dh: "jêsryt",
+		cn: "收入",
+		type: "m.",
+	},
+	{
+		dh: "dælfol",
+		cn: "支出",
+		type: "m.",
+	},
+	{
+		dh: "fwldar",
+		cn: "利息",
+		type: "m.",
+	},
+	{
+		dh: "hwm",
+		cn: "税率",
+		type: "m.",
+	},
+	{
+		dh: "nærkef",
+		cn: "供给",
+		type: "m.",
+	},
+	{
+		dh: "lærcem",
+		cn: "需求",
+		type: "m.",
+	},
+	{
+		dh: "gosjêz",
+		cn: "库存",
+		type: "m.",
+	},
+	{
+		dh: "hênxov",
+		cn: "订单",
+		type: "m.",
+	},
+	{
+		dh: "fœrvæd",
+		cn: "报价",
+		type: "m.",
+	},
+	{
+		dh: "mwrdyr",
+		cn: "估价",
+		type: "m.",
+	},
+	{
+		dh: "kœsgoh",
+		cn: "报酬",
+		type: "m.",
+	},
+	{
+		dh: "vep",
+		cn: "津贴",
+		type: "m.",
+	},
+	{
+		dh: "marhig",
+		cn: "储备",
+		type: "m.",
+	},
+	{
+		dh: "mêszip",
+		cn: "现金流",
+		type: "m.",
+	},
+	{
+		dh: "sonpov",
+		cn: "储蓄",
+		type: "m.",
+	},
+	{
+		dh: "dêlxær",
+		cn: "押金",
+		type: "m.",
+	},
+	{
+		dh: "fertop",
+		cn: "采购",
+		type: "m.",
+	},
+	{
+		dh: "linsæt",
+		cn: "工作量",
+		type: "m.",
+	},
+	// 性质与评估
+	{
+		dh: "værlêz",
+		cn: "品质",
+		type: "m.",
+	},
+	{
+		dh: "nym",
+		cn: "缺点",
+		type: "m.",
+	},
+	{
+		dh: "twmfêr",
+		cn: "劣势",
+		type: "m.",
+	},
+	{
+		dh: "cyldyp",
+		cn: "长处",
+		type: "m.",
+	},
+	{
+		dh: "kanqog",
+		cn: "短处",
+		type: "m.",
+	},
+	{
+		dh: "uarnaf",
+		cn: "难度",
+		type: "m.",
+	},
+	{
+		dh: "milxef",
+		cn: "复杂度",
+		type: "m.",
+	},
+	{
+		dh: "kêlpwc",
+		cn: "简单性",
+		type: "m.",
+	},
+	{
+		dh: "xynvep",
+		cn: "力度",
+		type: "m.",
+	},
+	{
+		dh: "næc",
+		cn: "稳定性",
+		type: "m.",
+	},
+	{
+		dh: "nwrmwm",
+		cn: "灵活性",
+		type: "m.",
+	},
+	{
+		dh: "vêmbiv",
+		cn: "弹性",
+		type: "m.",
+	},
+	{
+		dh: "zinseh",
+		cn: "脆弱性",
+		type: "m.",
+	},
+	{
+		dh: "teruyz",
+		cn: "硬度",
+		type: "m.",
+	},
+	{
+		dh: "mænrov",
+		cn: "软度",
+		type: "m.",
+	},
+	{
+		dh: "fasdæn",
+		cn: "粗糙度",
+		type: "m.",
+	},
+	{
+		dh: "uemqæs",
+		cn: "光滑度",
+		type: "m.",
+	},
+	{
+		dh: "til",
+		cn: "透明度",
+		type: "m.",
+	},
+	{
+		dh: "lwntæp",
+		cn: "清晰度",
+		type: "m.",
+	},
+	{
+		dh: "hœrfil",
+		cn: "响度",
+		type: "m.",
+	},
+	// 物理与自然过程
+	{
+		dh: "kœmfyn",
+		cn: "摩擦力",
+		type: "m.",
+	},
+	{
+		dh: "kerzag",
+		cn: "重力",
+		type: "m.",
+	},
+	{
+		dh: "falpyt",
+		cn: "惯性",
+		type: "m.",
+	},
+	{
+		dh: "synzih",
+		cn: "阻力",
+		type: "m.",
+	},
+	{
+		dh: "hisjyb",
+		cn: "张力",
+		type: "m.",
+	},
+	{
+		dh: "gœc",
+		cn: "振动",
+		type: "m.",
+	},
+	{
+		dh: "pœrfêc",
+		cn: "频率",
+		type: "m.",
+	},
+	{
+		dh: "bymtig",
+		cn: "波长",
+		type: "m.",
+	},
+	{
+		dh: "uyngêk",
+		cn: "振幅",
+		type: "m.",
+	},
+	{
+		dh: "caspêg",
+		cn: "电压",
+		type: "m.",
+	},
+	{
+		dh: "qemtyf",
+		cn: "电流",
+		type: "m.",
+	},
+	{
+		dh: "poszœh",
+		cn: "电阻",
+		type: "m.",
+	},
+	{
+		dh: "cærfig",
+		cn: "电荷",
+		type: "m.",
+	},
+	{
+		dh: "pœx",
+		cn: "磁力",
+		type: "m.",
+	},
+	{
+		dh: "zæmqyb",
+		cn: "磁场",
+		type: "m.",
+	},
+	{
+		dh: "xirjim",
+		cn: "热量",
+		type: "m.",
+	},
+	{
+		dh: "cimzwh",
+		cn: "辐射",
+		type: "m.",
+	},
+	{
+		dh: "berjof",
+		cn: "声波",
+		type: "m.",
+	},
+	{
+		dh: "bosmæd",
+		cn: "声速",
+		type: "m.",
+	},
+	{
+		dh: "kældoc",
+		cn: "动能",
+		type: "m.",
+	},
+	// 信息与表达
+	{
+		dh: "gynmin",
+		cn: "措辞",
+		type: "m.",
+	},
+	{
+		dh: "lal",
+		cn: "语气",
+		type: "m.",
+	},
+	{
+		dh: "mêsgac",
+		cn: "口音",
+		type: "m.",
+	},
+	{
+		dh: "qisrip",
+		cn: "方言",
+		type: "m.",
+	},
+	{
+		dh: "mêrsek",
+		cn: "注释",
+		type: "m.",
+	},
+	{
+		dh: "hêsrok",
+		cn: "脚注",
+		type: "m.",
+	},
+	{
+		dh: "tenlæm",
+		cn: "副标题",
+		type: "m.",
+	},
+	{
+		dh: "feruys",
+		cn: "段落",
+		type: "m.",
+	},
+	{
+		dh: "samuwg",
+		cn: "章节",
+		type: "m.",
+	},
+	{
+		dh: "kœt",
+		cn: "目录",
+		type: "m.",
+	},
+	{
+		dh: "pêldœk",
+		cn: "索引",
+		type: "m.",
+	},
+	{
+		dh: "tœrmap",
+		cn: "摘要",
+		type: "m.",
+	},
+	{
+		dh: "qimvoc",
+		cn: "引用",
+		type: "m.",
+	},
+	{
+		dh: "konfœc",
+		cn: "参考资料",
+		type: "m.",
+	},
+	{
+		dh: "zêmdyn",
+		cn: "来源",
+		type: "m.",
+	},
+	// 空间标记与布局
+	{
+		dh: "ræsmws",
+		cn: "方位标",
+		type: "m.",
+	},
+	{
+		dh: "zênpap",
+		cn: "定位标记",
+		type: "m.",
+	},
+	{
+		dh: "gæf",
+		cn: "楼层平面图",
+		type: "m.",
+	},
+	{
+		dh: "risbæd",
+		cn: "区域图",
+		type: "m.",
+	},
+	{
+		dh: "zwsmœb",
+		cn: "坐标网格",
+		type: "m.",
+	},
+	{
+		dh: "væmnac",
+		cn: "地图图例",
+		type: "m.",
+	},
+	{
+		dh: "ryrswc",
+		cn: "比例尺",
+		type: "m.",
+	},
+	{
+		dh: "qwlcid",
+		cn: "地块",
+		type: "m.",
+	},
+	{
+		dh: "fêmzœc",
+		cn: "地段",
+		type: "m.",
+	},
+	{
+		dh: "ginmæn",
+		cn: "地界",
+		type: "m.",
+	},
+	{
+		dh: "vir",
+		cn: "分界线",
+		type: "m.",
+	},
+	{
+		dh: "qongæx",
+		cn: "中心线",
+		type: "m.",
+	},
+	{
+		dh: "fonriz",
+		cn: "参考线",
+		type: "m.",
+	},
+	{
+		dh: "uænvyb",
+		cn: "基准面",
+		type: "m.",
+	},
+	{
+		dh: "xylgœc",
+		cn: "水平面",
+		type: "m.",
+	},
+	// 行动与抽象流程
+	{
+		dh: "gilpægiat",
+		cn: "校准",
+		type: "m.",
+	},
+	{
+		dh: "gilpæg",
+		cn: "校准",
+		type: "d.",
+	},
+	{
+		dh: "calkêziat",
+		cn: "比较",
+		type: "m.",
+	},
+	{
+		dh: "calkêz",
+		cn: "比较",
+		type: "d.",
+	},
+	{
+		dh: "lelnæmiat",
+		cn: "估计",
+		type: "m.",
+	},
+	{
+		dh: "lelnæm",
+		cn: "估计",
+		type: "d.",
+	},
+	{
+		dh: "pwciat",
+		cn: "分析",
+		type: "m.",
+	},
+	{
+		dh: "pwc",
+		cn: "分析",
+		type: "d.",
+	},
+	{
+		dh: "karneciat",
+		cn: "调节",
+		type: "m.",
+	},
+	{
+		dh: "karnec",
+		cn: "调节",
+		type: "d.",
+	},
+	{
+		dh: "fwsvwtiat",
+		cn: "分配",
+		type: "m.",
+	},
+	{
+		dh: "fwsvwt",
+		cn: "分配",
+		type: "d.",
+	},
+	{
+		dh: "zwmxekiat",
+		cn: "审核",
+		type: "m.",
+	},
+	{
+		dh: "zwmxek",
+		cn: "审核",
+		type: "d.",
+	},
+	{
+		dh: "gœrtæxiat",
+		cn: "协作",
+		type: "m.",
+	},
+	{
+		dh: "gœrtæx",
+		cn: "协作",
+		type: "d.",
+	},
+	{
+		dh: "bislohiat",
+		cn: "预测",
+		type: "m.",
+	},
+	{
+		dh: "bisloh",
+		cn: "预测",
+		type: "d.",
+	},
+	{
+		dh: "færkoriat",
+		cn: "记录",
+		type: "m.",
+	},
+	{
+		dh: "færkor",
+		cn: "记录",
+		type: "d.",
+	},
+	{
+		dh: "denviliat",
+		cn: "排列",
+		type: "m.",
+	},
+	{
+		dh: "denvil",
+		cn: "排列",
+		type: "d.",
+	},
+	{
+		dh: "pêriat",
+		cn: "归档",
+		type: "m.",
+	},
+	{
+		dh: "pêr",
+		cn: "归档",
+		type: "d.",
+	},
+	{
+		dh: "jonqiviat",
+		cn: "排序",
+		type: "m.",
+	},
+	{
+		dh: "jonqiv",
+		cn: "排序",
+		type: "d.",
+	},
+	{
+		dh: "parpaliat",
+		cn: "定位过程",
+		type: "m.",
+	},
+	{
+		dh: "parpal",
+		cn: "定位",
+		type: "d.",
+	},
+	{
+		dh: "kœrpœziat",
+		cn: "路径规划",
+		type: "m.",
+	},
+	{
+		dh: "kœrpœz",
+		cn: "规划",
+		type: "d.",
+	},
+	{
+		dh: "zyltœliat",
+		cn: "资源分配",
+		type: "m.",
+	},
+	{
+		dh: "zyltœl",
+		cn: "分配",
+		type: "d.",
+	},
+	{
+		dh: "uysnakiat",
+		cn: "风险评估",
+		type: "m.",
+	},
+	{
+		dh: "uysnak",
+		cn: "评估",
+		type: "d.",
+	},
+	{
+		dh: "tisuætiat",
+		cn: "质量检查",
+		type: "m.",
+	},
+	{
+		dh: "tisuæt",
+		cn: "检查",
+		type: "d.",
+	},
+	{
+		dh: "uœrnotiat",
+		cn: "信息核对",
+		type: "m.",
+	},
+	{
+		dh: "uœrnot",
+		cn: "核对",
+		type: "d.",
+	},
+	{
+		dh: "xebiat",
+		cn: "进度追踪",
+		type: "m.",
+	},
+	{
+		dh: "xeb",
+		cn: "追踪",
+		type: "d.",
+	},
+	// 测量与定位工具
+	{
+		dh: "fœnxwpiêr",
+		cn: "测距仪",
+		type: "m.",
+	},
+	{
+		dh: "fœnxwp",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "dorcæriêr",
+		cn: "量角器",
+		type: "m.",
+	},
+	{
+		dh: "dorcær",
+		cn: "量出",
+		type: "d.",
+	},
+	{
+		dh: "gêshitiêr",
+		cn: "经纬仪",
+		type: "m.",
+	},
+	{
+		dh: "gêshit",
+		cn: "测绘",
+		type: "d.",
+	},
+	{
+		dh: "sêsjaxiêr",
+		cn: "水平仪",
+		type: "m.",
+	},
+	{
+		dh: "sêsjax",
+		cn: "调平",
+		type: "d.",
+	},
+	{
+		dh: "vamqibiêr",
+		cn: "测深仪",
+		type: "m.",
+	},
+	{
+		dh: "vamqib",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "nymxœtiêr",
+		cn: "测高仪",
+		type: "m.",
+	},
+	{
+		dh: "nymxœt",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "dêscogiêr",
+		cn: "测速仪",
+		type: "m.",
+	},
+	{
+		dh: "dêscog",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "cyliêr",
+		cn: "测温仪",
+		type: "m.",
+	},
+	{
+		dh: "cyl",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "pænfêbiêr",
+		cn: "测压仪",
+		type: "m.",
+	},
+	{
+		dh: "pænfêb",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "lwrgêbiêr",
+		cn: "测量仪",
+		type: "m.",
+	},
+	{
+		dh: "lwrgêb",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "cesnypiêr",
+		cn: "校准器",
+		type: "m.",
+	},
+	{
+		dh: "cesnyp",
+		cn: "校准",
+		type: "d.",
+	},
+	{
+		dh: "rwlcækiêr",
+		cn: "定位器",
+		type: "m.",
+	},
+	{
+		dh: "rwlcæk",
+		cn: "定位",
+		type: "d.",
+	},
+	{
+		dh: "jêmpœniêr",
+		cn: "坐标仪",
+		type: "m.",
+	},
+	{
+		dh: "jêmpœn",
+		cn: "读取",
+		type: "d.",
+	},
+	{
+		dh: "lêsdehiêr",
+		cn: "计时器",
+		type: "m.",
+	},
+	{
+		dh: "lêsdeh",
+		cn: "计时",
+		type: "d.",
+	},
+	{
+		dh: "fystêgiêr",
+		cn: "测量尺",
+		type: "m.",
+	},
+	{
+		dh: "fystêg",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "gæbiêr",
+		cn: "角度尺",
+		type: "m.",
+	},
+	{
+		dh: "gæb",
+		cn: "量出",
+		type: "d.",
+	},
+	{
+		dh: "kylqygiêr",
+		cn: "刻度尺",
+		type: "m.",
+	},
+	{
+		dh: "kylqyg",
+		cn: "读取",
+		type: "d.",
+	},
+	{
+		dh: "rarpæviêr",
+		cn: "测绘仪",
+		type: "m.",
+	},
+	{
+		dh: "rarpæv",
+		cn: "测绘",
+		type: "d.",
+	},
+	{
+		dh: "uysuakiêr",
+		cn: "测绘尺",
+		type: "m.",
+	},
+	{
+		dh: "uysuak",
+		cn: "测绘",
+		type: "d.",
+	},
+	{
+		dh: "varjwliêr",
+		cn: "测距轮",
+		type: "m.",
+	},
+	{
+		dh: "varjwl",
+		cn: "滚动测量",
+		type: "d.",
+	},
+	// 新职业与专业人员
+	{
+		dh: "nerkêxhih",
+		cn: "测绘员",
+		type: "m.",
+	},
+	{
+		dh: "nerkêx",
+		cn: "测绘",
+		type: "d.",
+	},
+	{
+		dh: "gamrychih",
+		cn: "制图师",
+		type: "m.",
+	},
+	{
+		dh: "gamryc",
+		cn: "绘制",
+		type: "d.",
+	},
+	{
+		dh: "gincanhih",
+		cn: "规划师",
+		type: "m.",
+	},
+	{
+		dh: "gincan",
+		cn: "规划",
+		type: "d.",
+	},
+	{
+		dh: "syzhih",
+		cn: "统计员",
+		type: "m.",
+	},
+	{
+		dh: "syz",
+		cn: "统计",
+		type: "d.",
+	},
+	{
+		dh: "bênlêghih",
+		cn: "统计师",
+		type: "m.",
+	},
+	{
+		dh: "bênlêg",
+		cn: "统计",
+		type: "d.",
+	},
+	{
+		dh: "bamnynhih",
+		cn: "数据统计员",
+		type: "m.",
+	},
+	{
+		dh: "bamnyn",
+		cn: "统计",
+		type: "d.",
+	},
+	{
+		dh: "gœlbadhih",
+		cn: "风险评估师",
+		type: "m.",
+	},
+	{
+		dh: "gœlbad",
+		cn: "评估",
+		type: "d.",
+	},
+	{
+		dh: "vosdishih",
+		cn: "质量检验员",
+		type: "m.",
+	},
+	{
+		dh: "vosdis",
+		cn: "检验",
+		type: "d.",
+	},
+	{
+		dh: "cænhymhih",
+		cn: "调解员",
+		type: "m.",
+	},
+	{
+		dh: "cænhym",
+		cn: "调解",
+		type: "d.",
+	},
+	{
+		dh: "uasdydhih",
+		cn: "谈判代表",
+		type: "m.",
+	},
+	{
+		dh: "uasdyd",
+		cn: "谈判",
+		type: "d.",
+	},
+	{
+		dh: "gonmænhih",
+		cn: "档案管理员",
+		type: "m.",
+	},
+	{
+		dh: "gonmæn",
+		cn: "归档",
+		type: "d.",
+	},
+	{
+		dh: "lythih",
+		cn: "标准制定员",
+		type: "m.",
+	},
+	{
+		dh: "lyt",
+		cn: "规定",
+		type: "d.",
+	},
+	{
+		dh: "uênsænhih",
+		cn: "预算分析员",
+		type: "m.",
+	},
+	{
+		dh: "uênsæn",
+		cn: "分析",
+		type: "d.",
+	},
+	{
+		dh: "nysxwshih",
+		cn: "投资顾问",
+		type: "m.",
+	},
+	{
+		dh: "nysxws",
+		cn: "咨询",
+		type: "d.",
+	},
+	{
+		dh: "pælsohhih",
+		cn: "测量工程师",
+		type: "m.",
+	},
+	{
+		dh: "pælsoh",
+		cn: "测量",
+		type: "d.",
+	},
+	{
+		dh: "swlhofhih",
+		cn: "地理信息专员",
+		type: "m.",
+	},
+	{
+		dh: "swlhof",
+		cn: "分析",
+		type: "d.",
+	},
+	{
+		dh: "ponsolhih",
+		cn: "研究助理",
+		type: "m.",
+	},
+	{
+		dh: "ponsol",
+		cn: "分析",
+		type: "d.",
+	},
+	{
+		dh: "zirdokhih",
+		cn: "实验技术员",
+		type: "m.",
+	},
+	{
+		dh: "zirdok",
+		cn: "测试",
+		type: "d.",
+	},
+	{
+		dh: "zimlabhih",
+		cn: "专利代理人",
+		type: "m.",
+	},
+	{
+		dh: "zimlab",
+		cn: "核验",
+		type: "d.",
+	},
+	{
+		dh: "nachih",
+		cn: "保险理赔员",
+		type: "m.",
+	},
+	{
+		dh: "nac",
+		cn: "核赔",
+		type: "d.",
+	},
+	{
+		dh: "gimhêshih",
+		cn: "项目协调员",
+		type: "m.",
+	},
+	{
+		dh: "gimhês",
+		cn: "协调",
+		type: "d.",
+	},
+	{
+		dh: "hinbefhih",
+		cn: "物流规划师",
+		type: "m.",
+	},
+	{
+		dh: "hinbef",
+		cn: "规划",
+		type: "d.",
+	},
+	{
+		dh: "qeltaxhih",
+		cn: "资源调度员",
+		type: "m.",
+	},
+	{
+		dh: "qeltax",
+		cn: "调度",
+		type: "d.",
+	},
 ];

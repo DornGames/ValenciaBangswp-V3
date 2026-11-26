@@ -1,12 +1,15 @@
 // 湩语（Irelav）例句库
 // 基于 intro.md 语法规则和 wordData.js 词汇创建
-// 包含230个涵盖不同时态和语法点的例句
+// 包含430个涵盖不同时态和语法点的例句
 // 注意：例句与词汇的关联通过 exampleUtils.js 中的算法自动匹配，无需手动维护 words 数组
 //
 // 更新日志：2026-07-31 第二十九阶段（40句）
 // 更新日志：2026-07-31 第三十阶段（新增50句，累计90句）
 // 更新日志：2026-11-26 第三十一阶段（新增20句，累计110句）
 // 更新日志：2026-11-26 第三十二阶段（新增20句，累计130句）
+// 更新日志：2026-11-26 第三十四阶段（新增200句，累计430句）
+// - 新增位置、测量、时间、逻辑、心理、社会、经济、物理、表达与布局场景。
+// - 例句覆盖新词与旧词、不同主语、频率和时间地点副词、时态、进行体、疑问与否定。
 // 更新日志：2026-11-26 第三十三阶段（新增100句，累计230句）
 // - 新增家居、维修、交通、旅行、自然、园艺、数码、育儿、购物与手工场景，并加入频率、可能性、处所和时间副词。
 // - 新增校园、金融、医疗、职业、饮食、乐器和运动场景；主语涵盖学生、职业者与器具，不使用第一人称。
@@ -1201,5 +1204,1005 @@ globalThis.exampleData = [
 		dh: "Snixih snixod gœchsty.",
 		cn: "学生阅读旅游地图。"
 		// 普通现在时使用动词原形，不加进行体词尾。
-	}
+	},
+	{
+		dh: "Nerkêxhih qotiêt qot.",
+		cn: "测绘员定位位置。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Gamrychih wnp nwsgêtiêt nwsgêt.",
+		cn: "制图师常常判定方位。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gincanhih eft cosbæxiêt cosbæx.",
+		cn: "规划师有时标注坐标。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk swlhofhih vêmbêziêt vêmbêz.",
+		cn: "大概，地理信息专员建立坐标系。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv snixih tirsæsiêt tirsæs.",
+		cn: "现在，学生标记坐标点。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav plochih gæsrœriêtah gæsrœr.",
+		cn: "此前，老师选定了参照点。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv ton dwlqœdiêtit dwlqœd.",
+		cn: "以后，他将校准基准点。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv tons baszægiêtif baszæg.",
+		cn: "现在，他们正在设定起点。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Mads wna lêpiêt lêp?",
+		cn: "我们确定终点吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Nerkêxhih sht formyliêt formyl.",
+		cn: "测绘员不求出中点。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon gamrychih girjwciêt girjwc.",
+		cn: "这里，制图师计算交点。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon gincanhih nemqækiêt nemqæk.",
+		cn: "那里，规划师分析位置关系。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Swlhofhih ledh læltygiêt læltyg.",
+		cn: "地理信息专员通常调整朝向。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Snixih noth næmfaciêt næmfac.",
+		cn: "学生很少规划航向。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Plochih rint dæmhyxiêt dæmhyx.",
+		cn: "老师从不指明方向。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ton qwnxêviêt qwnxêv.",
+		cn: "他规划路线。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Tons wnp kofiêt kof.",
+		cn: "他们常常选择岔路。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Mads eft cimdœfiêt cimdœf.",
+		cn: "我们有时开辟通道。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh nerkêxhih xæmqoziêt xæmqoz.",
+		cn: "也许，测绘员寻找入口。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv gamrychih fwmtekiêt fwmtek.",
+		cn: "现在，制图师寻找出口。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav gincanhih barzomiêtah barzom.",
+		cn: "此前，规划师管理了出入口。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv swlhofhih zomtitiêtit zomtit.",
+		cn: "以后，地理信息专员将划分路段。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv snixih nylbœkiêtif nylbœk.",
+		cn: "现在，学生正在修整路肩。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Plochih wna jwrkibiêt jwrkib?",
+		cn: "老师铺设路沿吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Ton sht rymiêt rym.",
+		cn: "他不修建坡道。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon tons værcixiêt værcix.",
+		cn: "这里，他们安排楼层。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon mads visbêdiêt visbêd.",
+		cn: "那里，我们分级层级。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Nerkêxhih ledh zelsœliêt zelsœl.",
+		cn: "测绘员通常探查深处。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gamrychih noth zœrbêniêt zœrbên.",
+		cn: "制图师很少处理表面。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gincanhih rint vinjagiêt vinjag.",
+		cn: "规划师从不标记顶部。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Swlhofhih misfœviêt misfœv.",
+		cn: "地理信息专员观察周围。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Snixih wnp linhæsiêt linhæs.",
+		cn: "学生常常观察远处。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Plochih eft lwziêt lwz.",
+		cn: "老师有时观察近处。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk ton uespœgiêt uespœg.",
+		cn: "大概，他设定间隔。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv tons qymræciêt qymræc.",
+		cn: "现在，他们留出空隙。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav mads jêrjomiêtah jêrjom.",
+		cn: "此前，我们填补了缝隙。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv nerkêxhih dolzêxiêtit dolzêx.",
+		cn: "以后，测绘员将修整边缘。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv bênlêghih qiltêciêtif qiltêc.",
+		cn: "现在，统计师正在测量长度。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Pælsohhih wna lwltipiêt lwltip?",
+		cn: "测量工程师测定厚度吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Zirdokhih sht vesjiniêt vesjin.",
+		cn: "实验技术员不量出直径。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon snixih josiêt jos.",
+		cn: "这里，学生测量半径。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon mads kêrxydiêt kêrxyd.",
+		cn: "那里，我们计算周长。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Syzhih ledh vymbaniêt vymban.",
+		cn: "统计员通常测算体积。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Bênlêghih noth vosxoxiêt vosxox.",
+		cn: "统计师很少测定容积。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Pælsohhih rint rwnvoriêt rwnvor.",
+		cn: "测量工程师从不设定容量。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Zirdokhih gêmkatiêt gêmkat.",
+		cn: "实验技术员测定密度。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Snixih wnp felzæliêt felzæl.",
+		cn: "学生常常调整尺度。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Mads eft xonbehiêt xonbeh.",
+		cn: "我们有时标出刻度。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh syzhih qœmiêt qœm.",
+		cn: "也许，统计员统一单位。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv bênlêghih mêslariêt mêslar.",
+		cn: "现在，统计师记录数值。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav pælsohhih resxaliêtah resxal.",
+		cn: "此前，测量工程师求出了总量。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv zirdokhih kertyziêtit kertyz.",
+		cn: "以后，实验技术员将保留余量。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv snixih syluæxiêtif syluæx.",
+		cn: "现在，学生正在设定限额。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Mads wna qimdêtiêt qimdêt?",
+		cn: "我们设定上限吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Syzhih sht uynqosiêt uynqos.",
+		cn: "统计员不设定下限。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon bênlêghih zanjytiêt zanjyt.",
+		cn: "这里，统计师计算平均值。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon pælsohhih xwxiêt xwx.",
+		cn: "那里，测量工程师测量倾角。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Zirdokhih ledh benvexiêt benvex.",
+		cn: "实验技术员通常换算比例。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Snixih noth xælsêriêt xælsêr.",
+		cn: "学生很少计算百分比。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Mads rint tœntykiêt tœntyk.",
+		cn: "我们从不计算比率。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Syzhih qœmxwfiêt qœmxwf.",
+		cn: "统计员求出差值。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Bênlêghih wnp zarfœgiêt zarfœg.",
+		cn: "统计师常常修正误差。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih eft ronvœgiêt ronvœg.",
+		cn: "研究助理有时划定时间段。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk snixih hæslœliêt hæslœl.",
+		cn: "大概，学生标记时间点。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv plochih qyviêt qyv.",
+		cn: "现在，老师计算时间差。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav gimhêshih qænlêhiêtah qænlêh.",
+		cn: "此前，项目协调员设定了间隔期。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv gonmænhih qarxœgiêtit qarxœg.",
+		cn: "以后，档案管理员将标记节点。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv ponsolhih værlæziêtif værlæz.",
+		cn: "现在，研究助理正在排列先后。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Snixih wna hilpwtiêt hilpwt?",
+		cn: "学生同步同时吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Plochih sht xœszêpiêt xœszêp.",
+		cn: "老师不维持连续性。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon ponsolhih gilpæg dwlqœd hr vêmbêz.",
+		cn: "这里，研究助理校准基准点和坐标系。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon syzhih calkêz qiltêc hr lwltip.",
+		cn: "那里，统计员比较长度和厚度。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Pælsohhih ledh lelnæm bimqêt hr kertyz.",
+		cn: "测量工程师通常估计费用和余量。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gincanhih noth pwc lyrjon hr uœsqoc.",
+		cn: "规划师很少分析结论和因果关系。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uênsænhih rint karnec benvex hr uespœg.",
+		cn: "预算分析员从不调节比例和间隔。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gimhêshih fwsvwt nærkef hr gosjêz.",
+		cn: "项目协调员分配供给和库存。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Nerkêxhih wnp zwmxek comhid hr saruad.",
+		cn: "测绘员常常审核协议和权限。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Plochih eft gœrtæx qwnxêv hr zyltœliat.",
+		cn: "老师有时协作路线和资源分配。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh cænhymhih bisloh lærcem hr uænlom.",
+		cn: "也许，调解员预测需求和进度。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv snixih færkor qarxœg hr mêslar.",
+		cn: "现在，学生记录节点和数值。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav ponsolhih denvilah værlæz hr tirsæs.",
+		cn: "此前，研究助理排列了先后和坐标点。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv syzhih pêrit kœt hr konfœc.",
+		cn: "以后，统计员将归档目录和参考资料。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv pælsohhih jonqivif visbêd hr jysgwd.",
+		cn: "现在，测量工程师正在排序层级和结尾。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Gincanhih wna parpal qot hr cosbæx?",
+		cn: "规划师定位位置和坐标吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Uênsænhih sht kœrpœz qwnxêv hr kof.",
+		cn: "预算分析员不规划路线和岔路。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon gimhêshih zyltœl nærkef hr gosjêz.",
+		cn: "这里，项目协调员分配供给和库存。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon nerkêxhih uysnak qœsgym hr zarfœg.",
+		cn: "那里，测绘员评估不确定性和误差。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Plochih ledh tisuæt værlêz hr næc.",
+		cn: "老师通常检查品质和稳定性。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Cænhymhih noth uœrnot zœmkêf hr lyrjon.",
+		cn: "调解员很少核对论据和结论。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Snixih rint xeb uænlom hr qarxœg.",
+		cn: "学生从不追踪进度和节点。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fœnxwpiêr fœnxwp qiltêc.",
+		cn: "测距仪测量长度。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Dorcæriêr wnp dorcær xwx.",
+		cn: "量角器常常量出倾角。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gêshitiêr eft gêshit cosbæx.",
+		cn: "经纬仪有时测绘坐标。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk sêsjaxiêr sêsjax uænvyb.",
+		cn: "大概，水平仪调平基准面。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv vamqibiêr vamqib zelsœl.",
+		cn: "现在，测深仪测量深处。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav nymxœtiêr nymxœtah værcix.",
+		cn: "此前，测高仪测量了楼层。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv dêscogiêr dêscogit uænlom.",
+		cn: "以后，测速仪将测量进度。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv cyliêr cylif kœmfyn.",
+		cn: "现在，测温仪正在测量摩擦力。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Pænfêbiêr wna pænfêb næc?",
+		cn: "测压仪测量稳定性吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Lwrgêbiêr sht lwrgêb mêslar.",
+		cn: "测量仪不测量数值。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon cesnypiêr cesnyp dwlqœd.",
+		cn: "这里，校准器校准基准点。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon rwlcækiêr rwlcæk qot.",
+		cn: "那里，定位器定位位置。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Jêmpœniêr ledh jêmpœn vêmbêz.",
+		cn: "坐标仪通常读取坐标系。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Lêsdehiêr noth lêsdeh hæslœl.",
+		cn: "计时器很少计时时间点。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fystêgiêr rint fystêg lwltip.",
+		cn: "测量尺从不测量厚度。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gæbiêr gæb xwx.",
+		cn: "角度尺量出倾角。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Kylqygiêr wnp kylqyg xonbeh.",
+		cn: "刻度尺常常读取刻度。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Rarpæviêr eft rarpæv risbæd.",
+		cn: "测绘仪有时测绘区域图。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh uysuakiêr uysuak vir.",
+		cn: "也许，测绘尺测绘分界线。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv varjwliêr varjwl zomtit.",
+		cn: "现在，测距轮滚动测量路段。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav nerkêxhih nerkêxah cosbæx.",
+		cn: "此前，测绘员测绘了坐标。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv gamrychih gamrycit væmnac.",
+		cn: "以后，制图师将绘制地图图例。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv gincanhih gincanif qwnxêv.",
+		cn: "现在，规划师正在规划路线。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Syzhih wna syz zanjyt?",
+		cn: "统计员统计平均值吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Bênlêghih sht bênlêg xælsêr.",
+		cn: "统计师不统计百分比。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon bamnynhih bamnyn resxal.",
+		cn: "这里，数据统计员统计总量。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon gœlbadhih gœlbad qœsgym.",
+		cn: "那里，风险评估师评估不确定性。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Vosdishih ledh vosdis værlêz.",
+		cn: "质量检验员通常检验品质。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Cænhymhih noth cænhym valced.",
+		cn: "调解员很少调解矛盾。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uasdydhih rint uasdyd comhid.",
+		cn: "谈判代表从不谈判协议。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Gonmænhih gonmæn pêldœk.",
+		cn: "档案管理员归档索引。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Lythih wnp lyt qœm.",
+		cn: "标准制定员常常规定单位。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uênsænhih eft uênsæn bimqêt.",
+		cn: "预算分析员有时分析费用。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk nysxwshih nysxws mêszip.",
+		cn: "大概，投资顾问咨询现金流。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv pælsohhih pælsoh vesjin.",
+		cn: "现在，测量工程师测量直径。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav swlhofhih swlhofah zwsmœb.",
+		cn: "此前，地理信息专员分析了坐标网格。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv ponsolhih ponsolit zyszêc.",
+		cn: "以后，研究助理将分析前提。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv zirdokhih zirdokif gœc.",
+		cn: "现在，实验技术员正在测试振动。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Zimlabhih wna zimlab uærdit?",
+		cn: "专利代理人核验资格吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Nachih sht nac mwrdyr.",
+		cn: "保险理赔员不核赔估价。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon gimhêshih gimhês ronvœg.",
+		cn: "这里，项目协调员协调时间段。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon hinbefhih hinbef lærcem.",
+		cn: "那里，物流规划师规划需求。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Qeltaxhih ledh qeltax nærkef.",
+		cn: "资源调度员通常调度供给。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih noth færkor jœltæm hr jysgwd hr jag.",
+		cn: "研究助理很少记录起初、结尾和转折。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih rint færkor xymtœc hr lomlœh hr xœnkwt.",
+		cn: "研究助理从不记录变化率、进程和流程。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih færkor uænlom hr monjig hr qælgwl.",
+		cn: "研究助理记录进度、延迟和暂停。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Ponsolhih wnp færkor tœmzab hr jwb hr danfwb.",
+		cn: "研究助理常常记录恢复、终止和持续时间。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih eft færkor zyszêc hr lyrjon hr fwnhwh.",
+		cn: "研究助理有时记录前提、结论和例证。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh ponsolhih færkor zœmkêf hr lwlzwb hr sorsyx.",
+		cn: "也许，研究助理记录论据、论点和论证。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv ponsolhih færkor dœg hr lalvwk hr uilsel.",
+		cn: "现在，研究助理记录判断、判断力和认识。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav ponsolhih færkorah dylvên hr uesvas hr valced.",
+		cn: "此前，研究助理记录了理解、误解和矛盾。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv ponsolhih færkorit zirdwt hr mynjwn hr rêx.",
+		cn: "以后，研究助理将记录一致性、相关性和关联。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv ponsolhih færkorif uœsqoc hr uwluav hr qelxêp.",
+		cn: "现在，研究助理正在记录因果关系、可能性和概率。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Ponsolhih wna færkor qwmhab hr qœsgym?",
+		cn: "研究助理记录确定性和不确定性吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Cænhymhih sht pwc pælvêk hr gœndig hr qol.",
+		cn: "调解员不分析焦虑、紧张和兴奋。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon cænhymhih pwc ziskæl hr uirlœh hr pwrcyc.",
+		cn: "这里，调解员分析失望、尴尬和怀疑。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon cænhymhih pwc mælhêx hr rimrem hr bænsyp.",
+		cn: "那里，调解员分析好奇、专注和注意力。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Cænhymhih ledh pwc hêrder hr zaf hr tongœd.",
+		cn: "调解员通常分析意识、念头和期待。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Cænhymhih noth pwc mæluil hr xêsfir hr dasfov.",
+		cn: "调解员很少分析愿望、动机和态度。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Cænhymhih rint pwc mwlqwg hr gymryt hr fælcœs.",
+		cn: "调解员从不分析看法、犹豫和困惑。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Cænhymhih pwc sws hr samqex hr vircæs.",
+		cn: "调解员分析疑问、困境和创意。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Cænhymhih wnp pwc mwrvyh hr kysqan hr forzyb.",
+		cn: "调解员常常分析知识、技能和经验。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Cænhymhih eft pwc qirxal hr qenpov hr boz.",
+		cn: "调解员有时分析习惯、联系和合作。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk cænhymhih pwc kælxæp hr garbæx hr comhid.",
+		cn: "大概，调解员分析竞争、冲突和协议。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv cænhymhih pwc uærdit hr tamdap hr qêrxav.",
+		cn: "现在，调解员分析资格、隐私和尊重。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav cænhymhih pwcah cœsvig hr hol hr konfêm.",
+		cn: "此前，调解员分析了公平、不公和许可。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv cænhymhih pwcit saruad hr uelsiz hr qæsqwx.",
+		cn: "以后，调解员将分析权限、限制和例外。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv cænhymhih pwcif lelmwc hr nymnœs hr lœrqot.",
+		cn: "现在，调解员正在分析政策、习俗和依赖。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Cænhymhih wna pwc mig hr bêrlik hr xwrqid?",
+		cn: "调解员分析支持、影响和参与吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Uênsænhih sht calkêz bimqêt hr qeslod hr jêsryt.",
+		cn: "预算分析员不比较费用、开支和收入。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon uênsænhih calkêz dælfol hr fwldar hr hwm.",
+		cn: "这里，预算分析员比较支出、利息和税率。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon uênsænhih calkêz nærkef hr lærcem hr gosjêz.",
+		cn: "那里，预算分析员比较供给、需求和库存。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Uênsænhih ledh calkêz hênxov hr fœrvæd hr mwrdyr.",
+		cn: "预算分析员通常比较订单、报价和估价。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uênsænhih noth calkêz kœsgoh hr vep hr marhig.",
+		cn: "预算分析员很少比较报酬、津贴和储备。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uênsænhih rint calkêz mêszip hr sonpov hr dêlxær.",
+		cn: "预算分析员从不比较现金流、储蓄和押金。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uênsænhih calkêz fertop hr linsæt hr værlêz.",
+		cn: "预算分析员比较采购、工作量和品质。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Uênsænhih wnp calkêz nym hr twmfêr hr cyldyp.",
+		cn: "预算分析员常常比较缺点、劣势和长处。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Uênsænhih eft calkêz kanqog hr uarnaf hr milxef.",
+		cn: "预算分析员有时比较短处、难度和复杂度。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh uênsænhih calkêz kêlpwc hr xynvep hr næc.",
+		cn: "也许，预算分析员比较简单性、力度和稳定性。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv uênsænhih calkêz nwrmwm hr vêmbiv hr zinseh.",
+		cn: "现在，预算分析员比较灵活性、弹性和脆弱性。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav uênsænhih calkêzah teruyz hr mænrov hr fasdæn.",
+		cn: "此前，预算分析员比较了硬度、软度和粗糙度。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv uênsænhih calkêzit uemqæs hr til hr lwntæp.",
+		cn: "以后，预算分析员将比较光滑度、透明度和清晰度。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv uênsænhih calkêzif hœrfil.",
+		cn: "现在，预算分析员正在比较响度。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Zirdokhih wna lwrgêb kœmfyn hr kerzag hr falpyt?",
+		cn: "实验技术员测量摩擦力、重力和惯性吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Zirdokhih sht lwrgêb synzih hr hisjyb hr gœc.",
+		cn: "实验技术员不测量阻力、张力和振动。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon zirdokhih lwrgêb pœrfêc hr bymtig hr uyngêk.",
+		cn: "这里，实验技术员测量频率、波长和振幅。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon zirdokhih lwrgêb caspêg hr qemtyf hr poszœh.",
+		cn: "那里，实验技术员测量电压、电流和电阻。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Zirdokhih ledh lwrgêb cærfig hr pœx hr zæmqyb.",
+		cn: "实验技术员通常测量电荷、磁力和磁场。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Zirdokhih noth lwrgêb xirjim hr cimzwh hr berjof.",
+		cn: "实验技术员很少测量热量、辐射和声波。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Zirdokhih rint lwrgêb bosmæd hr kældoc.",
+		cn: "实验技术员从不测量声速和动能。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Snixih snixod gynmin hr lal hr mêsgac.",
+		cn: "学生阅读措辞、语气和口音。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Snixih wnp snixod qisrip hr mêrsek hr hêsrok.",
+		cn: "学生常常阅读方言、注释和脚注。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Snixih eft snixod tenlæm hr feruys hr samuwg.",
+		cn: "学生有时阅读副标题、段落和章节。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Tokonk snixih snixod kœt hr pêldœk hr tœrmap.",
+		cn: "大概，学生阅读目录、索引和摘要。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv snixih snixod qimvoc hr konfœc hr zêmdyn.",
+		cn: "现在，学生阅读引用、参考资料和来源。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
+	{
+		dh: "Pav gamrychih cosbæxiêtah ræsmws hr zênpap hr gæf.",
+		cn: "此前，制图师标注了方位标、定位标记和楼层平面图。"
+		// 时间状语置于句首，过去时词尾加在谓语末尾。
+	},
+	{
+		dh: "Fwv gamrychih cosbæxiêtit risbæd hr zwsmœb hr væmnac.",
+		cn: "以后，制图师将标注区域图、坐标网格和地图图例。"
+		// 时间状语置于句首，将来时词尾加在谓语末尾。
+	},
+	{
+		dh: "Priv gamrychih cosbæxiêtif ryrswc hr qwlcid hr fêmzœc.",
+		cn: "现在，制图师正在标注比例尺、地块和地段。"
+		// 现在分词作谓语，表达动作正在进行。
+	},
+	{
+		dh: "Gamrychih wna cosbæxiêt ginmæn hr vir hr qongæx?",
+		cn: "制图师标注地界、分界线和中心线吗？"
+		// 一般疑问句，wna置于谓语前。
+	},
+	{
+		dh: "Gamrychih sht cosbæxiêt fonriz hr uænvyb hr xylgœc.",
+		cn: "制图师不标注参考线、基准面和水平面。"
+		// 否定助词sht置于谓语前。
+	},
+	{
+		dh: "Rifon ponsolhih dwênhod gilpægiat hr calkêziat hr lelnæmiat.",
+		cn: "这里，研究助理写下校准、比较和估计。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Rafon ponsolhih dwênhod pwciat hr karneciat hr fwsvwtiat.",
+		cn: "那里，研究助理写下分析、调节和分配。"
+		// 地点状语置于主语前。
+	},
+	{
+		dh: "Ponsolhih ledh dwênhod zwmxekiat hr gœrtæxiat hr bislohiat.",
+		cn: "研究助理通常写下审核、协作和预测。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih noth dwênhod færkoriat hr denviliat hr pêriat.",
+		cn: "研究助理很少写下记录、排列和归档。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih rint dwênhod jonqiviat hr parpaliat hr kœrpœziat.",
+		cn: "研究助理从不写下排序、定位过程和路径规划。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Ponsolhih dwênhod zyltœliat hr uysnakiat hr tisuætiat.",
+		cn: "研究助理写下资源分配、风险评估和质量检查。"
+		// 普通现在时，使用动词原形。
+	},
+	{
+		dh: "Ponsolhih wnp dwênhod uœrnotiat hr xebiat.",
+		cn: "研究助理常常写下信息核对和进度追踪。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Snixih eft snixod grinp hr tœrmap.",
+		cn: "学生有时阅读书和摘要。"
+		// 频率副词置于谓语前，普通现在时使用原形。
+	},
+	{
+		dh: "Fenpdesh plochih dwênhod feruys hr samuwg.",
+		cn: "也许，老师写下段落和章节。"
+		// 句首可能性副词。
+	},
+	{
+		dh: "Priv ton og barzom.",
+		cn: "现在，他前往出入口。"
+		// 时间状语置于句首，普通现在时使用原形。
+	},
 ];
