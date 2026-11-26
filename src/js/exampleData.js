@@ -101,7 +101,7 @@ globalThis.exampleData = [
 	{
 		dh: "Mad smadif taichê.",
 		cn: "我正在做作业。"
-		// 现在时smad+if=smadif
+		// 进行体；-if 表示动作正在做
 	},
 	{
 		dh: "Ton kdagæuah mad.",
@@ -133,7 +133,7 @@ globalThis.exampleData = [
 	{
 		dh: "Mad rerrif martiad jadot.",
 		cn: "我今天正在吃食品。"
-		// 现在时+时间状语在句末
+		// 进行体 -if + 时间状语在句末
 	},
 	{
 		dh: "Ton piwfakesht cwpodah.",
@@ -160,7 +160,7 @@ globalThis.exampleData = [
 	{
 		dh: "Mad ogif fench.",
 		cn: "我正在去学校。"
-		// 现在时og+if=ogif
+		// 进行体；-if 表示正在前往
 	},
 	{
 		dh: "Brêld ton ogit fench, hr mad ogit kehiad.",
@@ -175,7 +175,7 @@ globalThis.exampleData = [
 	{
 		dh: "Mad rerrif tonhaich hr repui.",
 		cn: "我正在吃泡面和刺梨。"
-		// 现在时+hr并列宾语
+		// 进行体；hr 连接并列宾语
 	},
 
 	// === 第七组：原有例句（保留） ===
@@ -227,11 +227,11 @@ globalThis.exampleData = [
 	//         介动词与地点、比较级/最高级
 	// ============================================
 
-	// === 第八组：更多动词的现在时 ===
+	// === 第八组：进行体与普通现在句 ===
 	{
-		dh: "Mad haorif cao.",
+		dh: "Mad haor cao.",
 		cn: "我想你。"
-		// 现在时，haor+if=haorif
+		// 普通现在句：haor 后不加 -if
 	},
 	{
 		dh: "Ton sarbib kornd.",
@@ -241,17 +241,17 @@ globalThis.exampleData = [
 	{
 		dh: "Faks blanif tosh.",
 		cn: "大家在玩游戏。"
-		// 现在时，blan+if=blanif
+		// 进行体；-if 表示大家正在玩
 	},
 	{
 		dh: "Caos neuif hrpwiniad.",
 		cn: "你们在学习语法。"
-		// 现在时，neu+if=neuif
+		// 进行体；-if 表示正在学习
 	},
 	{
 		dh: "Mad zipwshiêtif hvaif ich.",
-		cn: "我在公园里跑步。"
-		// 现在时+地点状语，zipwshiêt+if=zipwshiêtif
+		cn: "我正在公园里跑步。"
+		// 进行体+地点状语；-if 表示正在跑步
 	},
 
 	// === 第九组：不同动词的过去时 ===
@@ -374,7 +374,7 @@ globalThis.exampleData = [
 		// 特殊疑问词wni（谁）+时间状语
 	},
 	{
-		dh: "Cao wadheo zœbif rih?",
+		dh: "Cao wadheo zœb rih?",
 		cn: "你为什么要完成这个？"
 		// 特殊疑问词wadheo（为什么）
 	},
@@ -384,14 +384,14 @@ globalThis.exampleData = [
 		// 特殊疑问词wno（何时）+宾语
 	},
 	{
-		dh: "Cao woh smadif rih?",
+		dh: "Cao woh smad rih?",
 		cn: "你怎么做这个？"
 		// 特殊疑问词woh（如何，怎样）
 	},
 
 	// === 第十四组：连词与复合句 ===
 	{
-		dh: "Hinhh ton sarbib rih, ton hanhh smadif.",
+		dh: "Hinhh ton sarbib rih, ton hanhh smad.",
 		cn: "因为他喜欢这个，所以他做。"
 		// 因果句：hinhh（因为）+hanhh（所以）
 	},
@@ -401,7 +401,7 @@ globalThis.exampleData = [
 		// 条件句：hihh（如果）+whr（也）
 	},
 	{
-		dh: "Ton haorif blan, hohh ton hreh smad taichê.",
+		dh: "Ton haor blan, hohh ton hreh smad taichê.",
 		cn: "他想玩，但是他应该做作业。"
 		// 转折句：hohh（但是）
 	},
@@ -411,8 +411,8 @@ globalThis.exampleData = [
 		// 连词hr连接两个并列宾语
 	},
 	{
-		dh: "Mad sht valæhiêt rih, hohh mad trisodif.",
-		cn: "我不懂这个，但是我尝试。"
+		dh: "Mad sht valæhiêt rih, hohh mad trisod.",
+		cn: "我不懂这个，但我仍然尝试。"
 		// 否定句+转折连词
 	},
 
@@ -446,8 +446,8 @@ globalThis.exampleData = [
 	// === 第十六组：介动词与地点 ===
 	{
 		dh: "Mad zanodif bwzê opdên.",
-		cn: "我坐在椅子上。"
-		// 现在时+介动词短语opdên（在...上）
+		cn: "我正坐在椅子上。"
+		// 进行体 -if + 地点补语 opdên（在……上）
 	},
 	{
 		dh: "Grinp ich knishfê.",
@@ -460,7 +460,7 @@ globalThis.exampleData = [
 		// 介动词apdên（在地面上）直接作谓语
 	},
 	{
-		dh: "Mads nih tons ogif fench.",
+		dh: "Mads nih tons og fench.",
 		cn: "我们和他们一起去学校。"
 		// 介动词nih（与...一起）作状语
 	},
@@ -493,8 +493,8 @@ globalThis.exampleData = [
 	},
 	{
 		dh: "Mad tlipodif snixod grinp, hr mad dlopodah taichê.",
-		cn: "我开始读书，和我结束了作业。"
-		// 现在时+过去时+hr连接两个分句
+		cn: "我正在开始读书，并且我已经做完了作业。"
+		// 进行体+过去时；hr 连接两个分句
 	},
 	{
 		dh: "Grêld, mad ogah Græt.",
@@ -504,12 +504,12 @@ globalThis.exampleData = [
 	{
 		dh: "Jadot, mad ogif Cwasain.",
 		cn: "今天我正在前往出塞。"
-		// 现在进行时；使用特别行政区名作目的地
+		// 进行体；-if 表示正在前往特别行政区
 	},
 	{
 		dh: "Mads ogif Is'hiadonhfak.",
 		cn: "我们正前往东𣿅大区。"
-		// 现在进行时；以官方大区名为目的地
+		// 进行体；-if 表示正在前往大区
 	},
 	{
 		dh: "Ton strokit Wendfsfaks.",
@@ -524,7 +524,7 @@ globalThis.exampleData = [
 	{
 		dh: "Wna ton rerrif kornd?",
 		cn: "他正在吃苹果吗？"
-		// 一般疑问句；现在进行时
+		// 一般疑问句；-if 表示动作正在进行
 	},
 	{
 		dh: "Tah ton krwêshit mad?",
@@ -549,7 +549,7 @@ globalThis.exampleData = [
 	{
 		dh: "Ton piwfakesht ogif fench.",
 		cn: "他正在快速地去学校。"
-		// 动词副词置于动词之前；现在时
+		// 进行体；动词副词置于谓语之前
 	},
 	{
 		dh: "Taichê aizêr mads smadop.",
@@ -572,14 +572,14 @@ globalThis.exampleData = [
 		// 因果连接词引导两个分句
 	},
 	{
-		dh: "Hihh cao ogif Græt, mad whr ogif Græt.",
-		cn: "如果你去臭都，我也去臭都。"
-		// 条件句；whr 表示“也”
+		dh: "Hihh cao og Græt, mad whr ogit Græt.",
+		cn: "如果你去臭都，我也会去臭都。"
+		// 条件句用普通现在动词 og；结果分句用将来式 ogit
 	},
 	{
-		dh: "Mad haorif blan, hohh mad hreh dwênhod taichê.",
+		dh: "Mad haor blan, hohh mad hreh dwênhod taichê.",
 		cn: "我想玩，但我应该写作业。"
-		// 转折连词 hohh 与情态词 hreh
+		// 普通现在句 haor 不加 -if；hohh 转折，hreh 表应当
 	},
 	{
 		dh: "Mad zind piw ton.",
